@@ -6,13 +6,13 @@
 
  ### ORGANIZACIÓN DE MÓDULO 
  
- - [Sesión 1: Fundamentos de R](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-01): 
- - [Sesión 2: Manipulación de Datos](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-02): 
- - [Sesión 3: Análisis Exploratorio de Datos](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-03): 
- - [Sesión 4: Fundamentos de Estadística](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-04): 
- - [Sesión 5: Regresión](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-05): 
- - [Sesión 6: Clasificación](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-06): 
- - [Sesión 7: Clustering](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-07): 
- - [Sesión 8: Gráficos Avanzados](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-08):
+ - [Sesión 1](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-01): Fundamentos de R
+ - [Sesión 2](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-02): Manipulación de Datos
+ - [Sesión 3](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-03): Análisis Exploratorio de Datos
+ - [Sesión 4](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-04): Fundamentos de Estadística
+ - [Sesión 5](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-05): Regresión
+ - [Sesión 6](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-06): Clasificación
+ - [Sesión 7](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-07): Clustering
+ - [Sesión 8](https://github.com/beduExpert/A2-Estadistica-con-R-2020/tree/master/Sesion-08): Gráficos Avanzados
 
 
