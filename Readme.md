@@ -2,7 +2,9 @@
 ## Módulo: Estadística con R
 
 ### OBJETIVO 
- - En el módulo de Estadística con R aprenderás a escribir en el lenguaje de programación R. Además, serás capaz de realizar análisis de alto nivel sobre diferentes tipos de datos utilizando esta herramienta. 
+ - El conocimiento que adquirirás en este módulo tendrá como dos pilares el lenguaje de programación R y estadística básica. Utilizando estos dos conocimientos, podrás desarrollar un análisis estádistico de alto nivel sobre cualquier conjunto de datos que se te presente.
+
+
 
  ### ORGANIZACIÓN DE MÓDULO 
  
