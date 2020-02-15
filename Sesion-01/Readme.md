@@ -1,9 +1,13 @@
+[`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R`
 
-## `Fundamentos de R`
+## Work: Fundamentos de R
 
 ### OBJETIVOS 
-
-- Conocer las estructuras de datos básicas: vector y dataframe
+- Aprender a declarar y acceder a vectores
+- Aprender a declarar y manipular dataframes
+- Leer datos desde diferentes fuentes
+- Utilizar funciones de R
+- Crear nuevas funciones en R
 
 #### ORGANIZACION DE LA CLASE 
 
@@ -15,7 +19,15 @@
 	- [Ejemplo 02](Ejemplo-01)
 	- [Reto 02](Reto-01)
 
-- Fuentes de Datos
-	- [Ejemplo 03](Ejemplo-01)
-	- [Reto 03](Reto-01)
+- Funciones
+	- [Ejemplo 03](Ejemplo-03)
+	- [Reto 03](Reto-03)
+
+- Lectura de Datos
+	- [Ejemplo 04](Ejemplo-04)
+	- [Reto 04](Reto-04)
+
+
+
+
 

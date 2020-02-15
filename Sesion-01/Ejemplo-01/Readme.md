@@ -1,17 +1,27 @@
+[`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R` > `Ejemplo-01`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Vectores
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Al final de el `Ejercicio-01` serás capaz de:
+- Declarar vectores
+- Agregar elementos a vectores
+- Combinar vectores
+- Crear vectres utilizando diferentes funciones
+- Identificar características de los vectores
+- Accesar a vectores
+- Operar con vectores
 
 #### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Completar el prework
+2. R versión 3.6.2 o mayor
+3. R Studio versión 1.2.5033 o mayor 
+4. Git Bash
 
-#### DESARROLLO
+#### TEORÍA 
+##### Vectores
 
 Agrega las instrucciones generales del ejemplo o reto
 
