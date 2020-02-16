@@ -42,13 +42,11 @@ print(class(variable.int))
 print(class(variable.logical))
 ``` 
 <details>
-        <summary>¿Qué nos devuelve si, en lugar de utilizar la función `class(var)` utilizamos la función `typeof(var)`?</summary>
-<code>```r
-print(typeof(variable.char))
-print(typeof(variable.num)) 
-print(typeof(variable.int))
-print(typeof(variable.logical))
-``` </code>
+        <summary>¿Qué nos devuelve si, en lugar de utilizar la función <code>class(var)</code> utilizamos la función <code>typeof(var)</code>?</summary>
+<p><code>print(typeof(variable.char))</code></p>
+<p><code>print(typeof(variable.num))</code></p>
+<p><code>print(typeof(variable.int))</code></p>
+<p><code>print(typeof(variable.logical))</code></p>
 </details>
 
 #### PARTE 2. ¿CÓMO DEFINIR UN VECTOR?
