@@ -43,13 +43,12 @@ print(class(variable.logical))
 ``` 
 <details>
         <summary>¿Qué nos devuelve si, en lugar de utilizar la función `class(var)` utilizamos la función `typeof(var)`?</summary>
-        <p> 
-```r
+<code>```r
 print(typeof(variable.char))
 print(typeof(variable.num)) 
 print(typeof(variable.int))
 print(typeof(variable.logical))
-``` </p>
+``` </code>
 </details>
 
 #### PARTE 2. ¿CÓMO DEFINIR UN VECTOR?
