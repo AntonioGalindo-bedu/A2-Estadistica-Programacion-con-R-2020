@@ -7,7 +7,6 @@
 - Aprender a declarar y manipular dataframes
 - Leer datos desde diferentes fuentes
 - Utilizar funciones de R
-- Crear nuevas funciones en R
 
 #### ORGANIZACION DE LA CLASE 
 
