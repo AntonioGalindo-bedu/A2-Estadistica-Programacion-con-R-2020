@@ -1,6 +1,6 @@
 [`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R` 
 
-## 
+## Funciones útiles para DataFrames
 
 ### OBJETIVO
 
@@ -60,7 +60,7 @@ iris[iris$Sepal.Width > mean(iris$Sepal.Width), ]
 iris[iris$Sepal.Width > 2,1:3]
 ```
 
-#### PARTE 3. CONDICIONES EN UN DATAFRAME
+#### PARTE 4. ESTRUCTURA Y RESUMEN DE DATAFRAME
 
 Existen dos funciones muy imporantes al empezar a trabajar con un dataframe, `summary()` y `str()` las cuáles nos dan las estadísticas básicas e información general y relevante de un dataframe.
 
