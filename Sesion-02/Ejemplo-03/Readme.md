@@ -1,26 +1,83 @@
 [`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos`
 
-## LIBRERIA
+## LIBRERIA DPLYR
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
-
-#### REQUISITOS
-
-1. Lo necesario para desarrollar el ejemplo o el Reto
-
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+Al final de el `Ejemplo-03` serás capaz de:
 
 
+### REQUISITOS
+
+1. Completar el prework
+2. R versión 3.6.2 o mayor
+3. R Studio versión 1.2.5033 o mayor 
+4. Git Bash
+5. Completar el `Ejemplo-02`
+6. Completar el `Reto-02`  
+
+### TEORÍA
+
+```r
+library(dplyr)
+
+# Vemos estructura de iris
+str(iris)
+
+# Nos quedamos con los renglones que tengan Sepal.Length mayor o igual a 6
+iris %>% filter(Sepal.Length >= 6)
+  
+# Nos quedamos con los renglones con Sepal.Length mayor o igual a 6 y Petal.Length mayor a 4.5
+iris %>% filter((Sepal.Length >= 6) & (Petal.Length > 4.5))
+
+# Seleccionamos las columnas Sepal.Lenght y Petal.Length
+# Además, filtarmos renglones con Sepal.Length mayor o igual a 6 y Petal.Length mayor a 4.5
+# Seleccionamos solo los primeros 5 renglones
+iris %>% 
+  select(Sepal.Length,Petal.Length) %>%
+  filter((Sepal.Length >= 6) & (Petal.Length > 4.5)) %>%
+  head(5)
+
+# Seleccionamos todas las columnas menos Species y los primeros 5 renglones
+iris %>%
+  select(-Species) %>%
+  head(5)
+
+# Seleccionamos las columnas que empiecen con S y los primeros 5 renglones
+iris %>% 
+  select(starts_with('S')) %>% 
+  head(5)
+
+# Ordenamos ascendentemente por la columna Sepal.Lenght y seleccionamos primeros 5 renglones
+iris %>% 
+  arrange(Sepal.Length) %>% 
+  head(5)
+
+# Ordenamos descendentemente por la columna Sepal.Lenght y seleccionamos primeros 5 renglones
+iris %>% 
+  arrange(desc(Sepal.Length)) %>%
+  head(5)
+
+# Cambiamos de nombre la columna Species a Especies y seleccionamos primeros 5 renglones
+iris %>%
+  rename(Especies = Species) %>%
+  head(5)
+
+# Agregamos una columna que se llama Mult.Width que tenga la multiplicación de Sepal.Width y Petal.Width
+iris %>% 
+  mutate(Mult.Width = Sepal.Width*Petal.Width) %>%
+  head(5)
+
+# Contamos cuantas especies hay de cada tipo
+iris %>%
+  group_by(Species) %>%
+  count()
+
+# Agrupamos por especies y agregamos columnas con descriptivos por grupo
+iris %>% 
+  group_by(Species) %>%
+  summarise(Mean.Sepal.Length = mean(Sepal.Length),
+            Median.Petal.Length = median(Sepal.Length),
+            Max.Petal.Width = max(Petal.Width),
+            Min.Petal.Length = min(Petal.Length))
+```

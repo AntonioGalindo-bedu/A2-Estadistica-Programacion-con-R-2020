@@ -4,8 +4,6 @@
 ##########  Ejercicio 02    ##########
 ######################################
 
-library(dplyr)
-
 # Cambiamos el working directory a carpeta de Data
 getwd()
 setwd('../../Data')
