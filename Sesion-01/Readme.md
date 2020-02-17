@@ -18,7 +18,7 @@
 	- [Ejemplo 02](Ejemplo-01)
 	- [Reto 02](Reto-01)
 
-- Funciones
+- Funciones útiles para DataFrames
 	- [Ejemplo 03](Ejemplo-03)
 	- [Reto 03](Reto-03)
 

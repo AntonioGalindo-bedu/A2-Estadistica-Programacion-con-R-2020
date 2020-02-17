@@ -11,7 +11,6 @@ Al final de el `Ejercicio-02` serás capaz de:
 - Agregar datos a un dataframe
 - Transformar una columna 
 - Agregar o eliminar columnas
-- Entender las **condicionales**
 
 ### REQUISITOS
 
@@ -24,8 +23,19 @@ Al final de el `Ejercicio-02` serás capaz de:
 
 ### TEORÍA: DATAFRAMES
 
-
 #### PARTE 1. ¿CÓMO CREAR UN DATA FRAME?
+
+Un dataframe es un objeto que tiene filas y columnas. Las columnas de un dataframe representan las variables mientras que los renglones de un dataframe representan las observaciones.
+
+Por ejemplo, si tuvieramos la clave, el grado y el sexo de tres personas, podríamos representar la información en la siguiente tabla:
+
+| clave | grado | sexo|
+| ------|-------| ----|
+|  1    | 4 	|  F  |
+|  2    | 4    	|  M  |
+|  3    | 5     |  M  |
+
+En este caso tenemos 3 columnas: clave, grado y sexo. Además, tenemos 3 renglones, que cada uno representa a una persona diferente. Pasemos esta información a un dataframe.
 
 ```r
 df.example <- data.frame(clave = c(1,2,3),
@@ -34,31 +44,38 @@ df.example <- data.frame(clave = c(1,2,3),
 df.example
 ```
 
-#### PARTE 2. ¿CÓMO VER LAS CARACTERÍSITCAS DE UN DATAFRAME?
+#### PARTE 2. ¿CÓMO VER LAS CARACTERÍSTICAS DE UN DATAFRAME?
+
+En la mayoría de los casos durante este curso (y en la vida en general) nos enfrentaremos a información que no tenemos que crear manualmente. 
+
+En R, tenemos datos precargados los cuales podremos utilizar para nuestros análisis pero también podremos cargar los datos de alguna otra fuente, por ejemplo, archivos de internet o archivos que tenemos en nuestra computadora. 
+
+Hasta ahora, no hemos aprendido cómo cargar los datos de distintas fuentes, por lo que trabajaremos con el dataframe precargado más popular de R: **iris**. Para poder ver los renglones y columnas que tiene **iris**, basta con correr la instruccion `iris`, al igual que se hizo en el **Prework**.
+
+Cuando tenemos un dataframe nuevo por trabajar, queremos a empezar a responder preguntas:
+- ¿Cuántos renglones tiene iris?
+- ¿Cuántas columnas tiene iris?
+- ¿Cuáles son las dimensiones de iris?
+- ¿Cuáles son las columnas de iris?
 
 ```r
-# Para ver el número de renglones de un dataframe utilizamos nrow
 nrow(iris)
-
-# Para ver el número de columnas de un dataframe utilizamos ncol
 ncol(iris)
-
-# Para ver el número de renglones y columnas de un dataframe utilizamos dim
 dim(iris)
-
-# Utilizamos paste para imprimir texto y el resultado de código
-print(paste('El número de columnas de nuestro dataframe es:', ncol(iris)))
-print(paste('El número de renglones de nuesrtro dataframe es:', nrow(iris)))
-
-# Para ver el nombre de las columnas utilizamos names
 names(iris)
 
+print(paste('El número de columnas de nuestro dataframe es:', ncol(iris)))
+print(paste('El número de renglones de nuesrtro dataframe es:', nrow(iris)))
 ```
 
 #### PARTE 3. ¿CÓMO VEO LOS ELEMENTOS, COLUMNAS O RENGLONES DE UN DATAFRAME?
 
+Ya que hemos respondido las preguntas básicas para todo dataframe, nos interesa aprender a accesar a los elementos del dataframe. Esto se hace utilizando especificando los renglones y columnas de interés, haciendo algo cómo `df[renglon, columna]`. 
+
+Tenemos distintas opciones para poder accesar a los datos:
+
+1. Solamente nos interesa el dato que esta en una ubicación en particular. 
 ```r
-# Para traer un elemento de un dataframe debemos darle la ubicación
 # Primer renglón, primer columna
 iris[1,1]
 # Tercer renglón, primer columna
@@ -66,8 +83,9 @@ iris[3,1]
 # Tercer renglón, segunda columna
 iris[3,2]
 
-
-# Para traer renglones completos de un dataframe
+```
+2. Nos interesa un renglón (o renglones) en particular.
+```r
 # El primer renglón utilizando el número de renglón que es
 iris[1,]
 # Los tres primeros renglones 
@@ -75,8 +93,9 @@ iris[1:3,]
 # Todos los renglones menos el primero
 iris[-1,]
 
-
-# Para traer columnas completas de un dataframe
+```
+3. Nos interesa una columna (o columnas) en particular
+```r
 # La primer columna por el número de columna que es
 iris[,1]
 # La primer columna por el nombre de columna que es
@@ -87,9 +106,9 @@ iris$Sepal.Length
 iris[,1:2]
 # Todas las columnas menos la primera
 iris[,-1]
-
-
-# Para traer elementos segun renglones y columnas
+```
+4. Nos interesan los datos según el renglón y la columna en la que están.
+```r
 # Primer renglón, dos primeras columnas
 iris[1, 1:2]
 iris[1, c('Sepal.Length', 'Sepal.Width')]
@@ -100,50 +119,13 @@ iris[1:3, 2:3]
 # Primeros tres renglones, primer y última columna
 iris[1:3, c(1,3)]
 iris[1:3, c('Sepal.Length', 'Petal.Length')]
-
 ```
 
-#### PARTE 4. ACCESAR A LOS ELEMENTOS DE UN VECTOR
+#### PARTE 4. AGREGAR RENGLONES Y COLUMNAS A UN DATAFRAME
+
+Existen dos funciones  que nos permiten agregar un renglón `rbind()` o una columna `cbind()` a un dataframe existente. Es importante cuidar que el tipo de dato que estemos agregando sea consistente al tipo de dato de la columna del dataframe existente.
 
 ```r
-# Para extraer el primer elemento de un vector
-vector.multiply.four[1]
-
-# Para extrar el primer y segundo elemento
-vector.multiply.four[1:2]
-
-# Para extraer el primer y tercer elemento
-vector.multiply.four[c(1,3)]
-
-
-# Para extraer el último elemento del vector
-loc.last <- length(vector.multiply.four)
-print(loc.last)
-vector.multiply.four[loc.last]
-
-# Para extrar el penúltimo elemento del vector
-vector.multiply.four[loc.last-1]
-
-# Para extrar todos los elementos menos el primero
-vector.multiply.four[-1]
-
-# Para extraer todos los elementos menos el último
-vector.multiply.four[-loc.last]
-
-# Para extraer todos los elementos menos el primero y el último
-vector.multiply.four[-c(1, loc.last)]
-
-
-# Para sustituir el valor de un elemento, por ejemplo el primero
-vector.multiply.four[1] <- 100
-print(vector.multiply.four)
-```
-
-
-#### PARTE 5. OPERACIONES CON VECTORES
-
-```r
-
 # Para agreger un nuevo renglón utilizamos rbind
 iris.parte2 <- data.frame(Sepal.Length = c(6,7),
                                     Sepal.Width = c(2.5,3.5),
@@ -166,6 +148,9 @@ df.example
 
 #### PARTE 6. ¿CÓMO TRANSFORMO, AGREGO O ELIMINO UNA COLUMNA?
 
+Muchas veces, necesitamos hacer operaciones sobre columnas completas, siguiendo la misma idea de cuándo declaramos y manipulamos vectores. En las columnas de los dataframes, es fácil transformar una columna y reasignar esta transformación a la vieja columna o a una nueva. Para transformar o agregar una columna, tenemos que asignar los cambios a la columna `df$col`, donde si col ya existe, se reescriben los nuevos valores y si no existe, crear una nueva columna con el nombre col. 
+
+Para eliminar una columna, tenemos que seguir la misma lógica pero en lugar de transformar la columna, la asignamos a `NULL`.
 
 ```r
 
@@ -186,9 +171,8 @@ df.example
 
 #### PARTE 7. FUNCIONES ÚTILES CON DATAFRAMES
 
-
-```r
-# Funciones útiles 
+Los dataframes, al ser objetos tan importantes en R, tienen muchas funciones para utilizar. Cuándo necesitamos ver solo una parte del dataframe, podemos utilizar `head()` o `tail()`. En cambio, cuándo necesitamos ver los distintos elementos de una columna, podemos utilizar la variable `unique()`. 
+```r 
 # Para ver los primeros 8 elementos del dataframe
 head(iris, 8)
 
@@ -201,7 +185,7 @@ unique(iris$Species)
 # Cambiar los nombres de las columnas
 names(iris) 
 names(iris) <- c("Longitud.Sepalo","Ancho.Sepalo","Longitud.Petalo","Ancho.Petalo","Especies")
-head(iris)
 
+head(iris)
 ```
 
