@@ -1,16 +1,26 @@
+[`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
-
-## Titulo de la Sesion 
+## Work: Manipulación de Datos
 
 ### OBJETIVOS 
-
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Crear funciones en R
+- Utilizar la libreria dplyr para manipular datos
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
-
+- Crear funciones en R
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
+
+- Estructura de dataframes
+	- [Ejemplo 02](Ejemplo-01)
+	- [Reto 02](Reto-01)
+
+- Libreria dplyr
+	- [Ejemplo 03](Ejemplo-03)
+	- [Reto 03](Reto-03)
+
+
+
+
 

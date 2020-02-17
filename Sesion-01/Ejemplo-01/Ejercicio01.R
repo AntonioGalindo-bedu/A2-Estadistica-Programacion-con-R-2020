@@ -4,6 +4,19 @@
 ##########  Ejercicio 01    ##########
 ######################################
 
+# Declaramos una variable de cada tipo de dato
+variable.char <- 'Hola R'
+variable.num <- 3.1416
+variable.int <- 149213L
+variable.logical <- TRUE
+
+# Imprimimos las clases de cada variable
+print(class(variable.char))
+print(class(variable.num)) 
+print(class(variable.int))
+print(class(variable.logical))
+
+
 # Para crear un vector
 vector.part1 <- c(1,2,3,4,5)
 print(vector.part1)

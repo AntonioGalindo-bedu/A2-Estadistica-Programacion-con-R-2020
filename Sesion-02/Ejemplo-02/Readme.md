@@ -1,27 +1,54 @@
+[`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## Columnas tipo factor en un dataframe
 
 ### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda
+Al final de el `Ejemplo-02` serás capaz de:
+- Identificar las columnas que son tipo factor
+- Ordenar las columnas tipo factor
 
-#### REQUISITOS
+### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto
+1. Completar el prework
+2. R versión 3.6.2 o mayor
+3. R Studio versión 1.2.5033 o mayor 
+4. Git Bash
+5. Completar el `Ejemplo-01`
+6. Completar el `Reto-01`  
 
-#### DESARROLLO
+### TEORÍA
 
-Agrega las instrucciones generales del ejemplo o reto
+Al utilizar la función `str()` para ver la estructura de nuestro dataframe, podemos ver el tipo de columna que es, según el tipo de dato que alberga. Conocemos casi todos, menos el tipo **Factor**. Este aparece cuándo la columna tiene valores categóricos, es decir, que la columna toma uno de distintas posibles categorías. 
 
-<details>
+Para poder ver los distintos valores de una columna, podemos utilizar `unique()` o `levels()`. 
 
-        <summary>Solucion</summary>
-        <p> Agrega aqui la solucion</p>
-        <p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details>
+```r
+getwd()
+setwd('../../Data')
 
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+df.dataframe = read.csv('Metro_Interstate_Traffic_Volume.csv')
 
+str(df.dataframe)
 
+# Veamos los distintos niveles de la columna holiday
+unique(df.dataframe$holiday)
+levels(df.dataframe$holiday)
+```
+
+En este caso, los niveles de la columna factor no están ordenados. Quiere decir que no es capaz de distinguir cuál festividad ocurre primero. Para ordenar una columna podemos hacerlo manualmente de la siguiente manera.
+
+```r
+# Ordenar niveles
+niveles.orden <- c('Christmas Day','Columbus Day','Independence Day','Labor Day','Martin Luther King Jr Day',
+                       'Memorial Day','New Years Day','None','State Fair', 'Thanksgiving Day', 'Veterans Day',
+                       'Washingtons Birthday')
+
+# Agregamos columna con los niveles ordenados
+df.dataframe$holiday_orden <- factor(x = df.dataframe$holiday, levels = niveles.orden, ordered = TRUE)
+
+# Veamos que cambió en nuestro dataframe
+str(df.dataframe)
+
+unique(df.dataframe$holiday_orden)
+```

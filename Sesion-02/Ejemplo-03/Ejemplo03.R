@@ -1,24 +1,9 @@
-[`Estad铆stica con R`](../Readme.md) > `Sesi贸n 02: Manipulaci贸n de Datos`
+######################################
+########## Fundamentos de R ##########
+##########    Sesi髇 02     ##########
+##########  Ejercicio 03    ##########
+######################################
 
-## LIBRERIA DPLYR
-
-### OBJETIVO
-
-Al final de el `Ejemplo-03` ser谩s capaz de:
-
-
-### REQUISITOS
-
-1. Completar el prework
-2. R versi贸n 3.6.2 o mayor
-3. R Studio versi贸n 1.2.5033 o mayor 
-4. Git Bash
-5. Completar el `Ejemplo-02`
-6. Completar el `Reto-02`  
-
-### TEOR脥A
-
-```r
 library(dplyr)
 
 # Vemos estructura de iris
@@ -31,7 +16,7 @@ iris %>% filter(Sepal.Length >= 6)
 iris %>% filter((Sepal.Length >= 6) & (Petal.Length > 4.5))
 
 # Seleccionamos las columnas Sepal.Lenght y Petal.Length
-# Adem谩s, filtarmos renglones con Sepal.Length mayor o igual a 6 y Petal.Length mayor a 4.5
+# Adem醩, filtarmos renglones con Sepal.Length mayor o igual a 6 y Petal.Length mayor a 4.5
 # Seleccionamos solo los primeros 5 renglones
 iris %>% 
   select(Sepal.Length,Petal.Length) %>%
@@ -63,7 +48,7 @@ iris %>%
   rename(Especies = Species) %>%
   head(5)
 
-# Agregamos una columna que se llama Mult.Width que tenga la multiplicaci贸n de Sepal.Width y Petal.Width
+# Agregamos una columna que se llama Mult.Width que tenga la multiplicaci髇 de Sepal.Width y Petal.Width
 iris %>% 
   mutate(Mult.Width = Sepal.Width*Petal.Width) %>%
   head(5)
@@ -80,4 +65,3 @@ iris %>%
             Median.Petal.Length = median(Sepal.Length),
             Max.Petal.Width = max(Petal.Width),
             Min.Petal.Length = min(Petal.Length))
-```

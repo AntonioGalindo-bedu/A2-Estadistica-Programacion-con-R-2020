@@ -5,97 +5,117 @@
 ######################################
 
 # Para crear un dataframe
-df.oscars.2020 <- data.frame(pelicula = c('Jojo Rabbit', '1917', 'Joker', 'The Irishman'),
-                    ganador = c(1,0,0,0),
-                    anio = c(2020,2020,2020,2020))
+df.example <- data.frame(clave = c(1,2,3),
+                             grado = c(4,4,5),
+                             sexo = c('F','M','M'))
+
+
+# Utilizaremos el dataset iris
+iris
 
 # Para ver el número de renglones de un dataframe utilizamos nrow
-nrow(df.oscars.2020)
+nrow(iris)
 
 # Para ver el número de columnas de un dataframe utilizamos ncol
-ncol(df.oscars.2020)
+ncol(iris)
 
 # Para ver el número de renglones y columnas de un dataframe utilizamos dim
-dim(df.oscars.2020)
+dim(iris)
 
 # Utilizamos paste para imprimir texto y el resultado de código
-print(paste('El número de columnas de nuesrtro dataframe es:', ncol(df.oscars.2020)))
-print(paste('El número de renglones de nuesrtro dataframe es:', nrow(df.oscars.2020)))
+print(paste('El número de columnas de nuestro dataframe es:', ncol(iris)))
+print(paste('El número de renglones de nuesrtro dataframe es:', nrow(iris)))
 
 # Para ver el nombre de las columnas utilizamos names
-names(df.oscars.2020)
+names(iris)
 
 
 # Para traer un elemento de un dataframe debemos darle la ubicación
 # Primer renglón, primer columna
-df.oscars.2020[1,1]
+iris[1,1]
 # Tercer renglón, primer columna
-df.oscars.2020[3,1]
+iris[3,1]
 # Tercer renglón, segunda columna
-df.oscars.2020[3,2]
+iris[3,2]
 
 
 # Para traer renglones completos de un dataframe
 # El primer renglón utilizando el número de renglón que es
-df.oscars.2020[1,]
-# Los dos primeros renglones
-df.oscars.2020[1:2,]
+iris[1,]
 # Los tres primeros renglones 
-df.oscars.2020[1:3,]
+iris[1:3,]
 # Todos los renglones menos el primero
-df.oscars.2020[-1,]
+iris[-1,]
 
 
 # Para traer columnas completas de un dataframe
 # La primer columna por el número de columna que es
-df.oscars.2020[,1]
+iris[,1]
 # La primer columna por el nombre de columna que es
-df.oscars.2020[,'pelicula']
+iris[,'Sepal.Length']
 # La primer columna por el nombre de columna que es
-df.oscars.2020$pelicula
+iris$Sepal.Length
 # Las primeras dos columnas 
-df.oscars.2020[,1:2]
+iris[,1:2]
 # Todas las columnas menos la primera
-df.oscars.2020[,-1]
+iris[,-1]
 
 
 # Para traer elementos segun renglones y columnas
 # Primer renglón, dos primeras columnas
-df.oscars.2020[1, 1:2]
-df.oscars.2020[1, c('pelicula','ganador')]
+iris[1, 1:2]
+iris[1, c('Sepal.Length', 'Sepal.Width')]
 
 # Primeros tres renglones, dos últimas columnas
-df.oscars.2020[1:3, 2:3]
+iris[1:3, 2:3]
 
 # Primeros tres renglones, primer y última columna
-df.oscars.2020[1:3, c(1,3)]
-df.oscars.2020[1:3, c('pelicula','anio')]
+iris[1:3, c(1,3)]
+iris[1:3, c('Sepal.Length', 'Petal.Length')]
 
 
 # Para agreger un nuevo renglón utilizamos rbind
-df.oscars.2020.parte2 <- data.frame(pelicula = c('Once Upon a Time in Hollywood', 'Parasite'),
-                                    ganador = c(0,0),
-                                    anio = c(2020,2020))
-df.oscars.2020
-df.oscars.2020.parte2
+iris.parte2 <- data.frame(Sepal.Length = c(6,7),
+                                    Sepal.Width = c(2.5,3.5),
+                                    Petal.Length = c(3,3),
+                                    Petal.Width = c(0.01,2.08),
+                                    Species = c('virginica','versicolor'))
+iris
+iris.parte2
 
-df.oscars <- rbind(df.oscars.2020, df.oscars.2020.parte2)
-df.oscars
+df.iris <- rbind(iris, iris.parte2)
+df.iris
 
 # Para agregar una columna 
-df.oscars.newcolumn <- data.frame(calificacion = c(9,9,8,6,7,10))
-df.oscars.newcolumn
-df.oscars <- cbind(df.oscars, df.oscars.newcolumn)
-df.oscars
+df.example.newcolumn <- data.frame(calificacion = c(9,6,10))
+df.example.newcolumn
+df.example <- cbind(df.example, df.example.newcolumn)
+df.example
 
 # Para transformar una columna
-df.oscars$calificacion <- df.oscars$calificacion + 0.5
-df.oscars
+df.example$calificacion <- df.example$calificacion + 0.5
+df.example
 
 # Para transformar una columna y agregar la transformación como una nueva
-df.oscars$nueva_col <- (df.oscars$calificacion + 8)/2
-df.oscars
+df.example$nueva_col <- (df.example$calificacion + 8)/2
+df.example
 
 # Para eliminar una columna
-df.oscars$anio <- NULL
-df.oscars
+df.example$grado <- NULL
+df.example
+
+
+# Funciones útiles 
+# Para ver los primeros 8 elementos del dataframe
+head(iris, 8)
+
+# Para ver los ultimos 6 elementos del dataframe
+tail(iris)
+
+# Ver los distintos elementos de una columna
+unique(iris$Species)
+
+# Cambiar los nombres de las columnas
+names(iris) 
+names(iris) <- c("Longitud.Sepalo","Ancho.Sepalo","Longitud.Petalo","Ancho.Petalo","Especies")
+head(iris)
