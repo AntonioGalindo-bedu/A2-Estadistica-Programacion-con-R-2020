@@ -19,7 +19,8 @@ Al final de el `Ejercicio-02` serás capaz de:
 2. R versión 3.6.2 o mayor
 3. R Studio versión 1.2.5033 o mayor 
 4. Git Bash
-5. Completar el `Ejemplo-01` de la `Sesión-01`
+5. Completar el `Ejemplo-01` 
+6. Completar el `Reto-01`
 
 ### TEORÍA: DATAFRAMES
 

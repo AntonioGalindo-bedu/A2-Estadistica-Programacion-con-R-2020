@@ -1,10 +1,9 @@
 [`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos`
 
-## Work: 
+## Work: Manipulación de Datos
 
 ### OBJETIVOS 
 - Crear funciones en R
-- Instalar y llamar paquetes de R
 - Utilizar la libreria dplyr para manipular datos
 
 #### ORGANIZACION DE LA CLASE 
@@ -13,14 +12,13 @@
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
-- Paquetes en R
+- Estructura de dataframes
 	- [Ejemplo 02](Ejemplo-01)
 	- [Reto 02](Reto-01)
 
 - Libreria dplyr
 	- [Ejemplo 03](Ejemplo-03)
 	- [Reto 03](Reto-03)
-
 
 
 

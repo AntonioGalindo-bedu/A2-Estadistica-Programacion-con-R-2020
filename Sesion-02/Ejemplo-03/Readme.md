@@ -1,7 +1,6 @@
+[`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
+## LIBRERIA
 
 ### OBJETIVO
 
