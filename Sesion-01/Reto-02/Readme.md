@@ -1,27 +1,29 @@
- 
+  [`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R` 
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Vectores
 
-### OBJETIVO 
+### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda 
+Al final de el `Reto-02` serás capaz de:
+- Ver las características de un dataframe
+- Accesar a los elementos de un dataframe
+- Agregar datos a un dataframe
+- Transformar una columna 
+- Eliminar columnas de un dataframe
 
-#### REQUISITOS 
+### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Completar el prework
+2. R versión 3.6.2 o mayor
+3. R Studio versión 1.2.5033 o mayor 
+4. Git Bash
 
-#### DESARROLLO
+### INSTRUCCIONES DEL RETO
 
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+- Imprime el dataframe precargado en R **mtcars**
+- Imprime el numero de renglones y columnas del dataframe
+- Imprime el nombre de las columnas del dataframe
+- Imprime el dato que esta en la tercer columna, quinto renglon del dataframe
+- Imprime todos los renglones de la cuarta y quinta columna
+- Imprime los primeros 20 renglones de la cuarta y quinta columna
+- Elimina la segunda columna del dataframe

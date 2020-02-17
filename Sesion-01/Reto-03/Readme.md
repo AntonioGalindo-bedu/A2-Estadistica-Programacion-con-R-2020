@@ -1,27 +1,31 @@
- 
+  [`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R` 
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Vectores
 
-### OBJETIVO 
+### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda 
+Al final de el `Reto-03` serás capaz de:
+- Encontrar máximos y minimos de una columna
+- Encontrar valores únicos por columna
+- Seleccionar renglones que cumplan condiciones
 
-#### REQUISITOS 
+### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Completar el prework
+2. R versión 3.6.2 o mayor
+3. R Studio versión 1.2.5033 o mayor 
+4. Git Bash
 
-#### DESARROLLO
+### INSTRUCCIONES DEL RETO
 
-Agrega las instrucciones generales del ejemplo o reto
+- Imprime el dataframe precargado en R **mtcars**
+- Pide ayuda para ver la descripción del dataframe. Hint: usa `?` 
+- Responde: ¿Cuál es el máximo de la columna cyl?
+- Responde: ¿Cuál es el mínimo de la columan qsec?
+- Guarda el promedio de la columna cyl en mean.cyl
+- Guarda el promedio de la columna qsec en mean.qsec
+- Selecciona los renglones que tengan cyl mayor al promedio (mean.cyl)
+- Selecciona los rengloens que tengan cyl mayor al promedio (mean.cyl) y qsec mayor al promedio (mean.qsec)
+- Guarda la última instruccion en un dataframe que tenga el nombre mtcars.filtrados
 
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
 
