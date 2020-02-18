@@ -1,7 +1,6 @@
- 
  [`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos` 
 
-## Vectores
+## Estructura de dataframe
 
 ### OBJETIVO
 

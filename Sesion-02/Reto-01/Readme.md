@@ -1,7 +1,7 @@
  
  [`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos` 
 
-## Vectores
+## Crear funciones
 
 ### OBJETIVO
 
