@@ -1,27 +1,30 @@
- 
+ [`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos` 
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Libreria dplyr
 
-### OBJETIVO 
+### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda 
+Al final de el `Reto-02` serás capaz de:
+- Leer un dataframe
+- Identificar el tipo de cada columna
 
-#### REQUISITOS 
+### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Completar el prework
+2. R versión 3.6.2 o mayor
+3. R Studio versión 1.2.5033 o mayor 
+4. Git Bash
 
-#### DESARROLLO
+### INSTRUCCIONES DEL RETO
 
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+- Haz un llamado a la libreria dplyr
+- Lee el archivo `Metro_Interstate_Traffic_Volume.csv` y guardalo en df.traffic
+- Ve la estructura del dataframe y los tipos de dato de cada columna
+- Calcula el promedio de la columna traffic_volume y guardala en mean.traffic
+- Selecciona solo las columnas weather_main y traffic_volume
+- Cambia de nombre las columnas: weather_main a clima y traffic_volume a trafico
+- Filtra a las observaciones donde la columna trafico sea mayor o igual a mean.traffic
+- Guarda el dataframe filtrado como df.traffic.filter
+- ¿Cuántos renglones y columnas tiene df.traffic.filter?
+- Con df.traffic.filter, agrupa por clima y saca el min de trafico y max de trafico, guardalo en df.traffic.grouped
+- Agrega una columna a df.traffic.grouped que sea la diferencia entre max y min del grupo

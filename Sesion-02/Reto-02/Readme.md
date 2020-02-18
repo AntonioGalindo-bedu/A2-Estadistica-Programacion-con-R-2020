@@ -1,27 +1,24 @@
- 
+ [`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos` 
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Estructura de dataframe
 
-### OBJETIVO 
+### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda 
+Al final de el `Reto-02` serás capaz de:
+- Leer un dataframe
+- Identificar el tipo de cada columna
 
-#### REQUISITOS 
+### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Completar el prework
+2. R versión 3.6.2 o mayor
+3. R Studio versión 1.2.5033 o mayor 
+4. Git Bash
 
-#### DESARROLLO
+### INSTRUCCIONES DEL RETO
 
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+- Lee el archivo `Metro_Interstate_Traffic_Volume.csv`
+- Ve la estructura del dataframe
+- ¿Cuáles son los niveles de la columna weather_main?
+- Reordena los niveles alfabéticamente
+- Agrega una columna llamada weather_main_ordered al dataframe, donde los niveles estén ordenados
