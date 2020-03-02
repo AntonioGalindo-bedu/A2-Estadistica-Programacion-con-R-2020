@@ -1,51 +1,55 @@
 ######################################
-########## Fundamentos de R ##########
+########## Estadística con R #########
 ##########    Sesión 01     ##########
 ##########  Ejercicio 03    ##########
 ######################################
 
-iris
 
-# Llamamos funciones útiles sobre columnas de iris
+# Para ver la ruta de dónde estamos trabajando
+getwd()
 
-min(iris$Sepal.Length)
+# Para bajar dos niveles del directorio de trabajo 
+# utilizamos ../.. y para accesar a una nueva carpeta ponemos su nombre, Data
+setwd('../../Data')
 
-min(iris$Sepal.Length[1:5])
+# Vemos la ruta cambiada
+getwd()
 
-mean(iris$Sepal.Length)
+# Leemos dataframe
+breast.cancer <- read.csv('C:/Users/AnaLuisaOrtegaRenter/Downloads/wdbc.data', header = FALSE)
 
-max(iris$Sepal.Length)
+# Cambiamos nombre de las columnas
+names(breast.cancer) <- c('id','diagnosis','radius_mean',
+                          'texture_mean','perimeter_mean','area_mean',
+                          'smoothness_mean','compactenss_mean',
+                          'concavity_mean','concave_points_mean',
+                          'symmetry_mean','fractal_dimension_mean',
+                          'radius_se','texture_se','perimeter_se',
+                          'area_se','smoothnsess_se','compactness_se',
+                          'concavity_se','concave_points_se','symmetry_se',
+                          'fractal_dimension_se','radius_worst',
+                          'texture_worst','perimeter_worst','area_worst',
+                          'smoothnes_worst','compactness_worst',
+                          'concavity_worst','concave_points_worst',
+                          'symmetry_worst','fractal_dimension_worst')
 
-median(iris$Sepal.Length)
+# Paso 1. Seleccionamos solo columnas de interés
+breast.cancer.filter <- breast.cancer[,c('id','diagnosis','radius_mean')]
 
-# Para comparar valores, esto nos regersa un booleano
+# Paso 2. Seleccionamos columna de radius mean
+interest.col <- breast.cancer.filter$radius_mean
 
-10 > 10
+# Paso 3. Encontramos deciles
+quant.col <- quantile(interest.col, c(0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1))
 
-10 < 10
+# Paso 4. Usamos cut para ver en que decil esta cada observacion
+breast.cancer.filter$qcuts <- cut(interest.col, breaks = quant.col)
 
-10 <= 10
+# Paso 5. Vemos el restultado de nuestro cut
+table(breast.cancer.filter$qcuts)
 
-10 >= 10
+# Paso 6. Vemos nuestr dataframe con una columna nueva
+head(breast.cancer.filter,10)
 
-10 != 10
-
-10 == 10
-
-# Podemos comparar los valores de las columnas de un dataframe
-iris$Sepal.Width > 2
-
-# Podemos usar la comparación para filtrar un dataframe
-iris[iris$Sepal.Width > 2, ]
-
-# Podemos utilizar alguna función para elegir el valor sobre el que se va a comparar
-iris[iris$Sepal.Width > mean(iris$Sepal.Width), ]
-
-# Podemos comparar y elegir cuáles columnas mostrar
-iris[iris$Sepal.Width > 2,1:3]
-
-# Para ver la estructura de un dataframe
-str(iris)
-
-# Para ver los estadísticos básicos de las columnas de un dataframe
-summary(iris)
+# Paso 7. Summary del dataframe
+summary(breast.cancer.filter)
