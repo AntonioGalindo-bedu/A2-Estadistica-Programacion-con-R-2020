@@ -1,121 +1,58 @@
 ######################################
-########## Fundamentos de R ##########
+########## Estadística con R #########
 ##########    Sesión 01     ##########
 ##########  Ejercicio 02    ##########
 ######################################
 
-# Para crear un dataframe
-df.example <- data.frame(clave = c(1,2,3),
-                             grado = c(4,4,5),
-                             sexo = c('F','M','M'))
 
+# Para ver la ruta de dónde estamos trabajando
+getwd()
 
-# Utilizaremos el dataset iris
-iris
+# Para bajar dos niveles del directorio de trabajo 
+# utilizamos ../.. y para accesar a una nueva carpeta ponemos su nombre, Data
+setwd('../../Data')
 
-# Para ver el número de renglones de un dataframe utilizamos nrow
-nrow(iris)
+# Vemos la ruta cambiada
+getwd()
 
-# Para ver el número de columnas de un dataframe utilizamos ncol
-ncol(iris)
+#Leemos dataset
+breast.cancer <- read.csv('wdbc.data', header = FALSE)
 
-# Para ver el número de renglones y columnas de un dataframe utilizamos dim
-dim(iris)
+# Cambiamos el nombre de las columnas
+names(breast.cancer) <- c('id','diagnosis','radius_mean',
+                          'texture_mean','perimeter_mean','area_mean',
+                          'smoothness_mean','compactenss_mean',
+                          'concavity_mean','concave_points_mean',
+                          'symmetry_mean','fractal_dimension_mean',
+                          'radius_se','texture_se','perimeter_se',
+                          'area_se','smoothnsess_se','compactness_se',
+                          'concavity_se','concave_points_se','symmetry_se',
+                          'fractal_dimension_se','radius_worst',
+                          'texture_worst','perimeter_worst','area_worst',
+                          'smoothnes_worst','compactness_worst',
+                          'concavity_worst','concave_points_worst',
+                          'symmetry_worst','fractal_dimension_worst')
 
-# Utilizamos paste para imprimir texto y el resultado de código
-print(paste('El número de columnas de nuestro dataframe es:', ncol(iris)))
-print(paste('El número de renglones de nuesrtro dataframe es:', nrow(iris)))
+# Eliminamos una columna
+breast.cancer$fractal_dimension_mean <- NULL
 
-# Para ver el nombre de las columnas utilizamos names
-names(iris)
+# Seleccionamos columna de interés
+interest.col <- breast.cancer.filter$radius_mean
 
+# Paso 1. Encontrar varianza
+var.radius <- var(interest.col)
+round(var.radius,2)
+print(paste('Varianza:', round(var.radius,2)))
 
-# Para traer un elemento de un dataframe debemos darle la ubicación
-# Primer renglón, primer columna
-iris[1,1]
-# Tercer renglón, primer columna
-iris[3,1]
-# Tercer renglón, segunda columna
-iris[3,2]
+# Paso 2. Encontrar desviación estándar
+sd.radius <- sd(interest.col)
+print(paste('Desviación estándar:', round(sd.radius,3)))
 
+# Paso 3. Verificamos relación entre varianza y desviación estándar
+sd.radius**2 == var.radius
 
-# Para traer renglones completos de un dataframe
-# El primer renglón utilizando el número de renglón que es
-iris[1,]
-# Los tres primeros renglones 
-iris[1:3,]
-# Todos los renglones menos el primero
-iris[-1,]
+# Paso 4. Rango
+max(interest.col)
+min(interest.col)
 
-
-# Para traer columnas completas de un dataframe
-# La primer columna por el número de columna que es
-iris[,1]
-# La primer columna por el nombre de columna que es
-iris[,'Sepal.Length']
-# La primer columna por el nombre de columna que es
-iris$Sepal.Length
-# Las primeras dos columnas 
-iris[,1:2]
-# Todas las columnas menos la primera
-iris[,-1]
-
-
-# Para traer elementos segun renglones y columnas
-# Primer renglón, dos primeras columnas
-iris[1, 1:2]
-iris[1, c('Sepal.Length', 'Sepal.Width')]
-
-# Primeros tres renglones, dos últimas columnas
-iris[1:3, 2:3]
-
-# Primeros tres renglones, primer y última columna
-iris[1:3, c(1,3)]
-iris[1:3, c('Sepal.Length', 'Petal.Length')]
-
-
-# Para agreger un nuevo renglón utilizamos rbind
-iris.parte2 <- data.frame(Sepal.Length = c(6,7),
-                                    Sepal.Width = c(2.5,3.5),
-                                    Petal.Length = c(3,3),
-                                    Petal.Width = c(0.01,2.08),
-                                    Species = c('virginica','versicolor'))
-iris
-iris.parte2
-
-df.iris <- rbind(iris, iris.parte2)
-df.iris
-
-# Para agregar una columna 
-df.example.newcolumn <- data.frame(calificacion = c(9,6,10))
-df.example.newcolumn
-df.example <- cbind(df.example, df.example.newcolumn)
-df.example
-
-# Para transformar una columna
-df.example$calificacion <- df.example$calificacion + 0.5
-df.example
-
-# Para transformar una columna y agregar la transformación como una nueva
-df.example$nueva_col <- (df.example$calificacion + 8)/2
-df.example
-
-# Para eliminar una columna
-df.example$grado <- NULL
-df.example
-
-
-# Funciones útiles 
-# Para ver los primeros 8 elementos del dataframe
-head(iris, 8)
-
-# Para ver los ultimos 6 elementos del dataframe
-tail(iris)
-
-# Ver los distintos elementos de una columna
-unique(iris$Species)
-
-# Cambiar los nombres de las columnas
-names(iris) 
-names(iris) <- c("Longitud.Sepalo","Ancho.Sepalo","Longitud.Petalo","Ancho.Petalo","Especies")
-head(iris)
+max(interest.col) - min(interest.col)
