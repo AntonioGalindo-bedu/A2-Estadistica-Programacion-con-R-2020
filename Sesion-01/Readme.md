@@ -1,14 +1,12 @@
 [`Estadística con R`](../Readme.md) > `Sesión 01: Estadística R`
 
-## Work: Estadística R
+## Work: Análisis Exploratorio de Datos - Análisis Univariado
 
 ### OBJETIVOS 
-- Revisar si un dataframe tiene valores nulos
-- Encontrar las medidas de centralidad de un dataframe
-- Encontrar las medidas de dispersión de un dataframe
-- Encontrar las medidas de distribución de un dataframe
-- Ver los tipos de datos de un dataframe y filtrar a categóricos
-- Construir una tabla de frecuencias
+- Identificar si un dataframe tiene valores nulos.
+- Encontrar las medidas de centralidad, dispersión y distribución de un dataframe.  
+- Identificar los tipos de datos de un dataframe y filtrar a categóricos.  
+- Construir una tabla de frecuencias.  
 
 #### ORGANIZACION DE LA CLASE 
 
