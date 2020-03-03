@@ -1,13 +1,12 @@
- [`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R` 
+ [`Estadística con R`](../Readme.md) > `Sesión 01: EDA` 
 
-## Vectores
+## Medidas de Centralidad
 
 ### OBJETIVO
 
 Al final de el `Reto-01` serás capaz de:
-- Crear vectors utilizando diferentes funciones
-- Identificar características de los vectores
-- Operar con vectores
+- Leer un archivo csv
+- Seleccionar columnas
 
 ### REQUISITOS
 
@@ -18,9 +17,10 @@ Al final de el `Reto-01` serás capaz de:
 
 ### INSTRUCCIONES DEL RETO
 
-- Crea un vector con los números del 1 al 500, de 10 en 10.
-- Guarda este vector con el nombre mi.vector
-- ¿Cuál es el tamaño del vector?
-- Al último elemento del vector, reemplazalo por el número -1.
-- Multiplica este vector por 0.85 y sumale 10, guarda el resultado en mi.vector.transformado
-- Ordena el vector mi.vector.transformado descendentemente
+- Lee el archivo **Metro_Interstate_Traffic_Volume
+- Ve la estructura de tu dataframe
+- Cuenta el número de NaNs en tu dataframe, en caso de haber elimina los renglones que tienen NaN
+- Selecciona 3 columnas numéricas de tu preferencia
+- Encuentra la media y mediana para cada variable que seleccionaste
+- Encuentra la moda para una variable
+- Para la misma variable, encuentra varianza, desviación estándar y rando

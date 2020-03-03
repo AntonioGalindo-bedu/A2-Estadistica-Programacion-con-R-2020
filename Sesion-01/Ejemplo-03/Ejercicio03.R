@@ -4,7 +4,6 @@
 ##########  Ejercicio 03    ##########
 ######################################
 
-
 # Para ver la ruta de dónde estamos trabajando
 getwd()
 

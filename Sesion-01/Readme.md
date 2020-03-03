@@ -1,30 +1,31 @@
-[`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R`
+[`Estadística con R`](../Readme.md) > `Sesión 01: Estadística R`
 
-## Work: Fundamentos de R
+## Work: Estadística R
 
 ### OBJETIVOS 
-- Aprender a declarar y acceder a vectores
-- Aprender a declarar y manipular dataframes
-- Leer datos desde diferentes fuentes
-- Utilizar funciones de R
+- Revisar si un dataframe tiene valores nulos
+- Encontrar las medidas de centralidad de un dataframe
+- Encontrar las medidas de dispersión de un dataframe
+- Encontrar las medidas de distribución de un dataframe
+- Ver los tipos de datos de un dataframe y filtrar a categóricos
+- Construir una tabla de frecuencias
 
 #### ORGANIZACION DE LA CLASE 
 
-- Vectores
+- Medidas de Centralidad
 	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
 
-- DataFrames
+- Medidas de Dispersión
 	- [Ejemplo 02](Ejemplo-01)
 	- [Reto 02](Reto-01)
 
-- Funciones útiles para DataFrames
+- Medidas de Distribución
 	- [Ejemplo 03](Ejemplo-03)
-	- [Reto 03](Reto-03)
+	- [Reto 02](Reto-02)
 
-- Lectura de Datos
+- Tabla de Frecuencias
 	- [Ejemplo 04](Ejemplo-04)
-	- [Reto 04](Reto-04)
+	- [Reto 03](Reto-03)
 
 
 
