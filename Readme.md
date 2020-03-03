@@ -8,13 +8,13 @@
 
  ### ORGANIZACIÓN DE MÓDULO 
  
- - [Sesión 1](Sesion-01): Fundamentos de R
- - [Sesión 2](Sesion-02): Manipulación de Datos
- - [Sesión 3](Sesion-03): Análisis Exploratorio de Datos
- - [Sesión 4](Sesion-04): Fundamentos de Estadística
- - [Sesión 5](Sesion-05): Regresión
- - [Sesión 6](Sesion-06): Clasificación
- - [Sesión 7](Sesion-07): Clustering
+ - [Sesión 1](Sesion-01): Análisis Exploratorio de Datos - Análisis Univariado   
+ - [Sesión 2](Sesion-02): Análisis Exploratorio de Datos - Análisis Multivariado  
+ - [Sesión 3](Sesion-03): Distribución Muestral  
+ - [Sesión 4](Sesion-04): Distribución Estándar  
+ - [Sesión 5](Sesion-05): Experimentos Estadísticos y Niveles de Significación I  
+ - [Sesión 6](Sesion-06): Experimentos Estadísticos y Niveles de Significación II
+ - [Sesión 7](Sesion-07): Regresión y Predicción  
  - [Sesión 8](Sesion-08): Gráficos Avanzados
 
 
