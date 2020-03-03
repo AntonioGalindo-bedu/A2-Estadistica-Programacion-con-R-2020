@@ -1,15 +1,13 @@
-  [`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R` 
+  [`Estadística con R`](../Readme.md) > `Sesión 01: EDA` 
 
-## Vectores
+## Medidas de distribución
 
 ### OBJETIVO
 
 Al final de el `Reto-02` serás capaz de:
-- Ver las características de un dataframe
-- Accesar a los elementos de un dataframe
-- Agregar datos a un dataframe
-- Transformar una columna 
-- Eliminar columnas de un dataframe
+- Utilizar la función quantile para encontrar deciles
+- Utilizar la función cut y quantile para encontrar qcuts
+- Utilizar la función table
 
 ### REQUISITOS
 
@@ -20,10 +18,10 @@ Al final de el `Reto-02` serás capaz de:
 
 ### INSTRUCCIONES DEL RETO
 
-- Imprime el dataframe precargado en R **mtcars**
-- Imprime el numero de renglones y columnas del dataframe
-- Imprime el nombre de las columnas del dataframe
-- Imprime el dato que esta en la tercer columna, quinto renglon del dataframe
-- Imprime todos los renglones de la cuarta y quinta columna
-- Imprime los primeros 20 renglones de la cuarta y quinta columna
-- Elimina la segunda columna del dataframe
+- Lee el archivo Metro_Interstate_Traffic_Volume
+- Ve los primeros 6 renglones del dataframe
+- Selecciona las columnas traffic_volume y temp
+- Encuentra los deciles de la variable temp
+- Utiliza la función cut para agregar una nueva columna al dataframe que diga en que rango de los deciles está cada valor
+- Ve los primeros 6 renglones del dataframe al que agregaste una columna
+- Utiliza table para ver cuantos elementos cayeron en cada grupo
