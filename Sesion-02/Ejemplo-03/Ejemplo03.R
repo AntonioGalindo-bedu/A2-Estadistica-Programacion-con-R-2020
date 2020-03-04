@@ -4,64 +4,31 @@
 ##########  Ejercicio 03    ##########
 ######################################
 
+library(ggplot2)
 library(dplyr)
 
-# Vemos estructura de iris
-str(iris)
+breast.cancer <- read.csv('breast_cancer.csv')
 
-# Nos quedamos con los renglones que tengan Sepal.Length mayor o igual a 6
-iris %>% filter(Sepal.Length >= 6)
-  
-# Nos quedamos con los renglones con Sepal.Length mayor o igual a 6 y Petal.Length mayor a 4.5
-iris %>% filter((Sepal.Length >= 6) & (Petal.Length > 4.5))
+str(breast.cancer)
 
-# Seleccionamos las columnas Sepal.Lenght y Petal.Length
-# Además, filtarmos renglones con Sepal.Length mayor o igual a 6 y Petal.Length mayor a 4.5
-# Seleccionamos solo los primeros 5 renglones
-iris %>% 
-  select(Sepal.Length,Petal.Length) %>%
-  filter((Sepal.Length >= 6) & (Petal.Length > 4.5)) %>%
-  head(5)
+breast.cancer.short <- breast.cancer[,c('diagnosis','radius_mean','texture_mean','perimeter_mean','area_mean')]
 
-# Seleccionamos todas las columnas menos Species y los primeros 5 renglones
-iris %>%
-  select(-Species) %>%
-  head(5)
+breast.cancer.short %>% 
+  ggplot( aes(x = radius_mean, y = texture_mean, colour=diagnosis)) + 
+  geom_point() +
+  ggtitle('Relacion Radius y Texture')+
+  theme_minimal() 
 
-# Seleccionamos las columnas que empiecen con S y los primeros 5 renglones
-iris %>% 
-  select(starts_with('S')) %>% 
-  head(5)
+breast.cancer.short %>% ggplot( aes(x = radius_mean, y = texture_mean)) + 
+  geom_hex() +
+  ggtitle('Relacion Radius y Texture')+
+  theme_minimal() + 
+  scale_fill_gradient(low = 'white', high = 'red')
 
-# Ordenamos ascendentemente por la columna Sepal.Lenght y seleccionamos primeros 5 renglones
-iris %>% 
-  arrange(Sepal.Length) %>% 
-  head(5)
+breast.cancer.short %>% ggplot( aes(x = radius_mean, y = texture_mean)) + 
+  geom_hex() +
+  ggtitle('Relacion Radius y Texture')+
+  theme_minimal() + 
+  scale_fill_gradient(low = 'white', high = 'red') + 
+  facet_wrap('diagnosis')
 
-# Ordenamos descendentemente por la columna Sepal.Lenght y seleccionamos primeros 5 renglones
-iris %>% 
-  arrange(desc(Sepal.Length)) %>%
-  head(5)
-
-# Cambiamos de nombre la columna Species a Especies y seleccionamos primeros 5 renglones
-iris %>%
-  rename(Especies = Species) %>%
-  head(5)
-
-# Agregamos una columna que se llama Mult.Width que tenga la multiplicación de Sepal.Width y Petal.Width
-iris %>% 
-  mutate(Mult.Width = Sepal.Width*Petal.Width) %>%
-  head(5)
-
-# Contamos cuantas especies hay de cada tipo
-iris %>%
-  group_by(Species) %>%
-  count()
-
-# Agrupamos por especies y agregamos columnas con descriptivos por grupo
-iris %>% 
-  group_by(Species) %>%
-  summarise(Mean.Sepal.Length = mean(Sepal.Length),
-            Median.Petal.Length = median(Sepal.Length),
-            Max.Petal.Width = max(Petal.Width),
-            Min.Petal.Length = min(Petal.Length))

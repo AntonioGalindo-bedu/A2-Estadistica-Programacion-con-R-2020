@@ -1,22 +1,20 @@
-[`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos`
-
-## Work: Manipulación de Datos
+[`Estadística con R`](../Readme.md) > `Sesión 02: EDA Multivariado`
 
 ### OBJETIVOS 
-- Crear funciones en R
-- Utilizar la libreria dplyr para manipular datos
+- Encontrar relaciones entre variables
+- Crear visualizaciones: HeatMaps, Histogramas, Densidades, ScatterPlots y Binning Hexagonal
 
 #### ORGANIZACION DE LA CLASE 
 
-- Crear funciones en R
+- Matriz de Correlación y HeatMaps
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
-- Estructura de dataframes
+- Histograma y Densidad
 	- [Ejemplo 02](Ejemplo-01)
 	- [Reto 02](Reto-01)
 
-- Libreria dplyr
+- ScatterPlots y Binning Hexagonal
 	- [Ejemplo 03](Ejemplo-03)
 	- [Reto 03](Reto-03)
 
