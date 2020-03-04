@@ -17,14 +17,9 @@ Al final de el `Reto-02` serás capaz de:
 
 ### INSTRUCCIONES DEL RETO
 
-- Haz un llamado a la libreria dplyr
-- Lee el archivo `Metro_Interstate_Traffic_Volume.csv` y guardalo en df.traffic
-- Ve la estructura del dataframe y los tipos de dato de cada columna
-- Calcula el promedio de la columna traffic_volume y guardala en mean.traffic
-- Selecciona solo las columnas weather_main y traffic_volume
-- Cambia de nombre las columnas: weather_main a clima y traffic_volume a trafico
-- Filtra a las observaciones donde la columna trafico sea mayor o igual a mean.traffic
-- Guarda el dataframe filtrado como df.traffic.filter
-- ¿Cuántos renglones y columnas tiene df.traffic.filter?
-- Con df.traffic.filter, agrupa por clima y saca el min de trafico y max de trafico, guardalo en df.traffic.grouped
-- Agrega una columna a df.traffic.grouped que sea la diferencia entre max y min del grupo
+- Lee el archivo **`Metro_Interstate_Traffic_Volume.csv`**
+- Ve la estructura del dataframe
+- Selecciona las dos columnas con mayor correlación (Las encontraste en el Reto-01)
+- Crea un ScatterPlot de estas dos variables, además agrega color por tipo de clima
+- Crea un Binning Hexagonal de estas dos variables
+- Responde: ¿Que insigths encuentras?

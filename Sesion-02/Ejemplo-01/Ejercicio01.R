@@ -1,29 +1,30 @@
 ######################################
-########## Fundamentos de R ##########
+########## Estadística con R #########
 ##########    Sesión 02     ##########
 ##########  Ejercicio 01    ##########
 ######################################
 
-# Declaramos una función
+# Cargamos paquetes
+library(reshape)
+library(dplyr)
+library(ggplot2)
 
-saludo <- function(nombre){
-  mensaje <- paste('Hola', nombre)
-  return(mensaje)
-  }
+#Leemos archivo de breast_cancer
+breast.cancer <- read.csv('breast_cancer.csv')
 
-# Llamada a la función
-saludo('Ana')
+# Vemos la estructura
+str(breast.cancer)
 
-saludo('Pablo')  
+# Quitamos las columnas no numéricas
+breast.cancer.num <- breast.cancer[,-c(1,2,3)]
 
-# Declaramos una función
-operacion.personalizada <- function(a,b,c){
-  paso.1 <- (a+b)*4 + 2*a
-  paso.2 <- paso.1**2 + c/2
-  paso.3 <- paso.2**3
-  return(paso.3)
-  }
+# Calculamos la matriz de correlación y le damos formato para graficar
+cor.df <- melt(cor(breast.cancer.num))
 
-# Llamada a la función
-operacion.personalizada(1,2,3)
-operacion.personalizada(7,8,9)
+# Creamos gráfico para visualizar matriz de correlación
+cor.df %>% ggplot(aes(X1,X2)) + 
+  geom_tile(aes(fill = value)) + 
+  ggtitle('Matriz de correlación')+
+  scale_fill_gradient(low = 'white', high = 'red') + 
+  theme(axis.text.x = element_text(angle = 90,hjust = 0))
+

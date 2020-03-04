@@ -1,13 +1,11 @@
- 
- [`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos` 
-
-## Crear funciones
+ [`Estadística con R`](../Readme.md) > `Sesión 02: EDA Multivariado` 
 
 ### OBJETIVO
 
 Al final de el `Reto-01` serás capaz de:
-- Crear una función
-- Llamar a la función que creaste
+- Seleccionar columnas de un dataframe
+- Encontrar la matriz de correlación
+- Visualizar la matriz de correlación
 
 ### REQUISITOS
 
@@ -18,12 +16,7 @@ Al final de el `Reto-01` serás capaz de:
 
 ### INSTRUCCIONES DEL RETO
 
-- Crea una función que reciba de argumento un nombre y devuelve 'Bienvenido -nombre', ponle a la función el nombre de `welcome` 
-- Pruebala con tu nombre
-- Pide ayuda con la función readline, es decir corre `?readline`
-- Explica que hace el siguiente código:
-```r
-nombre <- readline(prompt = '¿Cuál es tu nombre?')
-welcome(nombre)
-```
-- Modifica tu función `welcome` para que, además de nombre, pida edad. Ahora, debera regresar 'Bienvenido -nombre- con -edad- años'. Esta nueva función se debe llamar welcome.2
+- Lee el archivo **Metro_Interstate_Traffic_Volume.csv**
+- Encuentra la matriz de correlación de las variabes numéricas continuas
+- Crea una visualización en dónde las correlaciones más fuertes tengan color negro y las correlaciones más débiles tengan color blanco
+- Selecciona las dos columnas con mayor correlación
