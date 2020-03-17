@@ -1,27 +1,29 @@
- 
+[`Estadística con R`](../Readme.md) > `Sesión 03: Distribución Muestral`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+### OBJETIVO
 
-### OBJETIVO 
+Al final de el `Reto-02` serás capaz de:
+- Contar el número de renglones de un dataframe
+- Sacar una muestra del 20% de todos los índices de los renglones 
+- Crear un dataframe con estos índices que salieron en la muestra
+- Ver la estructura de un dataframe
+- Seleccionar columnas numéricas del dataframe
+- Crear un histograma por cada variable numérica que tenemos
 
-- Lo que esperamos que el alumno aprenda 
+### REQUISITOS
 
-#### REQUISITOS 
+1. Completar el prework
+2. R versión 3.6.2 o mayor
+3. R Studio versión 1.2.5033 o mayor 
+4. Git Bash
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+### INSTRUCCIONES DEL RETO
 
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+- Lee el archivo **Metro_Interstate_Traffic_Volume.csv**.
+- Cuenta el número de renglones del dataframe
+- Saca una muestra de los índices del dataframe del 50% sin reemplazo
+- Seleccionar del dataframe original estos renglones
+- Ve la estructura de tu nuevo dataframe
+- Crea un histograma para cada variable del dataframe nuevo
+- Crea otro histograma para cada variable numérica del dataframe original
+- Compara las dos visualizaciones que obtuviste, del dataframe original contra el originado con la muestra. ¿Notas alguna diferencia muy grande?

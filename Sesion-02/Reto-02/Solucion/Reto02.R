@@ -1,9 +1,15 @@
-Metro_Interstate_Traffic_Volume <- read.csv("../../Data/Metro_Interstate_Traffic_Volume.csv")
+library(ggplot2)
 
-levels(Metro_Interstate_Traffic_Volume$weather_main)
+traffic.df <- read.csv('Metro_Interstate_Traffic_Volume.csv')
+str(traffic.df)
+levels(traffic.df$weather_main)
 
-ordered.levels <- c("Clear", "Clouds", "Drizzle","Fog","Haze","Mist","Rain","Smoke","Snow","Squall","Thunderstorm")
-
-Metro_Interstate_Traffic_Volume$weather_main_ordered <- factor(x = Metro_Interstate_Traffic_Volume$weather_main, levels = ordered.levels, ordered = TRUE)
-
-str(Metro_Interstate_Traffic_Volume)
+ggplot(traffic.df, aes(traffic_volume)) + 
+  geom_histogram(bins = 23, 
+                 colour = 'black', 
+                 fill = 'yellow',
+                 alpha = 0.6) + 
+  ggtitle('Histogram for Traffic Volume') + 
+  labs(x = 'Traffic Volume', y = 'Freq')+
+  theme_minimal()  +
+  facet_wrap('weather_main')

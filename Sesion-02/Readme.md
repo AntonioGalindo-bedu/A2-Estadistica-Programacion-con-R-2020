@@ -1,4 +1,4 @@
-[`Estadística con R`](../Readme.md) > `Sesión 02: EDA Multivariado`
+[`Estadística con R`](../Readme.md) > `Sesión 02: Análisis Exploratorio de Datos - Análisis Multivariado`
 
 ### OBJETIVOS 
 - Encontrar relaciones entre variables

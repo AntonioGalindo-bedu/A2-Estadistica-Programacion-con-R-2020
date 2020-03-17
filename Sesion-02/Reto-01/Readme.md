@@ -1,4 +1,4 @@
- [`Estadística con R`](../Readme.md) > `Sesión 02: EDA Multivariado` 
+[`Estadística con R`](../Readme.md) > `Sesión 02: Análisis Exploratorio de Datos - Análisis Multivariado`
 
 ### OBJETIVO
 
@@ -16,7 +16,7 @@ Al final de el `Reto-01` serás capaz de:
 
 ### INSTRUCCIONES DEL RETO
 
-- Lee el archivo **Metro_Interstate_Traffic_Volume.csv**
-- Encuentra la matriz de correlación de las variabes numéricas continuas
+- Lee el archivo **Metro_Interstate_Traffic_Volume.csv**.
+- Encuentra la matriz de correlación de las variabes numéricas continuas `'temp','rain_1h','snow_1h','clouds_all','traffic_volume'`.
 - Crea una visualización en dónde las correlaciones más fuertes tengan color negro y las correlaciones más débiles tengan color blanco
-- Selecciona las dos columnas con mayor correlación
+- Viendo la gráfica que creaste o la matriz de correlación, responde: ¿Cuáles son las dos variables más correlacionadas? ¿La correlación es positiva o negativa?

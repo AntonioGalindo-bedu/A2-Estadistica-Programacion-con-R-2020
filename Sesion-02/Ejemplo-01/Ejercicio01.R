@@ -27,4 +27,3 @@ cor.df %>% ggplot(aes(X1,X2)) +
   ggtitle('Matriz de correlación')+
   scale_fill_gradient(low = 'white', high = 'red') + 
   theme(axis.text.x = element_text(angle = 90,hjust = 0))
-

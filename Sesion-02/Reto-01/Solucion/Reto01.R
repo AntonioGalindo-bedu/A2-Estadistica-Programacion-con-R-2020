@@ -1,17 +1,17 @@
-welcome <- function(nombre){
-  my.msg <- paste('Bienvenido',nombre)
-  return(my.msg)
-}
+library(ggplot2)
+library(reshape)
+library(dplyr)
 
-welcome('Ana')
+metro.df <- read.csv('Metro_Interstate_Traffic_Volume.csv')
 
-?readline
+metro.df.short <- metro.df[,c('temp','rain_1h','snow_1h','clouds_all','traffic_volume')]
 
-nombre <- readline(prompt = 'øCu·l es tu nombre? ')
-welcome(nombre)
+cor.df <- melt(cor(metro.df.short))
 
-welcome.2 <- function(nombre, edad){
-  my.msg <- paste('Bienvenido',nombre, 'de', edad)
-  return(my.msg)
-}
-welcome.2('Ana',24)
+cor.df %>% ggplot(aes(X1,X2)) + 
+  geom_tile(aes(fill = value)) + 
+  ggtitle('Matriz de correlaci√≥n')+
+  scale_fill_gradient(low = 'white', high = 'black') + 
+  theme(axis.text.x = element_text(angle = 90,hjust = 0))
+
+# Las variables con mayor correlaci√≥n son temp y traffic_volume, con correlaci√≥n psotiva.

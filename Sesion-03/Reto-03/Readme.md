@@ -1,27 +1,27 @@
- 
+[`Estadística con R`](../Readme.md) > `Sesión 03: Distribución Muestral`
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+### OBJETIVO
 
-### OBJETIVO 
+Al final de el `Reto-03` serás capaz de:
+- Leer archivos de local
+- Utilizar la función rep para crear vectores con valores repetidos
+- Utilizar la función tapply
+- Sacar muestras de distintos tamaños 
+- Pegar dataframes con al función rbind
+- Crear un histograma por cada dataframe indiviudal que creamos
 
-- Lo que esperamos que el alumno aprenda 
+### REQUISITOS
 
-#### REQUISITOS 
+1. Completar el prework
+2. R versión 3.6.2 o mayor
+3. R Studio versión 1.2.5033 o mayor 
+4. Git Bash
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+### INSTRUCCIONES DEL RETO
 
-#### DESARROLLO
-
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
+- Lee el archivo **Metro_Interstate_Traffic_Volume.csv**.
+- Selecciona la columna temp
+- Utilizando rep y sample, crea 3 dataframes utilizando tapply sobre el sample, el rep de 1:100, y FUN = mean. Deberás calular la media de 1, 20 y 50 elementos en cada dataframe. 
+- Pega los 3 dataframes que obtuviste
+- Crea histogramas para cada tamaño de media que obtuviste (1,20,50). ¿Qué forma tiene el histograma de la parte inferior?
 
