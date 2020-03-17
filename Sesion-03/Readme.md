@@ -12,11 +12,12 @@
 
 #### ORGANIZACION DE LA CLASE 
 
-- Tema que veran en el ejemplo
-
+- Muestra contra Población
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 	- [Reto 02](Reto-02)
+
+- Teorema del Limite Central
 	- [Ejemplo 02](Ejemplo-02)
 	- [Reto 03](Reto-03)
 
