@@ -1,11 +1,14 @@
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]  
+[`Estadística con R`](../Readme.md) > `Sesión 03: Distribución Muestral`
 
-## Titulo de la Sesion 
+## Distrbución Muestral
 
 ### OBJETIVOS 
 
-- Lo que esperamos que el alumno aprenda al finalizar la sesion 
+- Obtener muestras con o sin reemplazo de los renglones de un dataframe
+- Utilizar esta muestra para crear un dataframe nuevo solo con los índices que aparecieron en la muestra
+- Visualizar la distrbución de todas las variables numéricas, tanto de una muestra como de la población
+- Entender el Teorema del Límite Central a través de ejemplos donde se cumpla esto
 
 #### ORGANIZACION DE LA CLASE 
 
@@ -13,4 +16,8 @@ agrega el programa que se desarrollara con backticks> [agrega la sesion con back
 
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
+	- [Reto 02](Reto-02)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 03](Reto-03)
+
 

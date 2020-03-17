@@ -1,9 +1,12 @@
- [`Estadística con R`](../Readme.md) > `Sesión 02: EDA Multivariado` 
+[`Estadística con R`](../Readme.md) > `Sesión 02: Análisis Exploratorio de Datos - Análisis Multivariado`
 
 ### OBJETIVO
 
 Al final de el `Reto-02` serás capaz de:
-
+- Leer un archivo csv
+- Ver la estructura de un dataframe
+- Crear un histograma y personalizarlo
+- Utilizar facet wrap para visualizar histogramas dependiendo de los niveles de otra variable
 
 ### REQUISITOS
 
@@ -19,4 +22,4 @@ Al final de el `Reto-02` serás capaz de:
 - ¿Cuáles son los niveles de la columna weather_main?
 - Crea un histograma para la variable traffic_volume
 - Agrega formato al histograma: titulo, nombre a los ejes, color amarillo
-- Utiliza facet_wrap o facet_grid para weather_main para separar los histogramas por tipo de clima
+- Utiliza facet_wrap con la variable weather_main para separar los histogramas por tipo de clima

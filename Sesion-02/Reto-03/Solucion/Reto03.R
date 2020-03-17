@@ -1,24 +1,20 @@
-library(dplyr)
+library(ggplot2)
 
+traffic.df <- read.csv('Metro_Interstate_Traffic_Volume.csv')
+names(traffic.df)
+traffic.df.short <- traffic.df[,c('temp','traffic_volume', 'weather_main')]
 
-df.traffic <- read.csv("../../Data/Metro_Interstate_Traffic_Volume.csv")
+ggplot(traffic.df.short, 
+       aes(x = temp, y = traffic_volume, colour = weather_main)) + 
+  geom_point() + 
+  ggtitle('ScatterPlot for Traffic Volume and Weather Main') + 
+  labs(x = 'Temp', y = 'Traffic Volume')+
+  xlim(200,320)+
+  theme_minimal()  
 
-str(df.traffic)
-
-mean.traffic <- mean(df.traffic$traffic_volume)
-
-df.traffic.filter <- df.traffic %>% 
-  select(weather_main, traffic_volume) %>% 
-  rename(clima = weather_main) %>% 
-  rename(trafico = traffic_volume) %>% 
-  filter(trafico >= mean.traffic) 
-
-dim(df.traffic.filter)
-
-df.traffic.grouped <- df.traffic.filter %>% 
-  group_by(clima) %>% 
-  summarise(max.traffic = max(trafico),
-            min.traffic = min(trafico)) 
-
-df.traffic.grouped %>%
-  mutate(diff.trafic = max.traffic - min.traffic)
+ggplot(traffic.df.short, aes(x = temp, y = traffic_volume)) + 
+  geom_hex() +
+  ggtitle('Binning Hexagonal for Traffic Volume and Weather Main')+
+  theme_minimal() + 
+  xlim(200,320)+
+  scale_fill_gradient(low = 'white', high = 'red') 

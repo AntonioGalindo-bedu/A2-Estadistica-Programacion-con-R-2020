@@ -1,12 +1,12 @@
- [`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos` 
-
-## Libreria dplyr
+[`Estadística con R`](../Readme.md) > `Sesión 02: Análisis Exploratorio de Datos - Análisis Multivariado`
 
 ### OBJETIVO
 
-Al final de el `Reto-02` serás capaz de:
-- Leer un dataframe
-- Identificar el tipo de cada columna
+Al final de el `Reto-03` serás capaz de:
+- Leer un archivo csv
+- Ver el nombre de las columnas de un dataframe
+- Crear un scatterplot
+- Crear un binning hexagonal
 
 ### REQUISITOS
 
@@ -18,8 +18,9 @@ Al final de el `Reto-02` serás capaz de:
 ### INSTRUCCIONES DEL RETO
 
 - Lee el archivo **`Metro_Interstate_Traffic_Volume.csv`**
-- Ve la estructura del dataframe
+- Ve los nombres de las columnas del dataframe
 - Selecciona las dos columnas con mayor correlación (Las encontraste en el Reto-01)
-- Crea un ScatterPlot de estas dos variables, además agrega color por tipo de clima
+- Crea un ScatterPlot de estas dos variables, además agrega color por tipo de clima. 
+- Al scatterplot, agregale una capa con `xlim(200,325)`, ¿qué pasa?
 - Crea un Binning Hexagonal de estas dos variables
 - Responde: ¿Que insigths encuentras?
