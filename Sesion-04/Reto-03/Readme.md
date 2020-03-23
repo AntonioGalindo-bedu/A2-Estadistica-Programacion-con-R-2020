@@ -1,27 +1,24 @@
- 
+ [`Estadística con R`](../Readme.md) > `Sesión 04: Fundamentos de Estadística` 
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Distribución Binomial
 
-### OBJETIVO 
+### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda 
+Al final de el `Reto-03` serás capaz de:
+- Leer un archivo csv
+- Estandarizar una v.a. Normal
+- Visualizar la distribución de la v.a.
 
-#### REQUISITOS 
+### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Completar el prework
+2. R versión 3.6.2 o mayor
+3. R Studio versión 1.2.5033 o mayor 
+4. Git Bash
 
-#### DESARROLLO
+### INSTRUCCIONES DEL RETO
 
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+- Lee el archivo `height.csv`
+- Obten la media y la desviación estándar de la columna height
+- Estandariza la columna height es decir, haz (x-mean)/std para toda la columna
+- Visualiza la nueva distribución, ¿dónde se encuentra la media?

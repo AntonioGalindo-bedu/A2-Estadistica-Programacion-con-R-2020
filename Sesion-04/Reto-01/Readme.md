@@ -1,27 +1,24 @@
- 
+ [`Estadística con R`](../Readme.md) > `Sesión 04: Fundamentos de Estadística` 
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks] 
-	
-## Titulo del Ejemplo 
+## Distribución Bernoulli
 
-### OBJETIVO 
+### OBJETIVO
 
-- Lo que esperamos que el alumno aprenda 
+Al final de el `Reto-01` serás capaz de:
+- Ver los resultados de un experimento con una moneda no justa
+- Ver la distribución del experimento
 
-#### REQUISITOS 
+### REQUISITOS
 
-1. Lo necesario para desarrollar el ejemplo o el Reto 
+1. Completar el prework
+2. R versión 3.6.2 o mayor
+3. R Studio versión 1.2.5033 o mayor 
+4. Git Bash
 
-#### DESARROLLO
+### INSTRUCCIONES DEL RETO
 
-Agrega las instrucciones generales del ejemplo o reto
-
-<details>
-
-	<summary>Solucion</summary>
-	<p> Agrega aqui la solucion</p>
-	<p>Recuerda! escribe cada paso para desarrollar la solución del ejemplo o reto </p>
-</details> 
-
-Agrega una imagen dentro del ejemplo o reto para dar una mejor experiencia al alumno (Es forzoso que agregages al menos una) ![imagen](https://picsum.photos/200/300)
-
+- Inicializa dos variables para que te ayuden a contar el número de Águilas y Soles totales
+- Simula 100 experimentos de un volado no justo, donde la probabilidad de la clase 1 sea p = 0.8
+- Ve contando los resultados de los experimentos
+- Crea una gráfica con la distribución de los resultados de los experimentos
+- Ve los resultado. ¿Son lo que esperabas? ¿Por qué?
