@@ -28,7 +28,7 @@
 - Revisar la ejecución y corregir errores en script medante debug
 	- [Ejemplo 05](Ejemplo-05)
 
-- Proyecto
+- miniProyecto
 	- [Presentación de miniProyecto](Proyecto)
 - Postwork
 	- [Postwork](Postwork)
