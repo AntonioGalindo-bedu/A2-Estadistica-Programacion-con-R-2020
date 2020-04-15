@@ -46,11 +46,11 @@ Genera una función que con la estructura condicional IF ELSEIF ELSE en R para d
 
 Escriba un bucle doble FOR que imprima 30 números de los grupos: (1:10, 2:11, 3:12). Esos son tres grupos de diez números cada uno. El primer bucle determina el número de grupos (3) a través de su longitud; el segundo bucle los números que se imprimirán (1 a 10 al principio). Cada grupo comienza un número más alto que el anterior.
 
-**Ejercicio 5 **  
+**Ejercicio 5**  
 
 Escribe un ciclo while que imprima números normales aleatorios estándar (que use rnorm (), pero se detiene (breaks) si obtiene un número mayor que 1.  
 
-**Ejercicio 6 **  
+**Ejercicio 6**  
 
 Escribe un ciclo REPEAT que contenga tres números aleatorios. El ciclo se repite exactamente diez veces antes de detenerse.
 
