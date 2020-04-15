@@ -30,7 +30,7 @@ Haz una función que de como resultado lo siguiente:
 - la quinta columna contiene el valor de col 3 en todos los demás casos.
 
 Resultado esperado:
- 
+```{r}
    a  b f  d V5
 1  3  2 5 NA  5
 2  7 NA 2  3  3
