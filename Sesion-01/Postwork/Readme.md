@@ -2,7 +2,7 @@
 
 ### OBJETIVO  
 
-- En particular, el objetivo de este postwork es hacer un primer análisis descriptivo de los datos que usarás para el proyecto. Además instalar e importar lo necesario para comenzar el análisis.  
+- En particular, el objetivo de este postwork es hacer un primer análisis descriptivo de los datos que usarás para tu proyecto personal en este curso. Además instalar e importar lo necesario para comenzar el análisis.  
 
 #### REQUISITOS
 - Cuenta de GitHub  
@@ -12,10 +12,11 @@
 
 #### DESARROLLO
 
-Ya que elegiste los datos que usarás para tu proyecto. ¡Es hora de aplicar lo que aprendiste a tus datos!   
+Elige algunos de los datos que usarás para tu proyecto en este curso. ¡Es hora de aplicar lo que aprendiste a tus datos!   
 
 Ya que tienes identificadas las preguntas que puedes responder o predecir a partir de la base de datos que elegiste, empieza a hacer las siguientes acciones:  
 
+0. Lee sobre la función set.seed() en la documentación de la misma ?set.seed
 1. **Importa** el dataset que elegiste a Rstudio para empezar a analizarlo en el siguiente postwork.    
 2. **Instala** los siguientes paquetes que te servirán para manejar y explorar tus datos:  
 - ```library(ggplot2) # te servirá para crear visualizaciones y gráficas``` 
@@ -25,7 +26,7 @@ Ya que tienes identificadas las preguntas que puedes responder o predecir a part
 *Recuerda practicar tus habilidades de investigación y el uso de StackOverflow para encontrar, ya sea, información sobre cómo importar datasets dependiendo del tipo de archivo hasta cómo funciona cada paquete.   
   
 
-Adicionalmente. realiza algunos ejercicios para reforzar los conocimientos adquiridos sobre condiciones y loops.
+Adicionalmente. realiza algunos ejercicios para reforzar los conocimientos adquiridos sobre condiciones y loops. Podrías aplicarlos a los datos de tu proyecto.
 
 **Ejercicio 1**  
 
@@ -43,7 +44,7 @@ Genera una función que con la estructura condicional IF ELSEIF ELSE en R para d
 
 **Ejercicio 4**  
 
-Doble ciclo FOR: Escriba un bucle doble FOR para que imprima 30 números (1:10, 2:11, 3:12). Esos son tres grupos de diez números cada uno. El primer bucle determina el número de grupos (3) a través de su longitud; el segundo bucle los números que se imprimirán (1 a 10 al principio). Cada grupo comienza un número más alto que el anterior.
+Escriba un bucle doble FOR para que imprima 30 números (1:10, 2:11, 3:12). Esos son tres grupos de diez números cada uno. El primer bucle determina el número de grupos (3) a través de su longitud; el segundo bucle los números que se imprimirán (1 a 10 al principio). Cada grupo comienza un número más alto que el anterior.
 
 **Ejercicio 5 **  
 
@@ -51,8 +52,11 @@ Escribe un ciclo while que imprima números normales aleatorios estándar (que u
 
 **Ejercicio 6 **  
 
-REPEAT
+Escribe un ciclo REPEAT que contenga tres números aleatorios. El ciclo se repite exactamente diez veces antes de detenerse.
 
 **Ejercicio 7**  
 
-NEXT
+Combinando el ciclo FOR con la condicional IF: Escriba un bucle for que imprima el Desplazamiento ("disp") del conjunto de datos "mtcars".
+a. Este bucle solo imprimirá observaciones de 160 o más en "disp".
+si. Este bucle se detendrá tan pronto como una observación sea menor que 160 en "disp".
+
