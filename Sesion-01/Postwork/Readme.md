@@ -36,7 +36,7 @@ f(x)={0 si x≤0 , x^2 si x>0 }
 
 **Ejercicio 2**  
 
-Utiliza la estructura IF ELSE en R , para implementar una función que haga lo siguiente: La raíz n-ésima (real) depende de si n es par o impar. La fórmula sign(x)*abs(x)^(1/n) sirve para el caso par o el caso impar, excepto en el caso que n sea par y x < 0, es decir, la fórmula sirve si n es impar o x>=0, en otro caso nos queda(asigna) una expresión indefinida(NaN).  
+Utiliza la estructura IF ELSE en R , para implementar una función que haga lo siguiente: La raíz n-ésima (real), depende de si n es par o impar. La fórmula sign(x)*abs(x)^(1/n) sirve para el caso par o el caso impar, excepto en el caso que n sea par y x < 0, es decir, la fórmula sirve si n es impar o x>=0, en otro caso hacer que en la función nos quede(arrojé) una expresión indefinida(NaN).  
 
 **Ejercicio 3**  
 
@@ -44,7 +44,7 @@ Genera una función que con la estructura condicional IF ELSEIF ELSE en R para d
 
 **Ejercicio 4**  
 
-Escriba un bucle doble FOR para que imprima 30 números (1:10, 2:11, 3:12). Esos son tres grupos de diez números cada uno. El primer bucle determina el número de grupos (3) a través de su longitud; el segundo bucle los números que se imprimirán (1 a 10 al principio). Cada grupo comienza un número más alto que el anterior.
+Escriba un bucle doble FOR que imprima 30 números de los grupos: (1:10, 2:11, 3:12). Esos son tres grupos de diez números cada uno. El primer bucle determina el número de grupos (3) a través de su longitud; el segundo bucle los números que se imprimirán (1 a 10 al principio). Cada grupo comienza un número más alto que el anterior.
 
 **Ejercicio 5 **  
 
@@ -58,5 +58,5 @@ Escribe un ciclo REPEAT que contenga tres números aleatorios. El ciclo se repit
 
 Combinando el ciclo FOR con la condicional IF: Escriba un bucle for que imprima el Desplazamiento ("disp") del conjunto de datos "mtcars".
 a. Este bucle solo imprimirá observaciones de 160 o más en "disp".
-si. Este bucle se detendrá tan pronto como una observación sea menor que 160 en "disp".
+b. Este bucle se detendrá tan pronto como una observación sea menor que 160 en "disp".
 
