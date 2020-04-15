@@ -29,17 +29,30 @@ Adicionalmente. realiza algunos ejercicios para reforzar los conocimientos adqui
 
 **Ejercicio 1**  
 
-Escribe un bucle for que itere sobre los números del 1 al 7 e imprima el cubo de cada número usando ```print ()```.  
+Escribe una función con la estructura condicional IF en R que calculé el valor en un punto x de una función deﬁnida por partes, como por ejemplo:
+
+f(x)={0 si x≤0 , x^2 si x>0 }
 
 **Ejercicio 2**  
 
-Escribe un bucle for que itere sobre los nombres de columna del conjunto de datos de iris.  
-Ejemplo de salida: Sepal.Length. Utiliza las siguientes funciones:  
-```print (), paste() ```  
+Utiliza la estructura IF ELSE en R , para implementar una función que haga lo siguiente: La raíz n-ésima (real) depende de si n es par o impar. La fórmula sign(x)*abs(x)^(1/n) sirve para el caso par o el caso impar, excepto en el caso que n sea par y x < 0, es decir, la fórmula sirve si n es impar o x>=0, en otro caso nos queda(asigna) una expresión indefinida(NaN).  
 
 **Ejercicio 3**  
 
+Genera una función que con la estructura condicional IF ELSEIF ELSE en R para determinar el signo de un número: positivo, negativo o nulo. 
+
+**Ejercicio 4**  
+
+Doble ciclo FOR: Escriba un bucle doble FOR para que imprima 30 números (1:10, 2:11, 3:12). Esos son tres grupos de diez números cada uno. El primer bucle determina el número de grupos (3) a través de su longitud; el segundo bucle los números que se imprimirán (1 a 10 al principio). Cada grupo comienza un número más alto que el anterior.
+
+**Ejercicio 5 **  
+
 Escribe un ciclo while que imprima números normales aleatorios estándar (que use rnorm (), pero se detiene (breaks) si obtiene un número mayor que 1.  
 
+**Ejercicio 6 **  
 
+REPEAT
 
+**Ejercicio 7**  
+
+NEXT
