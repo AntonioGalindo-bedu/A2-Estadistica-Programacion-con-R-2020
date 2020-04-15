@@ -36,7 +36,7 @@ Resultado esperado:
 2  7 NA 2  3  3
 3 NA  9 5  4  9
 4  9  3 6 NA  6
-
+```
 c. Haz una dataset nuevo donde los NA sean remplazados por algún valor referencia por ejemplo 0.
 
 
