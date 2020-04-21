@@ -14,7 +14,7 @@
 - Rstudio Cloud conectando con un repositorio Git Hub. 
 	- [Actividad 01](Ejemplo-01)
 
-- Integrar Rstudio con BDs mediante librerías, drivers (odbc drivers).
+- Integrar Rstudio con BDs mediante librerías, drivers (odbc drivers)
 	- [Actividad 02](Ejemplo-02)
 
 - Utilizar dplyr y pool para hacer queries a MySQL
@@ -23,7 +23,7 @@
 - Utilizar dplyr y DBI para hacer queries a MySQL
 	- [Actividad 04](Ejemplo-04)
 
-- Tomar datos de url(tablas), archivos xml y .json (fetch) desde Rstudio.  
+- Tomar datos de url(tablas), archivos xml y .json (fetch) desde Rstudio 
 	- [Actividad 05](Ejemplo-05)
 	
 - Postwork
