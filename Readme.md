@@ -1,10 +1,10 @@
  
 ## Módulo: Programación y Estadística con R
 
-### OBJETIVO 
+### OBJETIVO
+
  - El conocimiento que adquirirás en este módulo tendrá como dos pilares el lenguaje de programación R y estadística básica. Utilizando estos dos conocimientos, podrás desarrollar un análisis estádistico de alto nivel sobre cualquier conjunto de datos que se te presente.
-
-
+ - Ser capaces de generar análisis estadísticos ó predictivos, consumiendo datos de bases de datos en la nube, compartiendo los resultados mediante dashboards en una aplicación Web de autoría propia.
 
  ### ORGANIZACIÓN DE MÓDULO 
  
