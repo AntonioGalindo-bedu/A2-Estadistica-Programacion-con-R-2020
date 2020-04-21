@@ -8,7 +8,7 @@
 
  ### ORGANIZACIÓN DE MÓDULO 
  
- - [Propedéutico](Sesion-01): Curso propedéutico 
+ - [Propedéutico](Sesion-01): Curso propedéutico introducción a R.
  - [Sesión 1](Sesion-01): Programación: Funciones, Loops y Condiciones en R  
  - [Sesión 2](Sesion-02): Utilización de Scripts en R con aplicación al análisis de datos desde archivos.  
  - [Sesión 3](Sesion-03): Integración de R con BD SQL(MariaDB), MongoDB y datos de dominio público (URL).  
