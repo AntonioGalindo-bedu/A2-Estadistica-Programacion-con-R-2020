@@ -1,11 +1,11 @@
-## Work: Integración de R con Bases de datos SQL,  MongoDB y datos de dominio público (web urls)
+## Work: Integración de R con Bases de datos SQL,  MongoDB y datos de dominio público (web URLs)
 
 ### OBJETIVOS 
 
 - Rstudio Cloud conectando con un repositorio Git Hub. 
 - Integrar Rstudio con BDs mediante librerías, drivers (odbc drivers). 
 - Integrar Rstudio con MariaDB para MySQL (fetch).
-- Tomar datos de url(tablas) y archivos xml y .json (fetch) desde Rstudio. 
+- Tomar datos de URL(tablas) y archivos xml y .json (fetch) desde Rstudio. 
 - Utilizar dplyr y dbplyr para hacer queries a MySQL.
 - Escribir datos desde MySQL a un data.frame() en Rstudio.  
 
@@ -23,7 +23,7 @@
 - Utilizar dplyr y DBI para hacer queries a MySQL
 	- [Actividad 04](Ejemplo-04)
 
-- Tomar datos de url(tablas), archivos xml y .json (fetch) desde Rstudio 
+- Tomar datos de URL(tablas), archivos xml y .json (fetch) desde Rstudio 
 	- [Actividad 05](Ejemplo-05)
 	
 - Postwork
