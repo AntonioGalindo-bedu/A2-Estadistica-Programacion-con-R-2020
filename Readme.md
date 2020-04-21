@@ -16,6 +16,6 @@
  - [Sesión 5](Sesion-05): Análisis exploratorio de datos: Análisis multivariado. 
  - [Sesión 6](Sesion-06): Distribución Muestral.
  - [Sesión 7](Sesion-07): Regresión y Predicción  
- - [Sesión 8](Sesion-08): Gráficos Avanzados y Dashboards con R. 
+ - [Sesión 8](Sesion-08): Gráficos Avanzados y Dashboards con R y Shiny. 
 
 
