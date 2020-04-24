@@ -4,8 +4,8 @@
 
 ### OBJETIVO
 
-Al final de el `Ejemplo-01` serás capaz de:
-- 
+- Al final de el `Ejemplo-05` serás capaz de:
+ 
 
 ### REQUISITOS
 
