@@ -4,7 +4,7 @@
 
 ### OBJETIVO
 
-Al final de el `Ejemplo-03` serás capaz de:
+Al final de el `Ejemplo-07` serás capaz de:
 - Utilizar las funciones 
 
 ### REQUISITOS
