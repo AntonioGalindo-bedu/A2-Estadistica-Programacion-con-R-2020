@@ -25,6 +25,9 @@
 
 - Tomar datos de URL(tablas), archivos xml y .json (fetch) desde Rstudio 
 	- [Ejemplo 05](Ejemplo-05)
+
+- Reto
+	- [Reto](Reto)
 	
 - Postwork
 	- [Postwork](Postwork)
