@@ -1,6 +1,6 @@
 ######################################
 ########## Fundamentos de R ##########
-##########    Sesión 02     ##########
+##########    SesiÃ³n 02     ##########
 ##########  Ejercicio 03    ##########
 ######################################
 
@@ -16,7 +16,7 @@ iris %>% filter(Sepal.Length >= 6)
 iris %>% filter((Sepal.Length >= 6) & (Petal.Length > 4.5))
 
 # Seleccionamos las columnas Sepal.Lenght y Petal.Length
-# Además, filtarmos renglones con Sepal.Length mayor o igual a 6 y Petal.Length mayor a 4.5
+# AdemÃ¡s, filtarmos renglones con Sepal.Length mayor o igual a 6 y Petal.Length mayor a 4.5
 # Seleccionamos solo los primeros 5 renglones
 iris %>% 
   select(Sepal.Length,Petal.Length) %>%
@@ -48,7 +48,7 @@ iris %>%
   rename(Especies = Species) %>%
   head(5)
 
-# Agregamos una columna que se llama Mult.Width que tenga la multiplicación de Sepal.Width y Petal.Width
+# Agregamos una columna que se llama Mult.Width que tenga la multiplicaciÃ³n de Sepal.Width y Petal.Width
 iris %>% 
   mutate(Mult.Width = Sepal.Width*Petal.Width) %>%
   head(5)
