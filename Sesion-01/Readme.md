@@ -15,8 +15,8 @@
 	- [Reto 01](Reto-01)
 
 - DataFrames
-	- [Ejemplo 02](Ejemplo-01)
-	- [Reto 02](Reto-01)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
 
 - Funciones útiles para DataFrames
 	- [Ejemplo 03](Ejemplo-03)
