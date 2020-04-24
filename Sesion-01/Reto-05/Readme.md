@@ -1,11 +1,11 @@
  
- [`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos` 
+ [`Estadística con R`](../Readme.md) > `Sesión 01` 
 
 ## Crear funciones
 
 ### OBJETIVO
 
-Al final de el `Reto-01` serás capaz de:
+Al final de el `Reto-05` serás capaz de:
 - Crear una función
 - Llamar a la función que creaste
 
