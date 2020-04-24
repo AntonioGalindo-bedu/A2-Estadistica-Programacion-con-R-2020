@@ -1,22 +1,22 @@
 ######################################
 ########## Fundamentos de R ##########
-##########    Sesi髇 02     ##########
-##########  Ejercicio 01    ##########
+##########    Sesi贸n 01     ##########
+##########  Ejercicio 05    ##########
 ######################################
 
-# Declaramos una funci髇
+# Declaramos una funci贸n
 
 saludo <- function(nombre){
   mensaje <- paste('Hola', nombre)
   return(mensaje)
   }
 
-# Llamada a la funci髇
+# Llamada a la funci贸n
 saludo('Ana')
 
 saludo('Pablo')  
 
-# Declaramos una funci髇
+# Declaramos una funci贸n
 operacion.personalizada <- function(a,b,c){
   paso.1 <- (a+b)*4 + 2*a
   paso.2 <- paso.1**2 + c/2
@@ -24,6 +24,6 @@ operacion.personalizada <- function(a,b,c){
   return(paso.3)
   }
 
-# Llamada a la funci髇
+# Llamada a la funci贸n
 operacion.personalizada(1,2,3)
 operacion.personalizada(7,8,9)
