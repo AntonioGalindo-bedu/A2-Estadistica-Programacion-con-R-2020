@@ -1,4 +1,4 @@
-[`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R` 
+[`Estadística con R`](../Readme.md) > `Sesión 01: Propedéutico de R`
 
 ## Funciones útiles para DataFrames
 
