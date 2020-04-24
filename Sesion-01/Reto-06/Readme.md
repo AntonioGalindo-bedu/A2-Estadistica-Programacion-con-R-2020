@@ -1,4 +1,4 @@
- [`Estadística con R`](../Readme.md) > `Sesión 01` 
+[`Estadística con R`](../Readme.md) > `Sesión 01: Propedéutico de R` 
 
 ## Estructura de dataframe
 
