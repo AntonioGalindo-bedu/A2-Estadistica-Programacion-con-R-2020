@@ -7,7 +7,7 @@ welcome('Ana')
 
 ?readline
 
-nombre <- readline(prompt = '¿Cuál es tu nombre? ')
+nombre <- readline(prompt = 'Â¿CuÃ¡l es tu nombre? ')
 welcome(nombre)
 
 welcome.2 <- function(nombre, edad){
