@@ -4,7 +4,7 @@
 
 ### OBJETIVO
 
-Al final de el `Reto-02` serás capaz de:
+Al final de el `Reto-06` serás capaz de:
 - Leer un dataframe
 - Identificar el tipo de cada columna
 
