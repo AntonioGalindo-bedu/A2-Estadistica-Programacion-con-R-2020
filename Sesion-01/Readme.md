@@ -1,4 +1,4 @@
-[`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R`
+[`Estadística con R`](../Readme.md) > `Sesión 01: Propedéutico de R`
 
 ## Work: Fundamentos de R
 
@@ -26,7 +26,23 @@
 	- [Ejemplo 04](Ejemplo-04)
 	- [Reto 04](Reto-04)
 
+## Work: Manipulación de Datos
 
+### OBJETIVOS 
+- Crear funciones en R
+- Utilizar la libreria dplyr para manipular datos
+
+- Crear funciones en R
+	- [Ejemplo 05](Ejemplo-05)
+	- [Reto 05](Reto-05)
+
+- Estructura de dataframes
+	- [Ejemplo 06](Ejemplo-06)
+	- [Reto 06](Reto-06)
+
+- Libreria dplyr
+	- [Ejemplo 07](Ejemplo-07)
+	- [Reto 07](Reto-07)
 
 
 
