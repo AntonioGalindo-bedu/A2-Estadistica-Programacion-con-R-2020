@@ -1,7 +1,7 @@
 ######################################
 ########## Fundamentos de R ##########
-##########    Sesión 02     ##########
-##########  Ejercicio 02    ##########
+##########    SesiÃ³n 01     ##########
+##########  Ejercicio 06    ##########
 ######################################
 
 # Cambiamos el working directory a carpeta de Data
@@ -29,7 +29,7 @@ niveles.orden <- c('Christmas Day','Columbus Day','Independence Day','Labor Day'
 # Agregamos columna con los niveles ordenados
 df.dataframe$holiday_orden <- factor(x = df.dataframe$holiday, levels = niveles.orden, ordered = TRUE)
 
-# Veamos que cambió en nuestro dataframe
+# Veamos que cambiÃ³ en nuestro dataframe
 str(df.dataframe)
 
 unique(df.dataframe$holiday_orden)
