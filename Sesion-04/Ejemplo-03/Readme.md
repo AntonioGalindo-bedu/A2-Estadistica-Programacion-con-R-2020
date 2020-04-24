@@ -1,93 +1,69 @@
-[`Estadística con R`](../Readme.md) > `Sesión 04: Fundamentos de Estadística` 
+`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Actividad-03`] 
 
 ### OBJETIVO
+- Utilizar dplyr y pool para hacer queries a MySQL.
 
-Al final de el `Ejercicio-03` serás capaz de:
-- Simular valores para una v.a. Uniforme
-- Entender la variable aleatoria Normal
-- Crear una visualización para ver la distribución de algunos datos
-- Simular valores para una v.a. Normal
+#### REQUISITOS
+1. Contar con R studio.
+1. Usar la carpeta de trabajo `Sesion03/Ejemplo-03`
 
-### REQUISITOS
+#### DESARROLLO
 
-1. Completar el prework
-2. R versión 3.6.2 o mayor
-3. R Studio versión 1.2.5033 o mayor 
-4. Git Bash
+#### Utilizar dplyr y pool para hacer queries a MySQL
 
-#### Distribución Uniforme
+Hay cuatro paquetes que necesitas en esta actividad. Aquí están las instrucciones de instalación, para que tu código funcione sin problemas:
 
-¿Recuerdas en el Prework cuándo vimos la variable aleatoria continua Uniforme? Esta tiene la característica que en todos sus posibles valores tiene la misma probabilidad. Por ejemplo, simulemos una v.a. Uniforme que está entre 0 y 1. Esto quiere decir que cualquier valor entre 0 y 1 tiene la misma oportunidad de aparecer.
+```{r}
+# get DBI, dplyr and dbplyr from CRAN
+install.packages("shiny")
+install.packages("DBI")
+install.packages("dplyr")
+install.packages("dbplyr")
 
-```r 
-x <- runif(100000)
+# get pool from GitHub, since it's not yet on CRAN
+devtools::install_github("rstudio/pool")
 ```
+#### Visión general
 
-Al crear una visualizacion de esta simulación, podemos ver que al final obtenemos cada número entre 0 y 1 casi las mismas veces, lo cuál era de esperarse.
+A medida que las aplicaciones crecen y se vuelven más complejas, un problema recurrente ha sido el de integrar una base de datos externa en una aplicación. Si bien esto ya es posible, hasta ahora depende principalmente de los autores de la aplicación averiguar el controlador de base de datos apropiado para R y cómo administrar las conexiones de la base de datos dentro de la propia aplicación. 
 
-```r 
-data.frame(valores = x) %>% 
-  ggplot(aes(x = valores)) + 
-  geom_histogram(bins = 100, 
-                 fill = 'blue',
-                 alpha= 0.6, 
-                 color = 'black') + 
-  scale_x_continuous(breaks = seq(0,1,0.1), lim = c(0,1)) +
-  ggtitle('Simulación de 100,000 valores con dist Uniforme')
+En particular, cubriremos:
 
-```
+- Cómo usar el paquete dplyr para leer datos de una base de datos externa;
 
-#### Distribución Normal
+Ten en cuenta que no siempre es ideal vincular a una base de datos externa, ya que puede fallar y ciertamente es más costoso desde el punto de vista computacional que tratar con datos locales. Además de trabajar con datos locales en memoria almacenados en marcos de datos, dplyr también trabaja con datos remotos en disco almacenados en bases de datos. Esto es particularmente útil en este escenario:
 
-Tenemos un archivo con las alturas de 100 hombres en UK en dónde se registró su altura. Resulta que nos contaron que esta altura se distribuye normal. Vamos a verificarlo, para esto, veremos la distribución de los datos y esperamos ver algo en forma de campana.
+- Tus datos ya están en una base de datos. Tienes tantos datos que no caben todos en la memoria simultáneamente y necesitas usar algún motor de almacenamiento externo. (Si tus datos encajan en la memoria, no hay ninguna ventaja en ponerlos en una base de datos: solo será más lento y más frustrante).
 
-```r
-# Leemos el archivo csv con alturas de 100 personas en UK 
-height <- read.csv("height.csv")
+#### La forma más fácil de conectarse a una base de datos externa desde tu aplicación es utilizarla dplyr. 
 
-mean.height <- mean(height$height)
+La motivación para admitir bases de datos en dplyr es que nunca extrae el subconjunto o agregado correcto de la base de datos la primera vez, y generalmente debe iterar entre R y SQL muchas veces antes de obtener el conjunto de datos perfecto. Cambiar entre lenguajes es un desafío cognitivo (especialmente porque R y SQL son muy similares), por lo que dplyr te permite escribir código R que se traduce automáticamente a SQL. El objetivo de dplyr no es reemplazar todas las funciones SQL con una función R: eso sería difícil y propenso a errores. En cambio, dplyr solo genera sentencias SELECT, el SQL que escribe con mayor frecuencia como analista.
 
-std.height <- sd(height$height)
+Aquí te mostramos cómo leer las primeras cinco filas de una tabla desde una base de datos remota:
 
-height %>% 
-  ggplot(aes(x=height)) + 
-  geom_histogram(aes(y = ..density..),
-                 bins = 100, 
-                 fill = 'blue',
-                 alpha= 0.6, 
-                 color = 'black')  +
-  geom_density(aes(y=..density..)) +
-  geom_vline(xintercept = mean.height, color = 'red', size = 1.5)+
-  ggtitle('Histograma de alturas de hombres de UK') +
-  theme_minimal()
-``` 
+```{r}
+library(pool)
+library(dplyr)
 
-#### Simulando v.a Normal
+my_db <- dbPool(
+  RMySQL::MySQL(), 
+  dbname = "shinydemo",
+  host = "shiny-demo.csa7qlmguqrf.us-east-1.rds.amazonaws.com",
+  username = "guest",
+  password = "guest"
+)
 
-Dado que ya sabemos que efectivamente la altura se distribuye normal, vamos a simular 500 datos nuevos. Para esto, utilizaremos la media y desviación estándar de la muestra que teníamos. Al visualizar esto, podemos percatarnos que las distribuciones obtenidas son casi identicas.
-
-```r
-# Simula 500 puntos con distribución Normal(mean.height, std.height)
-new.height <- data.frame(height = rnorm(n = 500, mean = mean.height,sd = std.height))
-
-new.height %>% 
-  ggplot(aes(x=height)) + 
-  geom_histogram(aes(y = ..density..),
-                 bins = 10, 
-                 fill = 'blue',
-                 alpha= 0.6, 
-                 color = 'black')  +
-  geom_density(aes(y=..density..)) +
-  geom_vline(xintercept = mean.height, color = 'red', size = 1.5)+
-  ggtitle('Histograma de Simulaciones de alturas de hombres de UK') +
-  theme_minimal()
-
+# get the first 5 rows:
+my_db %>% tbl("City") %>% head(5)
+## # Source:   lazy query [?? x 5]
+## # Database: mysql 10.0.17-MariaDB [guest@shiny-demo.csa7qlmguqrf.us-east-1.rds.amazonaws.com:/shinydemo]
+##      ID           Name CountryCode      District Population
+##   <dbl>          <chr>       <chr>         <chr>      <dbl>
+## 1     1          Kabul         AFG         Kabol    1780000
+## 2     2       Qandahar         AFG      Qandahar     237500
+## 3     3          Herat         AFG         Herat     186800
+## 4     4 Mazar-e-Sharif         AFG         Balkh     127800
+## 5     5      Amsterdam         NLD Noord-Holland     731200
 
 ```
-
-Una de las características de la v.a. Normal, es que a la izquierda de su media tenemos el 50% de los datos y a la derecha de la media tenemos el otro 50% de los datos. Vamos a checar esto en R:
-
-```r
-# Encuentra prob acumulada en x = 1.70 de distribución Normal(mean.height, std.height)
-pnorm(q = 176.8, mean= mean.height, sd = std.height)
-```
+Como puedes ver, es bastante sencillo.

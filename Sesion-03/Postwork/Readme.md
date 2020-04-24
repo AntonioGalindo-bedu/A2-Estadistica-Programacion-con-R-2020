@@ -1,6 +1,13 @@
-`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Postwork`] 
+`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-02`] > [`Postwork`] 
+
 
 ### OBJETIVO
-- Aprender a utilizar el connect pane en R para hacer interfaz con diversas aplicaciones.
+- Resolver individualmente por alumno el reto del miniproyecto anterior presentado
 
-![RScloud](../images/Rstudioconect.png)
+#### REQUISITOS
+1. Contar con R studio.
+2. Usar el dataset specdata.
+
+#### DESARROLLO
+1. El alumno debe de resolver el reto del miniproyecto.
+
