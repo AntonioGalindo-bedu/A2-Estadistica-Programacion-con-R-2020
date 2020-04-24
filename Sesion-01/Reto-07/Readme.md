@@ -1,4 +1,4 @@
- [`Estadística con R`](../Readme.md) > `Sesión 02: Manipulación de Datos` 
+[`Estadística con R`](../Readme.md) > `Sesión 01: Propedéutico de R`
 
 ## Libreria dplyr
 
