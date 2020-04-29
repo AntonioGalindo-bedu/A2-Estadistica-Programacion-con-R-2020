@@ -94,5 +94,6 @@ F. Vuelve a tu proyecto de RStudio Cloud y ve a la pestaña Terminal en el panel
 
 a. En RStudio Cloud, ve al proyecto correspondiente de RStudio Cloud.
 
-b. En el panel derecho, ve a la pestaña en el extremo derecho que dice "Git". En la barra de herramientas, haz click en la flecha azul que apunta hacia abajo. Esto extraerá los cambios que realizaste desde Git Hub en RStudio Cloud. El archivo debe actualizarse automáticamente después de hacer click. 
+b. En el panel derecho, ve a la pestaña en el extremo derecho que dice "Git". En la barra de herramientas, haz click en la flecha azul que apunta hacia abajo. Esto extraerá los cambios que realizaste desde Git Hub en RStudio Cloud. El archivo debe actualizarse automáticamente después de hacer click.
+
 ![RScloud](../images/cloud3.png)
