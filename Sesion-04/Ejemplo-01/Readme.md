@@ -1,10 +1,12 @@
 `Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-04`] > [`Actividad-01`] 
 ### OBJETIVO
+
 - Conocer el ambiente de desarrollo en la nube para RStudio específicamente RStudio Cloud.
 - Conectar tu repositorio en Git Hub a RStudio.
 
 #### REQUISITOS
-1. Leer prework sobre como crear una cuenta de RStudio Cloud.
+
+- Leer prework sobre como crear una cuenta de RStudio Cloud.
 
 #### DESARROLLO
 
