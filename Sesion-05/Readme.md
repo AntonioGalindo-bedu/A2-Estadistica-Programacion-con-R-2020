@@ -14,8 +14,8 @@
 	- [Ejemplo 01](Ejemplo-01)
 
 - Medidas de Dispersión
-	- [Ejemplo 02](Ejemplo-01)
-	- [Reto 02](Reto-01)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 01](Reto-01)
 
 - Medidas de Distribución
 	- [Ejemplo 03](Ejemplo-03)
@@ -25,7 +25,7 @@
 	- [Ejemplo 04](Ejemplo-04)
 	- [Reto 03](Reto-03)
 
-[`Estadística con R`](../Readme.md) > `Sesión 02: Análisis Exploratorio de Datos - Análisis Multivariado`
+## Work: Análisis Exploratorio de Datos - Análisis Multivariado
 
 ### OBJETIVOS 
 - Encontrar relaciones entre variables
@@ -34,17 +34,13 @@
 #### ORGANIZACION DE LA CLASE 
 
 - Matriz de Correlación y HeatMaps
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
+	- [Ejemplo 05](Ejemplo-05)
+	- [Reto 04](Reto-04)
 
 - Histograma y Densidad
-	- [Ejemplo 02](Ejemplo-01)
-	- [Reto 02](Reto-01)
+	- [Ejemplo 06](Ejemplo-06)
+	- [Reto 05](Reto-05)
 
 - ScatterPlots y Binning Hexagonal
-	- [Ejemplo 03](Ejemplo-03)
-	- [Reto 03](Reto-03)
-
-
-
-
+	- [Ejemplo 07](Ejemplo-07)
+	- [Reto 06](Reto-06)
