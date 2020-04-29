@@ -1,11 +1,11 @@
-`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Actividad-03`] 
+`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-04`] > [`Actividad-03`] 
 
 ### OBJETIVO
 - Utilizar dplyr y pool para hacer queries a MySQL.
 
 #### REQUISITOS
-1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion03/Ejemplo-03`
+1. Contar con RStudio.
+1. Usar la carpeta de trabajo `Sesion04/Ejemplo-03`
 
 #### DESARROLLO
 
