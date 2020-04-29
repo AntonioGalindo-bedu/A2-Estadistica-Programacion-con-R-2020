@@ -27,7 +27,7 @@
 	- [Ejemplo 05](Ejemplo-05)
 
 - Reto
-	- [Reto-01](Reto-01)
+	- [Reto 01](Reto-01)
 	
 - Postwork
 	- [Postwork](Postwork)
