@@ -21,36 +21,34 @@ Primero.
 ```{r}
 ````
 #### Conectarse a un BD propia con la consola y con Connect Pane
-S
+-
 
 ```{r}
 
 ```
-N
+-
 
 ```{r}
 
 ```         
-E
-
+-
 ```{r}
 
 ````
-S
+-
 ```{r}
 ````
 
 ### I
-D
+-
 
 ```{r}
 ````
-T
+-
 
 ```{r}
 ````
-¡T
-
+-
 ```{r}
 
 ````
