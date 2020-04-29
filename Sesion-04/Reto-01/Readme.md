@@ -1,7 +1,7 @@
 `Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-04`] > [`Reto-01`] 
 
 ### OBJETIVO
-- Aplicar los conocimientos adquiridos en las actividades para conectarnos a un repositorio propio y Base de Datos mySQL.
+- Aplicar los conocimientos adquiridos en las actividades para conectarnos a un repositorio propio y Base de Datos MySQL.
 
 #### REQUISITOS
 1. Contar con RStudio.
