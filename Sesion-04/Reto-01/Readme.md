@@ -20,7 +20,7 @@ Primero.
 
 ```{r}
 ````
-#### Conectarse a un BD propia con la consola y con Connect Pane
+### Conectarse a un BD propia con la consola y con Connect Pane
 -
 
 ```{r}
