@@ -2,6 +2,7 @@
 
 ### OBJETIVO
 - Aplicar los conocimientos adquiridos en las actividades para conectarnos a un repositorio propio y Base de Datos MySQL.
+- Conectar a tu propio repositorio en git Gub y almacenar un archivo csv con datos de una BD propia.
 
 #### REQUISITOS
 1. Contar con RStudio.
@@ -9,45 +10,27 @@
 
 #### DESARROLLO
 
-### Crear y conectarse a un repositorio Git Hub propio.
+### Para este reto tienes que lograr los siguientes milestones.
 
-Primero. 
-
-```{r}
-
-````
-- 
+1. Crea tu repostiorio de trabajo para este curso, si ya lo tienes ubica el URL.
+2. Configura Git Hub para este repositorio en RStudio Desktop de la forma en que lo hicimos para RStudio Cloud.
+3. Conectate a la BD de prueba que proporcionamos en los Ejemplos, si no la recuerdas aquí estan los datos de conexión.
 
 ```{r}
-````
-### Conectarse a un BD propia con la consola y con Connect Pane
--
+my_db <- dbPool(
+  RMySQL::MySQL(), 
+  dbname = "shinydemo",
+  host = "shiny-demo.csa7qlmguqrf.us-east-1.rds.amazonaws.com",
+  username = "guest",
+  password = "guest"
+```
+4. Importa la tabla que esta accesible gratuitamente a un data.frame, después exportalo a .csv
 
 ```{r}
 
 ```
--
+5. El archivo csv. guardalo en tu repositorio mediante un Push desde Git Hub Terminal o Git Hub Desktop.
 
 ```{r}
 
 ```         
--
-```{r}
-
-````
--
-```{r}
-````
--
-
-```{r}
-````
--
-
-```{r}
-````
--
-```{r}
-
-````
-
