@@ -13,7 +13,7 @@
  - [Sesión 3](Sesion-03): Utilización de Scripts en R con aplicación al análisis de datos desde archivos.  
  - [Sesión 4](Sesion-04): Integración de R con Bases de Datos MySQL, (MariaDB) y datos de dominio público (URL).  
  - [Sesión 5](Sesion-05): Estadística I. Análisis Exploratorio de datos: Análisis univariado y multivariado. 
- - [Sesión 6](Sesion-06): Estadística II. Distribución muestral y paramétricas
+ - [Sesión 6](Sesion-06): Estadística II. Distribuciónes muestral y paramétricas
  - [Sesión 7](Sesion-07): Modelado Matemático: Regresión y Predicción.  
  - [Sesión 8](Sesion-08): Gráficos Avanzados, Dashboards con R y Shiny. 
 
