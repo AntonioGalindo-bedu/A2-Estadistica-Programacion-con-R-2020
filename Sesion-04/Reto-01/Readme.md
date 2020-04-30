@@ -26,11 +26,11 @@ my_db <- dbPool(
 ```
 4. Importa la tabla que esta accesible gratuitamente a un data.frame, después exportalo a .csv
 
-```{r}
+Por ejemplo con la Tabla City,
 
+```{r}
+DataDB = dbGetQuery(con, "select * from City")
 ```
+
 5. El archivo csv. guardalo en tu repositorio mediante un Push desde Git Hub Terminal o Git Hub Desktop.
-
-```{r}
-
-```         
+       
