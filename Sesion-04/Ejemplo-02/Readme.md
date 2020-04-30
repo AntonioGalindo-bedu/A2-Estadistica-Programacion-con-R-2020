@@ -52,7 +52,7 @@ Establecemos la conexión:
 ```{r}
 MyDataBase = dbConnect(MySQL(), user='User_DataBase', password='Password_DB', dbname='Name_DataBase', host='Your hosting')
 ```
-Conectate con los siguientes parámetros a la BD demo de Shiny for RStudio, sin embargo no la utilices para prácticar ya que después de muchas conexiónes podrían bloquarte el acceso permanentemente,
+Conectate con los siguientes parámetros a la BD demo de Shiny for RStudio, sin embargo no la utilices para prácticar ya que después de muchas conexiónes podrían bloquearte el acceso permanentemente:
 
 ```{r}
     MyDataBase <- dbConnect(
