@@ -52,7 +52,16 @@ Establecemos la conexión:
 ```{r}
 MyDataBase = dbConnect(MySQL(), user='User_DataBase', password='Password_DB', dbname='Name_DataBase', host='Your hosting')
 ```
+Conectate con los siguientes parámetros a la BD demo de Shiny for RStudio, sin embargo no la utilices para prácticar ya que después de muchas conexiónes podrían bloquarte el acceso:
 
+```{r}
+    MyDataBase <- dbConnect(
+      drv = RMySQL::MySQL(),
+      dbname = "shinydemo",
+      host = "shiny-demo.csa7qlmguqrf.us-east-1.rds.amazonaws.com",
+      username = "guest",
+      password = "guest")
+```
 Listamos las tablas de nuestra base de datos:
 
 ```{r}
