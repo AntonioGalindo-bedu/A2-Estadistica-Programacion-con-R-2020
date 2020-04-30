@@ -17,12 +17,12 @@
 3. Conectate a la BD de prueba que proporcionamos en los Ejemplos, si no la recuerdas aquí estan los datos de conexión.
 
 ```{r}
-my_db <- dbPool(
-  RMySQL::MySQL(), 
-  dbname = "shinydemo",
-  host = "shiny-demo.csa7qlmguqrf.us-east-1.rds.amazonaws.com",
-  username = "guest",
-  password = "guest"
+    con <- dbConnect(
+      drv = RMySQL::MySQL(),
+      dbname = "shinydemo",
+      host = "shiny-demo.csa7qlmguqrf.us-east-1.rds.amazonaws.com",
+      username = "guest",
+      password = "guest")
 ```
 4. Importa la tabla que esta accesible gratuitamente a un data.frame, después exportalo a .csv
 
