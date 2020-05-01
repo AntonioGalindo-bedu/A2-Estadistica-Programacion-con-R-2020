@@ -1,4 +1,4 @@
-`Estadística-Programación-con-R` > [`Estadística I`] > [`Sesion-05`] 
+[`Estadística y Programación con R`](../Readme.md) > [`Estadística I`] > [`Sesion-05`] 
 
 ## Work: Análisis Exploratorio de Datos - Análisis Univariado
 
