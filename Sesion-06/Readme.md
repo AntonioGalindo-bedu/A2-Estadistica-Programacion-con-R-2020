@@ -1,7 +1,7 @@
 
 [`Estadística y Programación con R`](../Readme.md) > [`Estadística II`] > [`Sesión 06: Distribuciónes Muestral y Paramétricas`] 
 
-## Distrbución Muestral
+## Work: Distrbución Muestral
 
 ### OBJETIVOS 
 
@@ -21,7 +21,7 @@
 	- [Ejemplo 02](Ejemplo-02)
 	- [Reto 03](Reto-03)
 
-## Distribuciones Paramétricas
+## Work: Distrbución Muestral : Distribuciones Paramétricas
 
 ### OBJETIVOS Parte 2
 
