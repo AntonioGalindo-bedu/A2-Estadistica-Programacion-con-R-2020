@@ -4,7 +4,7 @@
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-01` serás capaz de:
+Al final de el `Ejemplo-01` serás capaz de:
 - Consultar el tipo de dato de una variable
 - Declarar vectores
 - Agregar elementos a vectores
