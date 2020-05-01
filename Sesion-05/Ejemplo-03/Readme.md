@@ -1,10 +1,10 @@
-[`Estadística con R`](../Readme.md) > `Sesión 01: EDA` 
+[`Estadística con R`](../Readme.md) > `Sesión 05: EDA` 
 
 ## Funciones útiles para DataFrames
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-03` serás capaz de:
+Al final de el `Ejemplo-03` serás capaz de:
 - Encontrar los deciles de una variable
 - Asignar en que decil está cada valor
 - Agregar una nueva columna
