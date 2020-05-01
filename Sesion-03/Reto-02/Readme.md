@@ -1,10 +1,10 @@
-`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-02`] > [`Reto-02`] 
+`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Reto-02`] 
 ### OBJETIVO RETO 2
 - Generar un script en R con tareas complejas implementadas mediante funciones
 
 #### REQUISITOS RETO 2
 1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion02/Ejemplo-02`
+1. Usar la carpeta de trabajo `Sesion03/Ejemplo-02`
 
 #### DESARROLLO RETO 2
 En esta sección vamos a crear varias funciones con tareas de programación intermedia.
