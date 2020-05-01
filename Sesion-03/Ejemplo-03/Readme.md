@@ -1,4 +1,4 @@
-`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-02`] > [`Ejemplo-03`] 
+`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Ejemplo-03`] 
 
 ### OBJETIVO EJEMPLO 3
 - Aprenderas a utilizar la funcion paste()
@@ -8,7 +8,7 @@
 
 #### REQUISITOS EJEMPLO3
 1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion02/Ejemplo-03`
+1. Usar la carpeta de trabajo `Sesion03/Ejemplo-03`
 
 #### DESARROLLO EJEMPLO3
 
