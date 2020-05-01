@@ -1,11 +1,11 @@
-`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Actividad-04`] 
+`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Ejemplo-04`] 
 
 ### OBJETIVO
 - Utilizar dplyr y DBI para hacer queries a MySQL.
 
 #### REQUISITOS
 1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion03/Ejemplo-04`
+1. Usar la carpeta de trabajo `Sesion04/Ejemplo-04`
 
 #### DESARROLLO
 
