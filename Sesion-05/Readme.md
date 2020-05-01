@@ -1,4 +1,4 @@
-[`Estadística con R`](../Readme.md) > `Sesión 01: Estadística R`
+[`Estadística con R`](../Readme.md) > `Sesión 05: Estadística R`
 
 ## Work: Análisis Exploratorio de Datos - Análisis Univariado
 
