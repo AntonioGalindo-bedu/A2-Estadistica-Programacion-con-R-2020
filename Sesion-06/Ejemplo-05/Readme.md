@@ -2,11 +2,11 @@
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-02` serás capaz de:
-- Entender un experimento que se distribuye Binomail
-- Utilizar rbinom para simular el resultado de un experimento que sigue la distribución de la v.a. Binomial
-- Obtener la función de masa de probabilidad en distintos puntos
-- Obtener la función de densidad en distintos puntos
+Al final de el `Ejercicio-03` serás capaz de:
+- Simular valores para una v.a. Uniforme
+- Entender la variable aleatoria Normal
+- Crear una visualización para ver la distribución de algunos datos
+- Simular valores para una v.a. Normal
 
 ### REQUISITOS
 
@@ -15,46 +15,79 @@ Al final de el `Ejercicio-02` serás capaz de:
 3. R Studio versión 1.2.5033 o mayor 
 4. Git Bash
 
-#### Distribución binomial
-  
-En el `Ejemplo-01` simulamos el experimento de aventar monedas al aire. En estos, en cada lanzamiento al aire, teniamos probabildiad p de obtener un éxito. Alguna veces, estamos interesados en un experimento de este tipo (fracaso-éxito) pero para obtener la probabilidad de tener x éxitos en n intentos. 
+#### Distribución Uniforme
 
-Imagina que en este momento hacemos una apuesta: **Ganas si, al lanzar una moneda al aire dos veces, sacas solamente una vez Águila**. ¿Entrarías a apostar en este evento? Si nos sentamos a pensar, los posibles resultados de este experimento son {A,A},{S,S},{A,S},{S,A}, por lo que ganarías en dos de estos casos, y perderias en dos casos. La probabilidad de ganar es 0.5, bastante justo. Vamos a simular el experimento con R, para ver quién hubiera ganado. Recuerda que para nosotros, los unos representan águilas y los ceros representan soles.
+¿Recuerdas en el Prework cuándo vimos la variable aleatoria continua Uniforme? Esta tiene la característica que en todos sus posibles valores tiene la misma probabilidad. Por ejemplo, simulemos una v.a. Uniforme que está entre 0 y 1. Esto quiere decir que cualquier valor entre 0 y 1 tiene la misma oportunidad de aparecer.
 
 ```r 
-rbinom(n = 2, size = 1, prob = 0.5)
+x <- runif(100000)
 ```
 
-¿Quién gano? ¿Por qué?
+Al crear una visualizacion de esta simulación, podemos ver que al final obtenemos cada número entre 0 y 1 casi las mismas veces, lo cuál era de esperarse.
 
-#### Función de masa de probabilidad
+```r 
+data.frame(valores = x) %>% 
+  ggplot(aes(x = valores)) + 
+  geom_histogram(bins = 100, 
+                 fill = 'blue',
+                 alpha= 0.6, 
+                 color = 'black') + 
+  scale_x_continuous(breaks = seq(0,1,0.1), lim = c(0,1)) +
+  ggtitle('Simulación de 100,000 valores con dist Uniforme')
 
-En este experimento, número de veces que aparece águila en dos volados justos, tenemos los posibles resultados  {A,A},{S,S},{A,S},{S,A}.
-Si te das cuenta, tenemos tres casos:
-	- Si sucediera que el resultado es {S,S}, entonces obtuvimos **cero** águilas en dos volados justos
-	- Si sucediera que el resultado es {A,S} o {S,A} entonces obtuvimos **un** águla en dos volados justos
-	- Si sucediera que el resultado es {A,A}, entonces tuvimos **dos** águilas en dos volados justos
-Además, cada caso tiene **0.25, 0.5 y 0.25** de probabilidad de suceder sucesivamente (es la división del número de casos en donde sucede entre el número de casos totales). Vamos a utilizar la función de masa de probabilidad para confirmar estas probabilidades:
+```
+
+#### Distribución Normal
+
+Tenemos un archivo con las alturas de 100 hombres en UK en dónde se registró su altura. Resulta que nos contaron que esta altura se distribuye normal. Vamos a verificarlo, para esto, veremos la distribución de los datos y esperamos ver algo en forma de campana.
 
 ```r
-dbinom(x = 0:2 , size = 2, prob = 0.5)
+# Leemos el archivo csv con alturas de 100 personas en UK 
+height <- read.csv("height.csv")
+
+mean.height <- mean(height$height)
+
+std.height <- sd(height$height)
+
+height %>% 
+  ggplot(aes(x=height)) + 
+  geom_histogram(aes(y = ..density..),
+                 bins = 100, 
+                 fill = 'blue',
+                 alpha= 0.6, 
+                 color = 'black')  +
+  geom_density(aes(y=..density..)) +
+  geom_vline(xintercept = mean.height, color = 'red', size = 1.5)+
+  ggtitle('Histograma de alturas de hombres de UK') +
+  theme_minimal()
 ``` 
 
-#### Función de densidad
+#### Simulando v.a Normal
 
-En la apuesta que hicimos al principio, solamente ganas si sacas **exactamente** un águila. ¿Cómo cambiaría el escenario si te dijera que ahora ganarías si sacas **al menos un águila**?. ¿Tus probabilidades nuevas de ganar son más altas? Una vez más utilicemos nuestros posibles resultados:  {A,A},{S,S},{A,S},{S,A}. Con esta nueva propuesta, ganarías en 3 de 4 casos, por lo que tu probabilidad de éxito sería 0.75. Esto también lo podríamos ver si sumamos la función de masa de probabilidad en los casos en los que ganas:  
+Dado que ya sabemos que efectivamente la altura se distribuye normal, vamos a simular 500 datos nuevos. Para esto, utilizaremos la media y desviación estándar de la muestra que teníamos. Al visualizar esto, podemos percatarnos que las distribuciones obtenidas son casi identicas.
 
 ```r
-# Ganas si sacas al menos una águila en dos volados justos
-dbinom(x = 0 , size = 2, prob = 0.5) +
-  dbinom(x = 1 , size = 2, prob = 0.5) 
+# Simula 500 puntos con distribución Normal(mean.height, std.height)
+new.height <- data.frame(height = rnorm(n = 500, mean = mean.height,sd = std.height))
+
+new.height %>% 
+  ggplot(aes(x=height)) + 
+  geom_histogram(aes(y = ..density..),
+                 bins = 10, 
+                 fill = 'blue',
+                 alpha= 0.6, 
+                 color = 'black')  +
+  geom_density(aes(y=..density..)) +
+  geom_vline(xintercept = mean.height, color = 'red', size = 1.5)+
+  ggtitle('Histograma de Simulaciones de alturas de hombres de UK') +
+  theme_minimal()
+
 
 ```
 
-Lo anterior, sería lo mismo a evaluar x = 1 en la función de densidad de la variable aleatoria: 
-```r
-# Ganas si sacas al menos una águila en dos volados justos
-dbinom(x = 0 , size = 2, prob = 0.5) +
-  dbinom(x = 1 , size = 2, prob = 0.5) 
+Una de las características de la v.a. Normal, es que a la izquierda de su media tenemos el 50% de los datos y a la derecha de la media tenemos el otro 50% de los datos. Vamos a checar esto en R:
 
+```r
+# Encuentra prob acumulada en x = 1.70 de distribución Normal(mean.height, std.height)
+pnorm(q = 176.8, mean= mean.height, sd = std.height)
 ```

@@ -2,10 +2,11 @@
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-01` serás capaz de:
-- Utilizar rbinom para simular el resultado de un experimento que sigue la distribución de la v.a. Bernoulli
-- Utilizar un for para sumar los resultados
-- Visualizar la función de distribución de la v.a. Bernoulli
+Al final de el `Ejercicio-02` serás capaz de:
+- Entender un experimento que se distribuye Binomail
+- Utilizar rbinom para simular el resultado de un experimento que sigue la distribución de la v.a. Binomial
+- Obtener la función de masa de probabilidad en distintos puntos
+- Obtener la función de densidad en distintos puntos
 
 ### REQUISITOS
 
@@ -14,50 +15,46 @@ Al final de el `Ejercicio-01` serás capaz de:
 3. R Studio versión 1.2.5033 o mayor 
 4. Git Bash
 
-#### Un volado justo
+#### Distribución binomial
+  
+En el `Ejemplo-01` simulamos el experimento de aventar monedas al aire. En estos, en cada lanzamiento al aire, teniamos probabildiad p de obtener un éxito. Alguna veces, estamos interesados en un experimento de este tipo (fracaso-éxito) pero para obtener la probabilidad de tener x éxitos en n intentos. 
 
-Al hablar de experimentos aleatorios, el ejemplo más utilizado es el de un volado justo. Un volado justo consiste en lanzar una moneda al aire y ver el resultado, el cuál tiene probabilidad de 0.5 de ser Águila y probabilidad 0.5 de ser Sol. Un ejemplo de un volado no justo sería aquel en dónde una de las caras de las monedas tenga mayor probabilidad de aparecer. 
+Imagina que en este momento hacemos una apuesta: **Ganas si, al lanzar una moneda al aire dos veces, sacas solamente una vez Águila**. ¿Entrarías a apostar en este evento? Si nos sentamos a pensar, los posibles resultados de este experimento son {A,A},{S,S},{A,S},{S,A}, por lo que ganarías en dos de estos casos, y perderias en dos casos. La probabilidad de ganar es 0.5, bastante justo. Vamos a simular el experimento con R, para ver quién hubiera ganado. Recuerda que para nosotros, los unos representan águilas y los ceros representan soles.
 
-Lo que haremos, es ver el resultado de lanzar 100 monedas justas al aire. Recuerda que la variable aleatoria Bernoulli(p) es igual a una variable aleatoria Binomial(n = 1, p). Es por esto que utilizaremos la función rbinom (random binom) para ejecutar este experimento. Crearemos un for para repetir este experimento 100 veces, e iremos guardando los resultados en las variables ones (Águilas) y zeros (Soles).
-
-```r
-# Una moneda justa (p=0.5)
-ones <- 0
-zeros <- 0
-
-for (k in 1:100) {
-  z = rbinom(1 ,1,prob = 0.5)
-  if (z == 1) {
-    ones = ones + 1
-  } else{zeros = zeros + 1}
-  print(z)
-}
+```r 
+rbinom(n = 2, size = 1, prob = 0.5)
 ```
 
-#### Resultados
+¿Quién gano? ¿Por qué?
 
-Veamos los resultados de lanzar una moneda al aire 100 veces. 
-- ¿Cuáles son tus apuestas? 
-- ¿Cuántas aguilas y cuántos soles crees que salieron?
+#### Función de masa de probabilidad
+
+En este experimento, número de veces que aparece águila en dos volados justos, tenemos los posibles resultados  {A,A},{S,S},{A,S},{S,A}.
+Si te das cuenta, tenemos tres casos:
+	- Si sucediera que el resultado es {S,S}, entonces obtuvimos **cero** águilas en dos volados justos
+	- Si sucediera que el resultado es {A,S} o {S,A} entonces obtuvimos **un** águla en dos volados justos
+	- Si sucediera que el resultado es {A,A}, entonces tuvimos **dos** águilas en dos volados justos
+Además, cada caso tiene **0.25, 0.5 y 0.25** de probabilidad de suceder sucesivamente (es la división del número de casos en donde sucede entre el número de casos totales). Vamos a utilizar la función de masa de probabilidad para confirmar estas probabilidades:
 
 ```r
-print(ones)
-print(zeros)
+dbinom(x = 0:2 , size = 2, prob = 0.5)
 ``` 
 
-#### Distribución del experimento
+#### Función de densidad
 
-Lo último que queremos ver es si, al fijar p =0.5 en el experimento, obtuvimos la mitad de cada cara. Es decir, queremos ver la distribución real del experimento para ver si en efecto respeto esta probabilidad.
+En la apuesta que hicimos al principio, solamente ganas si sacas **exactamente** un águila. ¿Cómo cambiaría el escenario si te dijera que ahora ganarías si sacas **al menos un águila**?. ¿Tus probabilidades nuevas de ganar son más altas? Una vez más utilicemos nuestros posibles resultados:  {A,A},{S,S},{A,S},{S,A}. Con esta nueva propuesta, ganarías en 3 de 4 casos, por lo que tu probabilidad de éxito sería 0.75. Esto también lo podríamos ver si sumamos la función de masa de probabilidad en los casos en los que ganas:  
 
 ```r
-df <- data.frame(total = c(zeros,ones), label = c(0,1))
-
-df %>% ggplot(aes(y = total, x = label)) + 
-  geom_bar(stat = 'identity', fill = 'blue', width = 0.8) +
-  theme_minimal() + 
-  ggtitle('Distribución Binomal con p = 0.5') + 
-  ylim(0,100)+ scale_x_discrete()
+# Ganas si sacas al menos una águila en dos volados justos
+dbinom(x = 0 , size = 2, prob = 0.5) +
+  dbinom(x = 1 , size = 2, prob = 0.5) 
 
 ```
 
-¿Qué opinas? ¿Es lo que esperabas?
+Lo anterior, sería lo mismo a evaluar x = 1 en la función de densidad de la variable aleatoria: 
+```r
+# Ganas si sacas al menos una águila en dos volados justos
+dbinom(x = 0 , size = 2, prob = 0.5) +
+  dbinom(x = 1 , size = 2, prob = 0.5) 
+
+```
