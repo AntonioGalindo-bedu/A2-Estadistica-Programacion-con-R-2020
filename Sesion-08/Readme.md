@@ -1,5 +1,5 @@
 
-[`Estadística con R`](../Readme.md) > `Sesión 08: Gráficos Avanzados, webApps con Shiny RStudio`
+[`Estadística y Programación con R`](../Readme.md) > `Sesión 08: Gráficos Avanzados, webApps con Shiny RStudio`
 
 ## Shiny
 
