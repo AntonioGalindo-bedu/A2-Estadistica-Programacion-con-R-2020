@@ -1,4 +1,4 @@
-[`Estadística con R`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Postwork`  
+[`Estadística con R`](../../Readme.md) > [`Sesión 05`](../Readme.md) > `Postwork`  
 
 
 ## Postwork
@@ -24,7 +24,7 @@ En particular, el objetivo de este prework es hacer un primer análisis descript
 
 ##### Planteamiento del proyecto
 
-En la Sesión 01, elegiste los datos que usarás para tu proyecto, ya sean datos que ya tenías o alguna de las opciones de la carpeta Data. En el prework y work de esta sesión aprendiste a transformar tu dataframe para poder darle valor a tus datos. ¡Es hora de aplicar esto a tus datos!  
+En la Sesión 04, elegiste los datos que usarás para tu proyecto, ya sean datos que ya tenías o alguna de las opciones de la carpeta Data. En el prework y work de esta sesión aprendiste a transformar tu dataframe para poder darle valor a tus datos. ¡Es hora de aplicar esto a tus datos!  
 
 Para empezar, puedes utilizar las funciones **str()** y **summary()** para entender las columnas que tienes y en qué valores están.    
 
