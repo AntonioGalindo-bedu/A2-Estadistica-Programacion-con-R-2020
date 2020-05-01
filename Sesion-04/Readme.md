@@ -1,4 +1,4 @@
-`Estadística-Programación-con-R` > [`Integración de R con Bases de Datos`] > [`Sesion-04`] 
+[`Estadística y Programación con R`](../Readme.md) > [`Integración de R con Bases de Datos`] > [`Sesion-04`] 
 
 ## Work: Integración de R con Bases de datos SQL,  MongoDB y datos de dominio público (web URLs)
 
