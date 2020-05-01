@@ -1,4 +1,4 @@
-[`Estadística con R`](../Readme.md) > `Sesión 04: Fundamentos de Estadística`
+[`Estadística con R`](../Readme.md) > `Sesión 06: Fundamentos de Estadística`
 	
 ## Proyecto de la sesión
 
@@ -8,7 +8,7 @@
 
 #### REQUISITOS 
 
-1. Completar el work de la Sesión 01
+1. Completar el work de la Sesión 05
 2. R versión 3.6.2 o mayor
 3. R Studio versión 1.2.5033 o mayor 
 
