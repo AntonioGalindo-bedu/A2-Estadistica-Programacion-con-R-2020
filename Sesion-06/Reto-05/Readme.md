@@ -1,10 +1,10 @@
- [`Estadística con R`](../Readme.md) > `Sesión 04: Fundamentos de Estadística` 
+ [`Estadística con R`](../Readme.md) > `Sesión 06: Fundamentos de Estadística` 
 
 ## Distribución Binomial
 
 ### OBJETIVO
 
-Al final de el `Reto-02` serás capaz de:
+Al final de el `Reto-05` serás capaz de:
 - Entender un experimento que se distribuye Binomial
 - Obtener los parámetros correctos para una v.a. Binomial
 - Utilizar la función de masa para obtener probabilidades en todas los posibles resultados
