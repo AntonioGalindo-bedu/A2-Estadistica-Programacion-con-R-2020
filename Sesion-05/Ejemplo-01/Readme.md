@@ -1,8 +1,8 @@
-[`Estadística con R`](../Readme.md) > `Sesión 01: EDA` 
+[`Estadística con R`](../Readme.md) > `Sesión 05: EDA` 
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-01` serás capaz de:
+Al final de el `Ejemplo-01` serás capaz de:
 - Ver y cambiar la dirección donde estas trabajando
 - Cambiar el nombre de las columnas de un dataframe
 - Leer un archivo
