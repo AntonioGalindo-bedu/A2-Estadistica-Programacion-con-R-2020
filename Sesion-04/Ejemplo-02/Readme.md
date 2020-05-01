@@ -1,4 +1,4 @@
-`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-04`] > [`Actividad-02`] 
+`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-04`] > [`Ejemplo-02`] 
 
 ### OBJETIVO
 - Integrar Rstudio con BDs mediante librerías, drivers (odbc drivers).
