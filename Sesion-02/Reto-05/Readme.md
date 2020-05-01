@@ -6,7 +6,7 @@
 
 #### REQUISITOS
 1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion01/Reto-05`
+1. Usar la carpeta de trabajo `Sesion02/Reto-05`
 
 #### DESARROLLO
 ### Utilizando el Dataset de airquality.
