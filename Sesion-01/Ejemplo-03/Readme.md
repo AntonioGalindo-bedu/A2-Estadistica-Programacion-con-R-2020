@@ -4,7 +4,7 @@
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-03` serás capaz de:
+Al final de el `Ejemplo-03` serás capaz de:
 - Utilizar funciones precargadas de R
 - Entender como comparar valores
 - Seleccionar renglones y columnas utilizando condiciones
