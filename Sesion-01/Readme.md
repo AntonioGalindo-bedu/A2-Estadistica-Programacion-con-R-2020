@@ -1,4 +1,4 @@
-[`Estadística con R`](../Readme.md) > `Sesión 01: Propedéutico de R`
+[`Estadística Y Programación con R`](../Readme.md) > `Sesión 01: Propedéutico de R`
 
 ## Work: Fundamentos de R
 
