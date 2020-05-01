@@ -1,10 +1,10 @@
-[`Estadística con R`](../Readme.md) > `Sesión 02: Análisis Exploratorio de Datos - Análisis Multivariado`
+[`Estadística con R`](../Readme.md) > `Sesión 05: Análisis Exploratorio de Datos - Análisis Multivariado`
 
 ## ScatterPlots y Binning Hexagonal
 
 ### OBJETIVO
 
-Al final de el `Ejemplo-03` serás capaz de:
+Al final de el `Ejemplo-07` serás capaz de:
 - Utilizar las funciones 
 
 ### REQUISITOS
@@ -13,8 +13,8 @@ Al final de el `Ejemplo-03` serás capaz de:
 2. R versión 3.6.2 o mayor
 3. R Studio versión 1.2.5033 o mayor 
 4. Git Bash
-5. Completar el `Ejemplo-02`
-6. Completar el `Reto-02`  
+5. Completar el `Ejemplo-06`
+6. Completar el `Reto-05`  
 
 Como es costumbre, lo primero que hacemos es cargar las librerias que utilizaremos. Además, leemos el archivo a manipular y vemos la estructura. También, vamos a seleccionar y renombrar el df resultante de algunas columnas que nos interesan.
 
