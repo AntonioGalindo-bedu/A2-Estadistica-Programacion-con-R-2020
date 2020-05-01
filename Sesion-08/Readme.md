@@ -1,7 +1,7 @@
 
 [`Estadística y Programación con R`](../Readme.md) > `Sesión 08: Gráficos Avanzados, Dashboards con R y Shiny`
 
-## Shiny
+## Work: Gráficos Avanzados, Dashboards con R y Shiny
 
 ### OBJETIVOS 
 
