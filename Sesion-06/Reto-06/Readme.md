@@ -1,10 +1,10 @@
- [`Estadística con R`](../Readme.md) > `Sesión 04: Fundamentos de Estadística` 
+ [`Estadística con R`](../Readme.md) > `Sesión 06: Fundamentos de Estadística` 
 
 ## Distribución Binomial
 
 ### OBJETIVO
 
-Al final de el `Reto-03` serás capaz de:
+Al final de el `Reto-06` serás capaz de:
 - Leer un archivo csv
 - Estandarizar una v.a. Normal
 - Visualizar la distribución de la v.a.
