@@ -1,10 +1,10 @@
-[`Estadística con R`](../Readme.md) > `Sesión 01: Fundamentos de R` 
+[`Estadística con R`](../Readme.md) > `Sesión 05: Fundamentos de R` 
 
 ## Lectura de Datos
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-03` serás capaz de:
+Al final de el `Ejemplo-03` serás capaz de:
 - Leer archivos csv que están en local
 - Leer archivos csv que están en una página URL
 
