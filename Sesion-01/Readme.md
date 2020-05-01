@@ -33,6 +33,8 @@
 - Crear funciones en R
 - Utilizar la libreria dplyr para manipular datos
 
+#### ORGANIZACION DE LA CLASE 
+
 - Crear funciones en R
 	- [Ejemplo 05](Ejemplo-05)
 	- [Reto 05](Reto-05)
