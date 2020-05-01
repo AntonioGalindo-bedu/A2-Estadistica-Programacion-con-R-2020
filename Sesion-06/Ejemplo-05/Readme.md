@@ -1,8 +1,8 @@
-[`Estadística con R`](../Readme.md) > `Sesión 04: Fundamentos de Estadística` 
+[`Estadística con R`](../Readme.md) > `Sesión 06: Fundamentos de Estadística` 
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-03` serás capaz de:
+Al final de el `Ejemplo-05` serás capaz de:
 - Simular valores para una v.a. Uniforme
 - Entender la variable aleatoria Normal
 - Crear una visualización para ver la distribución de algunos datos
