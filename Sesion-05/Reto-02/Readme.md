@@ -1,4 +1,4 @@
-  [`Estadística con R`](../Readme.md) > `Sesión 01: EDA` 
+  [`Estadística con R`](../Readme.md) > `Sesión 05: EDA` 
 
 ## Medidas de distribución
 
