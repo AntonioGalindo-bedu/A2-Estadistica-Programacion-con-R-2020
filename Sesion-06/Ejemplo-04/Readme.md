@@ -1,8 +1,8 @@
-[`Estadística con R`](../Readme.md) > `Sesión 04: Fundamentos de Estadística` 
+[`Estadística con R`](../Readme.md) > `Sesión 06: Fundamentos de Estadística` 
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-02` serás capaz de:
+Al final de el `Ejemplo-04` serás capaz de:
 - Entender un experimento que se distribuye Binomail
 - Utilizar rbinom para simular el resultado de un experimento que sigue la distribución de la v.a. Binomial
 - Obtener la función de masa de probabilidad en distintos puntos
