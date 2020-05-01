@@ -1,4 +1,4 @@
-`Estadistica-Programacion-con-R` > [`Scripts con R`] > [`Sesion-03`]  
+[`Estadística y Programación con R`](../Readme.md) > [`Scripts con R`] > [`Sesion-03`]  
 
 ## Work: Utilización de Scripts en R con aplicación al análisis de datos desde archivos.
 
