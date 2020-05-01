@@ -4,7 +4,7 @@
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-02` serás capaz de:
+Al final de el `Ejemplo-02` serás capaz de:
 - Crear un dataframe
 - Ver las características de un dataframe
 - Accesar a los elementos de un dataframe
