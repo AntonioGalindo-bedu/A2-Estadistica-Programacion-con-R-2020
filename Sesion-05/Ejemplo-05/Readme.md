@@ -1,10 +1,10 @@
-[`Estadística con R`](../Readme.md) > `Sesión 02: Análisis Exploratorio de Datos - Análisis Multivariado`
+[`Estadística con R`](../Readme.md) > `Sesión 05: Análisis Exploratorio de Datos - Análisis Multivariado`
 
 ## Matriz de Correlación
 
 ### OBJETIVO
 
-Al final de el `Ejemplo-01` serás capaz de:
+Al final de el `Ejemplo-05` serás capaz de:
 - Leer archivos de local
 - Ver la estructura de tu dataframe
 - Seleccionar las columnas numéricas
