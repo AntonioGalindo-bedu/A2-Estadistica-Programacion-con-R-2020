@@ -1,8 +1,8 @@
-[`Estadística con R`](../Readme.md) > `Sesión 02: Análisis Exploratorio de Datos - Análisis Multivariado`
+[`Estadística con R`](../Readme.md) > `Sesión 05: Análisis Exploratorio de Datos - Análisis Multivariado`
 
 ### OBJETIVO
 
-Al final de el `Reto-02` serás capaz de:
+Al final de el `Reto-05` serás capaz de:
 - Leer un archivo csv
 - Ver la estructura de un dataframe
 - Crear un histograma y personalizarlo
