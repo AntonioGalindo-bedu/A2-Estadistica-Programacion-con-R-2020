@@ -1,4 +1,4 @@
-`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-04`] > [`Actividad-01`] 
+`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-04`] > [`Ejemplo-01`] 
 ### OBJETIVO
 
 - Conocer el ambiente de desarrollo en la nube para RStudio específicamente RStudio Cloud.
