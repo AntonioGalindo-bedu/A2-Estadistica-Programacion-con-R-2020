@@ -1,10 +1,10 @@
- [`Estadística con R`](../Readme.md) > `Sesión 04: Fundamentos de Estadística` 
+ [`Estadística con R`](../Readme.md) > `Sesión 06: Fundamentos de Estadística` 
 
 ## Distribución Bernoulli
 
 ### OBJETIVO
 
-Al final de el `Reto-01` serás capaz de:
+Al final de el `Reto-04` serás capaz de:
 - Ver los resultados de un experimento con una moneda no justa
 - Ver la distribución del experimento
 
