@@ -1,10 +1,10 @@
-[`Estadística con R`](../Readme.md) > `Sesión 02: Análisis Exploratorio de Datos - Análisis Multivariado`
+[`Estadística con R`](../Readme.md) > `Sesión 05: Análisis Exploratorio de Datos - Análisis Multivariado`
 
 ## Histogramas y Densidades
 
 ### OBJETIVO
 
-Al final de el `Ejemplo-02` serás capaz de:
+Al final de el `Ejemplo-06` serás capaz de:
 - Identificar las columnas que son tipo factor
 - Ordenar las columnas tipo factor
 
@@ -14,8 +14,8 @@ Al final de el `Ejemplo-02` serás capaz de:
 2. R versión 3.6.2 o mayor
 3. R Studio versión 1.2.5033 o mayor 
 4. Git Bash
-5. Completar el `Ejemplo-01`
-6. Completar el `Reto-01`  
+5. Completar el `Ejemplo-05`
+6. Completar el `Reto-04`  
 
 Cómo es costumbre, primero debemos cargar los paquetes que utilizaremos y también debemos leer el archivo que utilizaremos. Una vez más, revisa que tu working directory sea el correcto y de lo contario, cambia el working directory o completa el path del archivo correctamente.
 
