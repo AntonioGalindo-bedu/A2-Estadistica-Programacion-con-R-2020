@@ -1,8 +1,8 @@
-[`Estadística con R`](../Readme.md) > `Sesión 02: Análisis Exploratorio de Datos - Análisis Multivariado`
+[`Estadística con R`](../Readme.md) > `Sesión 05: Análisis Exploratorio de Datos - Análisis Multivariado`
 
 ### OBJETIVO
 
-Al final de el `Reto-01` serás capaz de:
+Al final de el `Reto-04` serás capaz de:
 - Seleccionar columnas de un dataframe
 - Encontrar la matriz de correlación
 - Visualizar la matriz de correlación
