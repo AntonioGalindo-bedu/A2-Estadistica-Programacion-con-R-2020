@@ -1,4 +1,4 @@
-`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-02`] > [`Reto-03`] 
+`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Reto-03`] 
 
 ### OBJETIVO RETO 3
 - Aprenderas a abrir e utilizar archivos con datos en R
@@ -6,7 +6,7 @@
 
 #### REQUISITOS RETO 3
 1. Contar con R studio.
-2. Usar la carpeta de trabajo `Sesion02/Ejemplo-03`
+2. Usar la carpeta de trabajo `Sesion03/Ejemplo-03`
 3. Tener el archivo [DataSet Contaminantes en Aire](../Dataset/rprog_data_specdata.zip) en esta carpeta.
 
 #### RETO 3
