@@ -1,4 +1,4 @@
-`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-04`] > [`Actividad-03`] 
+`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-04`] > [`Ejemplo-03`] 
 
 ### OBJETIVO
 - Utilizar dplyr y pool para hacer queries a MySQL.
