@@ -4,7 +4,7 @@
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-04` serás capaz de:
+Al final de el `Ejemplo-04` serás capaz de:
 - Leer archivos csv que están en local
 - Leer archivos csv que están en una página URL
 
