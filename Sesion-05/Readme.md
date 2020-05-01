@@ -27,7 +27,7 @@
 
 ## Work: Análisis Exploratorio de Datos - Análisis Multivariado
 
-### OBJETIVOS 
+### OBJETIVOS Parte 2
 - Encontrar relaciones entre variables
 - Crear visualizaciones: HeatMaps, Histogramas, Densidades, ScatterPlots y Binning Hexagonal
 
