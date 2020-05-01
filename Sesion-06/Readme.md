@@ -21,4 +21,23 @@
 	- [Ejemplo 02](Ejemplo-02)
 	- [Reto 03](Reto-03)
 
+## Distribuciones Paramétricas
+
+### OBJETIVOS 
+
+- Entender y simular variables aleatorias Bernoulli, Binomial, Uniforme y Normal
+- Diferenciar entre función de distribución acumulada y función de masa de probabilidad
+- Aprender a estandarizar variables aleatorias Normales
+
+- Distribución Bernoulli
+	- [Ejemplo 03](Ejemplo-03)
+	- [Reto 04](Reto-04)
+
+- Distribución Binomial
+	- [Ejemplo 04](Ejemplo-04)
+	- [Reto 05](Reto-05)
+
+- Distribución Uniforme y Normal
+	- [Ejemplo 05](Ejemplo-05)
+	- [Reto 06](Reto-06)
 
