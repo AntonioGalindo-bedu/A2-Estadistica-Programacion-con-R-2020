@@ -1,5 +1,5 @@
 
-[`Estadística con R`](../Readme.md) > `Sesión 03: Distribución Muestral`
+[`Estadística con R`](../Readme.md) > `Sesión 06: Distribuciónes Muestral y Paramétricas`
 
 ## Distrbución Muestral
 
