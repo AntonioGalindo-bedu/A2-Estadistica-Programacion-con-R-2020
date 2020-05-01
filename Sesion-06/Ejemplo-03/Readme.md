@@ -1,8 +1,8 @@
-[`Estadística con R`](../Readme.md) > `Sesión 04: Fundamentos de Estadística` 
+[`Estadística con R`](../Readme.md) > `Sesión 06: Fundamentos de Estadística` 
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-01` serás capaz de:
+Al final de el `Ejemplo-03` serás capaz de:
 - Utilizar rbinom para simular el resultado de un experimento que sigue la distribución de la v.a. Bernoulli
 - Utilizar un for para sumar los resultados
 - Visualizar la función de distribución de la v.a. Bernoulli
