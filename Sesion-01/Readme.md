@@ -28,7 +28,8 @@
 
 ## Work: Manipulación de Datos
 
-### OBJETIVOS 
+### OBJETIVOS SEGUNDA PARTE
+
 - Crear funciones en R
 - Utilizar la libreria dplyr para manipular datos
 
