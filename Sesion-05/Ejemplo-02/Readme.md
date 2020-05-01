@@ -1,10 +1,10 @@
-[`Estadística con R`](../Readme.md) > `Sesión 01: EDA` 
+[`Estadística con R`](../Readme.md) > `Sesión 05: EDA` 
 
 ## Data Frames
 
 ### OBJETIVO
 
-Al final de el `Ejercicio-02` serás capaz de:
+Al final de el `Ejemplo-02` serás capaz de:
 - Eliminar una columna
 - Encontrar la varianza
 - Encontrar la desviación estándar
