@@ -1,7 +1,7 @@
 
-[`Estadística y Programación con R`](../Readme.md) > `Sesión 07: Modelado Matemático`
+[`Estadística y Programación con R`](../Readme.md) > `Sesión 07: Modelado Matemático: Regresión y Predicción.`
 
-## Modelado Matemático
+## Modelado Matemático: Regresión y Predicción.
 
 ### OBJETIVOS 
 
