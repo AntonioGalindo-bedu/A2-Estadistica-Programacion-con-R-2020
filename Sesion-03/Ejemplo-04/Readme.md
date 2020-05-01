@@ -1,4 +1,4 @@
-`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-02`] > [`Ejemplo-04`] 
+`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Ejemplo-04`] 
 ### OBJETIVO EJEMPLO 4
 - Aprenderas a utilizar la funcion list.files() sin argumentos
 - Aprenderas a utilizar la funcion rbind()
@@ -8,7 +8,7 @@
 
 #### REQUISITOS EJEMPLO 4
 1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion02/Ejemplo-03`
+1. Usar la carpeta de trabajo `Sesion03/Ejemplo-04`
 
 #### DESARROLLO EJEMPLO 4
 
