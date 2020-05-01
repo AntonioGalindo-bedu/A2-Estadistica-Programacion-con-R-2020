@@ -1,6 +1,6 @@
 ######################################
 ########## Fundamentos de R ##########
-##########    Sesión 02     ##########
+##########    SesiÃ³n 02     ##########
 ##########  Ejercicio 03    ##########
 ######################################
 
@@ -14,7 +14,7 @@ breast.cancer <- read.csv('breast_cancer.csv')
 # Vemos la estructura de nuestro dataframe
 str(breast.cancer)
 
-# Seleccionamos columnas de interés
+# Seleccionamos columnas de interÃ©s
 breast.cancer.short <- breast.cancer[,c('diagnosis','radius_mean','texture_mean','perimeter_mean','area_mean')]
 
 # Creamos un scatterplot con variables radius_mean y texture_mean
