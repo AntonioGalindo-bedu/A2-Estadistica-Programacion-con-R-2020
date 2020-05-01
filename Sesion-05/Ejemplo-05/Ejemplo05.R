@@ -1,6 +1,6 @@
 ######################################
-########## Estad韘tica con R #########
-##########    Sesi髇 02     ##########
+########## Estad铆stica con R #########
+##########    Sesi贸n 02     ##########
 ##########  Ejercicio 01    ##########
 ######################################
 
@@ -15,15 +15,15 @@ breast.cancer <- read.csv('breast_cancer.csv')
 # Vemos la estructura
 str(breast.cancer)
 
-# Quitamos las columnas no num閞icas
+# Quitamos las columnas no num茅ricas
 breast.cancer.num <- breast.cancer[,-c(1,2,3)]
 
-# Calculamos la matriz de correlaci髇 y le damos formato para graficar
+# Calculamos la matriz de correlaci贸n y le damos formato para graficar
 cor.df <- melt(cor(breast.cancer.num))
 
-# Creamos gr醘ico para visualizar matriz de correlaci髇
+# Creamos gr谩fico para visualizar matriz de correlaci贸n
 cor.df %>% ggplot(aes(X1,X2)) + 
   geom_tile(aes(fill = value)) + 
-  ggtitle('Matriz de correlaci髇')+
+  ggtitle('Matriz de correlaci贸n')+
   scale_fill_gradient(low = 'white', high = 'red') + 
   theme(axis.text.x = element_text(angle = 90,hjust = 0))
