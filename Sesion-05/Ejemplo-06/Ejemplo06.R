@@ -1,6 +1,6 @@
 ######################################
-########## Estadística con R #########
-##########    Sesión 02     ##########
+########## EstadÃ­stica con R #########
+##########    SesiÃ³n 02     ##########
 ##########  Ejercicio 02    ##########
 ######################################
 
@@ -32,7 +32,7 @@ ggplot(breast.cancer.short, aes(radius_mean)) +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, size = 15))  
 
-# graficamos histograma para radius mean diferenciando por el diagnóstico final
+# graficamos histograma para radius mean diferenciando por el diagnÃ³stico final
 ggplot(breast.cancer.short, aes(radius_mean)) + 
   geom_histogram(bins = 23, 
                  colour = 'black', 
@@ -60,7 +60,7 @@ ggplot(breast.cancer.short, aes(texture_mean)) +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, size = 15))  
 
-# Creamos histogramas pero diferenciando por tipo de diagnóstico
+# Creamos histogramas pero diferenciando por tipo de diagnÃ³stico
 ggplot(breast.cancer.short, aes(texture_mean)) + 
   geom_histogram(bins = 23, 
                  colour = 'black', 
