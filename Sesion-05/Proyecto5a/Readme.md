@@ -1,6 +1,6 @@
-[`Estadística con R`](../Readme.md) > `Sesión 01: EDA` 
+[`Estadística con R`](../Readme.md) > `Sesión 05: EDA` 
 	
-## Proyecto de la sesión
+## Inicios del proyecto final del curso 
 
 ### OBJETIVO 
 
@@ -8,7 +8,7 @@
 
 #### REQUISITOS 
 
-1. Completar el work de la Sesión 01
+1. Completar el work de la Sesión 04
 2. R versión 3.6.2 o mayor
 3. R Studio versión 1.2.5033 o mayor 
 
