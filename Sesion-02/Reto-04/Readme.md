@@ -1,4 +1,4 @@
-`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-01`] > [`Reto-04`] 
+`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-02`] > [`Reto-04`] 
 ## Funciones, condiciones y loops
 
 ### OBJETIVO
@@ -8,7 +8,7 @@
 
 #### REQUISITOS
 1. Contar con R studio.
-1. Usar la carpeta de trabajo `Sesion01/Reto-04`
+1. Usar la carpeta de trabajo `Sesion02/Reto-04`
 
 #### DESARROLLO
 
