@@ -1,4 +1,4 @@
-`Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-02`]  
+[`Estadística y Programación con R`](../Readme.md) > [`Programacion con R`] > [`Sesion-02`]  
 
 ## Work: Programación: Funciones, Loops y Condiciones en R.
 
