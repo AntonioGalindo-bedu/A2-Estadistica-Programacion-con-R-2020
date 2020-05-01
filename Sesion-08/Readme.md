@@ -1,23 +1,20 @@
 
-[`Estadística con R`](../Readme.md) > `Sesión 03: Distribución Muestral`
+[`Estadística con R`](../Readme.md) > `Sesión 08: Gráficos Avanzados, webApps con Shiny RStudio`
 
-## Distrbución Muestral
+## Shiny
 
 ### OBJETIVOS 
 
-- Obtener muestras con o sin reemplazo de los renglones de un dataframe
-- Utilizar esta muestra para crear un dataframe nuevo solo con los índices que aparecieron en la muestra
-- Visualizar la distrbución de todas las variables numéricas, tanto de una muestra como de la población
-- Entender el Teorema del Límite Central a través de ejemplos donde se cumpla esto
+- Crear un Dashboard en una aplicación en la nube con Shiny.
 
 #### ORGANIZACION DE LA CLASE 
 
-- Muestra contra Población
+- Crear la Aplicación
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 	- [Reto 02](Reto-02)
 
-- Teorema del Limite Central
+- Publicar la Aplicación
 	- [Ejemplo 02](Ejemplo-02)
 	- [Reto 03](Reto-03)
 
