@@ -1,5 +1,5 @@
 
-`Estadística-Programación-con-R` > [`Estadística II`] > [`Sesión 06: Distribuciónes Muestral y Paramétricas`] 
+[`Estadística y Programación con R`](../Readme.md) > [`Estadística II`] > [`Sesión 06: Distribuciónes Muestral y Paramétricas`] 
 
 ## Distrbución Muestral
 
