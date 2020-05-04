@@ -1,9 +1,9 @@
 `Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Ejemplo-03`] 
 
 ### OBJETIVO EJEMPLO 3
-- Aprenderas a utilizar la funcion paste()
-- Aprenderas a crear funciones con el argumento ...
-- Aprenderas a crear operadores personalizados en R
+- Aprenderás a utilizar la funcion paste()
+- Aprenderás a crear funciones con el argumento ...
+- Aprenderás a crear operadores personalizados en R
 - Conocerás la función complete.cases() y append()
 
 #### REQUISITOS EJEMPLO3
@@ -13,9 +13,9 @@
 #### DESARROLLO EJEMPLO3
 
 Conozcamos la funtion paste(), para ver su hoja de específicacion teclea ?paste, veremos su funcionamiento con un ejercicio:
-Como puede ver, el primer argumento de paste() es `...`, que se conoce como puntos suspensivos o simplemente punto-punto-punto. Los puntos suspensivos permiten pasar un número indefinido de argumentos a un función. En el caso de paste() se puede pasar cualquier número de cadenas como argumentos y paste() devolverá todas las cadenas combinadas en una sola cadena.
+Como puedes ver, el primer argumento de paste() es `...`, que se conoce como puntos suspensivos o simplemente punto-punto-punto. Los puntos suspensivos permiten pasar un número indefinido de argumentos a un función. En el caso de paste() se puede pasar cualquier número de cadenas como argumentos y paste() devolverá todas las cadenas combinadas en una sola cadena.
 
-Solo para ver cómo funciona paste (), escriba paste("Programming", "is", "fun!")
+Solo para ver cómo funciona paste (), escribe paste("Programming", "is", "fun!")
 ```{r}
 paste("Programming", "is", "fun!")
 ```
@@ -55,27 +55,27 @@ mad_libs <- function(...){
   paste("News from", place, "today where", adjective, "students took to the streets in protest of the new", noun, "being installed on campus.")
 }
 ```
-Es hora de usar tu función mad_libs. Asegúrese de nombrar el lugar, el adjetivo y los argumentos sustantivos para que su función funcione.
+Es hora de usar tu función mad_libs. Asegúrate de nombrar el lugar, el adjetivo y los argumentos sustantivos para que tu función funcione.
 ```{r}
 mad_libs("mad","as","it can be") # por ejemplo
 ```
 Estás familiarizado con sumar, restar, multiplicar y dividir números en R. Para hacer esto,use los símbolos +, -, * y /. Estos símbolos se llaman operadores binarios porque toman dos entradas, una entrada desde la izquierda y una entrada desde la derecha. 
 En R puede definir sus propios operadores binarios. En el próximo ejemplo te mostrarémos cómo.
 
-Digamos que quería definir un operador binario que multiplicara dos números y luego agregó uno al producto. A continuación se muestra una implementación de ese operador:
+Digamos que querías definir un operador binario que multiplicara dos números y luego agregó uno al producto. A continuación se muestra una implementación de ese operador:
 ```{r}
 "%mult_add_one%" <- función (izquierda, derecha) {
 #¡Observe las dobles comillas! 
 izquierda * derecha + 1
 }
 ```
-Entonces podría usar este operador binario como `4 %mult_add_one% 5` que evalua a 21.
+Entonces podrías usar este operador binario como `4 %mult_add_one% 5` que evalua a 21.
 
-¡Escriba su propio operador binario a continuación desde cero! Tu binario El operador debe llamarse %p% para que la expresión:
+¡Escribe tu propio operador binario a continuación desde cero! Tu operador debe llamarse %p% para que la expresión:
 ```{r}
 "Buen" %p% "trabajo!"
 ```
-evaluará a: "Buen trabajo!"
+evalué a: "Buen trabajo!"
 
 Ahora conoceremos la funcion append() con ?append
 ```{r}
