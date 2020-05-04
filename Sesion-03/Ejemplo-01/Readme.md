@@ -25,7 +25,7 @@ boring_function <- function(x) {
   x
 }
 ```
-Si desea ver el código fuente de cualquier función, solo escriba el nombre de la función sin argumentos ni paréntesis. Probemos esto con la función que acaba de crear. Teclea: boring_function para ver su código fuente.
+Si deseas ver el código fuente de cualquier función, solo escribe el nombre de la función sin argumentos ni paréntesis. Probemos esto con la función que acaba de crear. Teclea: boring_function para ver tu código fuente.
 ```{r}
 boring_function
 ```
