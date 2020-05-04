@@ -1,10 +1,10 @@
 `Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Ejemplo-04`] 
 ### OBJETIVO EJEMPLO 4
-- Aprenderas a utilizar la funcion list.files() sin argumentos
-- Aprenderas a utilizar la funcion rbind()
-- Aprenderas a utilizar la seq_along()
-- Aprenderas a utilizar la vector()
-- Aprenderas a utilizar la as.vector()
+- Aprenderás a utilizar la funcion list.files() sin argumentos
+- Aprenderás a utilizar la funcion rbind()
+- Aprenderás a utilizar la seq_along()
+- Aprenderás a utilizar la vector()
+- Aprenderás a utilizar la as.vector()
 
 #### REQUISITOS EJEMPLO 4
 1. Contar con R studio.
