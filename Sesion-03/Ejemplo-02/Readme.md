@@ -26,13 +26,13 @@ remainder <- function(num, divisor=2) {
 }
 ```
 Hagamos algunas pruebas de la función remainder(). Ejecute remainder(5) y vea qué sucede.
-Tomemos un momento para examinar lo que acaba de suceder. Usted proporcionó un argumento para la función, y R hizo coincidir ese argumento con 'num' ya que 'num' es el primer argumento. El valor predeterminado para 'divisor' es 2, por lo que la función utilizó el valor predeterminado que proporcionó.
+Tomemos un momento para examinar lo que acaba de suceder. Proporcionaste un argumento para la función, y R hizo coincidir ese argumento con 'num' ya que 'num' es el primer argumento. El valor predeterminado para 'divisor' es 2, por lo que la función utilizó el valor predeterminado que proporcionaste.
 
-Ahora probemos la función remainder() proporcionando dos argumentos. Introduzca en el prompt > remainder(11, 5) y veamos qué pasa.
+Ahora probemos la función remainder() proporcionando dos argumentos. Introduce en el prompt > remainder(11, 5) y veamos qué pasa.
 ```{r}
 remainder(11,5)
 ```
-También puede especificar explícitamente argumentos en una función. Cuando designa explícitamente un argumento valores por nombre, el orden de los argumentos deja de ser importante. Puedes probar esto escribiendo: remainder(divisor = 11, num = 5).
-Como puede ver, hay una diferencia significativa entre remainder(11, 5) y remainder(divisor = 11, num = 5)!
+También puedes especificar explícitamente argumentos en una función. Cuando designas explícitamente un argumento valores por nombre, el orden de los argumentos deja de ser importante. Puedes probar esto escribiendo: remainder(divisor = 11, num = 5).
+Como puedes ver, hay una diferencia significativa entre remainder(11, 5) y remainder(divisor = 11, num = 5)!
 
-Con toda esta charla sobre argumentos, puede que se pregunte si hay una manera de ver los argumentos de la función (además de mirar la documentación). Afortunadamente, puedes usar la funciín args(). Escriba: args(remainder) para examinar los argumentos de la función remainder.
+Con toda esta charla sobre argumentos, puede que te preguntes si hay una manera de ver los argumentos de la función (además de mirar la documentación). Afortunadamente, puedes usar la funciín args(). Escribe: args(remainder) para examinar los argumentos de la función remainder.
