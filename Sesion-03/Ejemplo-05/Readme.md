@@ -8,9 +8,10 @@
 
 #### DESARROLLO
 
-R dispone de un conjunto de herramientas para depurar (debug) programas. Se debe de llegar a usar la función debug de manera casi exclusiva y cuando es necesario, pero leyendo el libro The Art of R Programming nos encontramos con una discusión sistemática sobre el proceso de depuración así como algunas herramientas adicionales.
+R dispone de un conjunto de herramientas para depurar (debug) programas. Se debe de llegar a usar la función debug de manera casi exclusiva y cuando es necesario, pero leyendo el libro ´The Art of R Programming´ nos encontramos con una discusión sistemática sobre el proceso de depuración así como algunas herramientas adicionales.
 
 Una de las primeras que menciona el libro es la función stopifnot, que puede ser intercalada en el código para verificar condiciones necesarias (y lanzar un error en caso de que no se cumplan):
+
 ```{r}
 mi.error <- function( x ){
   res <- 1 / x
@@ -23,13 +24,16 @@ mi.error( 0 )
 Puede ser usado para anticiparse activamente a los errores.
 
 Son, conocidas de todos las funciones debug y undebug, que permiten ejecutar código línea a línea. Una adición interesante a la familia es debugonce, que llama a debug una única vez y evita tener que eliminar explícitamente a la función undebug en situaciones similares a
+
 ```{r}
 f <- function( n, x ){
   for( i in 1:n)
     g(x)
 }
 ```
+
 La función browser permite inspeccionar el estado de la función sin tener que llamar a debug sobre toda ella. Se le puede añadir, además, una condición para que sólo interrumpa la ejecución del programa bajo ciertas condiciones.
+
 ```{r}
 mi.error <- function( x ){
   res <- 1 / x
@@ -43,9 +47,11 @@ mi.error( 0 )
 Este resultado también puede obtenerse usando las funciones setBreakpoint o trace.
 
 Finalmente, existe la posibilidad de saber qué ha pasado después del fallo de una función de R usando
+
 ```{r}
 options( error = recover )
 ```
+
 Con esa opción, después de un fallo, R te deja elegir el contexto que se quiere analizar. Por ejemplo:
 
 ```{r}
