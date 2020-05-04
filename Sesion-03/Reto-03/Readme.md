@@ -1,8 +1,8 @@
 `Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Reto-03`] 
 
 ### OBJETIVO RETO 3
-- Aprenderas a abrir e utilizar archivos con datos en R
-- Aprenderas a utilizar la función complete.cases()
+- Aprenderás a abrir e utilizar archivos con datos en R
+- Aprenderás a utilizar la función complete.cases()
 
 #### REQUISITOS RETO 3
 1. Contar con R studio.
