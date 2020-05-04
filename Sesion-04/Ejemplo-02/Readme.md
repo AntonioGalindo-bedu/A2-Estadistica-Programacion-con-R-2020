@@ -43,7 +43,7 @@ Instalamos los paquetes necesarios:
 ```{r}
 # get packages
 devtools::install_github("r-dbi/odbc")
-install.package(RMySQL)
+install.packages("RMySQL")
 install.packages("DBI")
 ```
 
