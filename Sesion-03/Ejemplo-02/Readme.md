@@ -1,12 +1,12 @@
 `Estadistica-Programacion-con-R` > [`Programacion con R`] > [`Sesion-03`] > [`Ejemplo-02`] 
-### OBJETIVO EJEMPLO 2
+### OBJETIVO 
 - Generar un script en R con tareas complejas implementadas mediante funciones
 
-#### REQUISITOS EJEMPLO 2
+#### REQUISITOS 
 1. Contar con R studio.
 1. Usar la carpeta de trabajo `Sesion03/Ejemplo-02`
 
-#### DESARROLLO EJEMPLO 2
+#### DESARROLLO 
 En esta sección vamos a crear varias funciones con tareas de programación intermedia.
 
 Para esto hay que abrir el editor de scripts con un script nuevo:
