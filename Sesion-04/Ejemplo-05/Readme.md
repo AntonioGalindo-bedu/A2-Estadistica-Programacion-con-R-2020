@@ -11,7 +11,7 @@
 
 ### Leer archivos JSON en R
 
-Para obtener archivos JSON en R, primero debes instalar o cargar el paquete rjson. 
+Para leer archivos JSON en R, primero debes instalar o cargar el paquete rjson. 
 
 Una vez hecho esto, puedes usar la función fromJSON(). Aquí tienes dos opciones:
 
