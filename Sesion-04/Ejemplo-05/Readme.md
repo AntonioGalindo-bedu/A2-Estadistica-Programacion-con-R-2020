@@ -34,7 +34,7 @@ library(rjson)
 JsonData <- fromJSON(file= "<URL to your JSON file>" )
 ````
 #### Leer datos XML en R
-Si deseas obtener datos XML en R, una de las formas más fáciles es mediante el uso del paquete XML. Primero, asegúrate de instalar y cargar el paquete XML en tu espacio de trabajo, tal como se demostró anteriormente. Luego, puedes usar xmlTreeParse() para analizar el archivo XML directamente desde la web:
+Si deseas obtener datos XML en R, una de las formas más fáciles es mediante el uso del paquete XML. Primero, asegúrate de instalar y cargar el paquete XML en tu espacio de trabajo, tal como se demostró anteriormente. Luego, puedes usar xmlTreeParse() para analizar el archivo XML directamente desde la web: https://www.learningcontainer.com/wp-content/uploads/2020/03/Sample-XML-With-Multiple-Records.xml
 
 ```{r}
 # Activate the `XML` library
