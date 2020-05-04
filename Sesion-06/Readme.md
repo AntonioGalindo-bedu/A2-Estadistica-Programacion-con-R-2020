@@ -23,7 +23,7 @@
 
 ## Work: Distrbución Muestral : Distribuciones Paramétricas
 
-### OBJETIVOS Parte 2
+### OBJETIVOS 
 
 - Entender y simular variables aleatorias Bernoulli, Binomial, Uniforme y Normal
 - Diferenciar entre función de distribución acumulada y función de masa de probabilidad
