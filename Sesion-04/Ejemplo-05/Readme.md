@@ -78,7 +78,7 @@ Ten en cuenta que which te permite especificar qué tablas devolver desde dentro
 
 Si esto te da un error en la naturaleza de "no se pudo cargar la entidad externa", no te preocupes: este error ha sido señalado por muchas personas y ha sido confirmado por el autor del paquete.
 
-Puedes solucionar esto utilizando el paquete RCurl  en combinación con el paquete XML para leer tus datos:
+Puedes solucionar esto utilizando el paquete RCurl  en combinación con el paquete XML para leer tus datos: https://www.learningcontainer.com/wp-content/uploads/2020/03/Sample-XML-With-Multiple-Records.xml
 
 ```{r}
 # Activate the libraries
