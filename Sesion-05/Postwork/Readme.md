@@ -35,8 +35,6 @@ Después, utilizando la librería dplyr:
 * Encuentra cuál es el mínimo, máximo, media y mediana de tu dataframe, de preferencia agrupando por alguna columna categórica que tengas. Si no, puedes encontrar esta información para tu dataframe en general.  
 
 [`Estadística con R`](../Readme.md) > `Sesión 05: EDA` 
-	
-## Inicios del proyecto final del curso 
 
 ### OBJETIVO 
 
