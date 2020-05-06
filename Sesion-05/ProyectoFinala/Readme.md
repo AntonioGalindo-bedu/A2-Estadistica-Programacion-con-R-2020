@@ -35,12 +35,6 @@ Deberás crear un Script para poder resolver esta parte del proyecto de clase.  
 8. Haz una tabla de frecuencia respecto a la columna de **país**. 
 9. Guarda tu trabajo con el nombre de `Proyecto.R`.
 
-#### REQUISITOS 
-
-1. Completar el work de la Sesión 04
-2. R versión 3.6.2 o mayor
-3. R Studio versión 1.2.5033 o mayor 
-
 #### CONTEXTO
 
 A finales del 2019 se desató una pandemia, el COVID-19. Queremos analizar la situaciones de los distintos paises en algunos días de interés. En el repositorio https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports, podemos encontrar información que nos ayudará a realizar nuestros datos.
