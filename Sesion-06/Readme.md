@@ -45,5 +45,5 @@
 	- [Postwork](Postwork)
 	
 - Avance proyecto Final
-	- [Proyectiofinalb](ProyectoFinalb)
-	- [Proyectiofinalc](ProyectoFinalc)
+	- [Proyectofinalb](ProyectoFinalb)
+	- [Proyectofinalc](ProyectoFinalc)
