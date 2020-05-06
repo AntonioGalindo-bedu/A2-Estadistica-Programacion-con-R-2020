@@ -3,7 +3,7 @@
 
 ## Work: Distrbución Muestral
 
-### OBJETIVOS 
+### OBJETIVO A
 
 - Obtener muestras con o sin reemplazo de los renglones de un dataframe
 - Utilizar esta muestra para crear un dataframe nuevo solo con los índices que aparecieron en la muestra
@@ -23,7 +23,7 @@
 
 ## Work: Distrbución Muestral : Distribuciones Paramétricas
 
-### OBJETIVOS 
+### OBJETIVO B 
 
 - Entender y simular variables aleatorias Bernoulli, Binomial, Uniforme y Normal
 - Diferenciar entre función de distribución acumulada y función de masa de probabilidad
