@@ -4,9 +4,7 @@
 
 ### OBJETIVOS
 
-- El objetivo del proyecto es crear un modelo, ya sea descriptivo o predictivo, que demuestre que estamos aprendiendo los dos pilares fundamentales del módulo: R y estadística.  
-
-En particular, el objetivo de este prework es hacer un primer análisis descriptivo de los datos que usarás para el proyecto. Además transformar, agregar o eliminar datos para generar información valiosa.  
+- El objetivo del proyecto es crear un modelo, ya sea descriptivo o predictivo, que demuestre que estamos aprendiendo los dos pilares fundamentales del módulo: R y estadística. En particular, el objetivo de este prework es hacer un primer análisis descriptivo de los datos que usarás para el proyecto. Además transformar, agregar o eliminar datos para generar información valiosa.  
 
 
 #### REQUISITOS
@@ -18,12 +16,13 @@ En particular, el objetivo de este prework es hacer un primer análisis descript
 5. Postwork de la Sesión 01 terminado  
 6. Prework y Work de la Sesión 01 terminado  
 
-
 #### DESARROLLO
 
 ##### Planteamiento del proyecto
 
-En la Sesión 04, elegiste los datos que usarás para tu proyecto, ya sean datos que ya tenías o alguna de las opciones de la carpeta Data. En el prework y work de esta sesión aprendiste a transformar tu dataframe para poder darle valor a tus datos. ¡Es hora de aplicar esto a tus datos!  
+En el prework y work de esta sesión aprendiste a transformar tu dataframe para poder darle valor a tus datos. ¡Es hora de aplicar esto a los datos!  
+
+A finales del 2019 se desató una pandemia, el COVID-19. Queremos analizar la situaciones de los distintos paises en algunos días de interés. En el repositorio https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports, podemos encontrar información que nos ayudará a realizar nuestros datos.
 
 Para empezar, puedes utilizar las funciones **str()** y **summary()** para entender las columnas que tienes y en qué valores están.    
 
