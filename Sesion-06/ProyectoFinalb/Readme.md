@@ -1,6 +1,6 @@
 [`Estadística con R`](../Readme.md) > `Sesión 06: Distribución Muestral`
 	
-## Proyecto de la sesión
+## Avance al Proyecto Final
 
 ### OBJETIVO 
 
