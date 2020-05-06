@@ -2,7 +2,7 @@
 
 ## Work: Fundamentos de R
 
-### OBJETIVOS 
+### OBJETIVO A
 - Aprender a declarar y acceder a vectores
 - Aprender a declarar y manipular dataframes
 - Leer datos desde diferentes fuentes
@@ -28,7 +28,7 @@
 
 ## Work: Manipulación de Datos
 
-### OBJETIVOS Parte 2
+### OBJETIVO B
 
 - Crear funciones en R
 - Utilizar la libreria dplyr para manipular datos
