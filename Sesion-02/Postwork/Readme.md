@@ -2,7 +2,7 @@
 
 ### OBJETIVO  
 
-- En particular, el objetivo de este postwork es hacer un primer análisis descriptivo de los datos que usarás para tu proyecto personal en este curso. Además instalar e importar lo necesario para comenzar el análisis.  
+- En particular, el objetivo de este postwork es hacer un primer análisis descriptivo de los datos que usaremos en el proyecto de este curso. Además instalar e importar lo necesario para comenzar el análisis.  
 
 #### REQUISITOS
 - Cuenta de GitHub  
@@ -12,9 +12,13 @@
 
 #### DESARROLLO
 
-Elige algunos de los datos que usarás para tu proyecto en este curso. ¡Es hora de aplicar lo que aprendiste a tus datos!   
+¡Es hora de aplicar lo que aprendiste a tus datos!   
 
-Ya que tienes identificadas las preguntas que puedes responder o predecir a partir de la base de datos que elegiste, empieza a hacer las siguientes acciones:  
+Utiliza el set de datos del proyecto de este curso : 
+
+A finales del 2019 se desató una pandemia, el COVID-19. Queremos analizar la situaciones de los distintos paises en algunos días de interés. En el repositorio https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports, podemos encontrar información que nos ayudará a realizar nuestros datos.
+
+Ya que tienes identificadas las preguntas que puedes responder o predecir a partir de la base de datos, empieza a hacer las siguientes acciones:  
 
 0. Lee sobre la función set.seed() en la documentación de la misma ?set.seed
 1. **Importa** el dataset que elegiste a Rstudio para empezar a analizarlo en el siguiente postwork.    
