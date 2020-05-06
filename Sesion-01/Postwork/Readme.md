@@ -16,12 +16,12 @@ Al final de el `Postwork` serás capaz de:
 
 Sigue los siguientes ejercicios para aprender nuevas funcionalidades con dplyr:
 
-• Seleccionar columnas
-• Seleccionar registros
-• Crear nuevas variables
-• Sumarizar datos
-• Ordenar datos
-• Uniones de datos
+- Seleccionar columnas
+- Seleccionar registros
+- Crear nuevas variables
+- Sumarizar datos
+- Ordenar datos
+- Uniones de datos
 
 Como es habitual trabajamos con ejemplos data(iris); 
 ```{r} 
