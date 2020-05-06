@@ -18,20 +18,20 @@
 	- [Reto 01](Reto-01)
 	
 - Representación Geométrica
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
 
 - Regresión Lineal en R
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
 	
 - Tabla de Regresión
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
 	
 - Decomposición de Variabilidad
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
 
 - R Squared
 
