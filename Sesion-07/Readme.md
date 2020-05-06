@@ -33,7 +33,7 @@
 	- [Ejemplo 06](Ejemplo-06)
 	- [Reto 06](Reto-06)
 
-- R Squared
+- R-Squared
 
 - Postwork
 
