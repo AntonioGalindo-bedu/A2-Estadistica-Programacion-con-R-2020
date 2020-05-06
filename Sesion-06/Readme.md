@@ -46,4 +46,4 @@
 	
 - Avance proyecto Final
 	- [Proyectiofinalb](ProyectoFinalb)
-	- [Proyectiofinalb](ProyectoFinalc)
+	- [Proyectiofinalc](ProyectoFinalc)
