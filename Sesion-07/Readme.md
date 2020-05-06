@@ -14,24 +14,24 @@
 	- [Reto 01](Reto-01)
 	
 - Correlación vs Regresión
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
 	
 - Representación Geométrica
-	- [Ejemplo 02](Ejemplo-02)
-	- [Reto 02](Reto-02)
+	- [Ejemplo 03](Ejemplo-03)
+	- [Reto 03](Reto-03)
 
 - Regresión Lineal en R
-	- [Ejemplo 02](Ejemplo-02)
-	- [Reto 02](Reto-02)
+	- [Ejemplo 04](Ejemplo-04)
+	- [Reto 04](Reto-04)
 	
 - Tabla de Regresión
-	- [Ejemplo 02](Ejemplo-02)
-	- [Reto 02](Reto-02)
+	- [Ejemplo 05](Ejemplo-05)
+	- [Reto 05](Reto-05)
 	
 - Decomposición de Variabilidad
-	- [Ejemplo 02](Ejemplo-02)
-	- [Reto 02](Reto-02)
+	- [Ejemplo 06](Ejemplo-06)
+	- [Reto 06](Reto-06)
 
 - R Squared
 
