@@ -3,16 +3,9 @@
 
 ## Postwork
 
-### OBJETIVO
+### OBJETIVO A
 
-- Nuestro objetivo del curso, como se ha dicho, es crear un análisis descriptivo de alto nivel utilizando R y estadística. En particular, al finalizar este postwork, deberás ser capaz de entender las distribuciones de los datos que tienes y sus estadísticos principales.  
-
-#### REQUISITOS
-
-1. Cuenta de GitHub  
-2. Git Bash  
-3. R versión 3.6.2 o mayor                                
-4. R Studio versión 1.2.5033 o mayor   
+- Nuestro objetivo del curso, como se ha dicho, es crear un análisis descriptivo de alto nivel utilizando R y estadística. En particular, al finalizar este postwork, deberás ser capaz de entender las distribuciones de los datos que tienes y sus estadísticos principales.    
 
 #### DESARROLLO  
 
@@ -29,21 +22,13 @@ Las instrucciones son:
 
 ## Titulo del Ejemplo
 
-### OBJETIVO
+### OBJETIVO B
 
 - Nuestro objetivo del curso, como se ha dicho, es crear un análisis descriptivo de alto nivel utilizando R y estadística. Para este postwork, el objetivo es poder identificar, por un lado, si alguno de los eventos que tienes en tu dataframe está siendo modelado por algún experimento aleatorio y por otro, saber que v.a. podría modelar tus datos.  
-
-
-#### REQUISITOS
-
-1. Cuenta de GitHub  
-2. Git Bash  
-3. R versión 3.6.2 o mayor                                
-4. R Studio versión 1.2.5033 o mayor   
-
+ 
 #### DESARROLLO
 
-En el postwork de la sesión 4, nos dedicamos a visualizar las distribuciones de las variables que tienes en tu dataframe. Para este postwork, la intención es utilizar estas distribuciones obtenidas para ver si alguna de las variables pareciera estar siguiendo alguna distribución paramétrica.  
+Para este postwork, la intención es utilizar estas distribuciones obtenidas para ver si alguna de las variables pareciera estar siguiendo alguna distribución paramétrica.  
 
 Para comenzar, debes abrir tu trabajo realizado en el postwork de la sesión 5. Después de esto, examina las distribuciones de las variables numéricas. ¿Alguna se parece a una distribución normal? ¿Alguna se parece a una distribución uniforme? ¿Alguna se parece a una distribución Bernoulli?   
 
