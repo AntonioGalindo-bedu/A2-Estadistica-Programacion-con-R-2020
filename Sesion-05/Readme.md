@@ -2,7 +2,7 @@
 
 ## Work: Análisis Exploratorio de Datos - Análisis Univariado
 
-### OBJETIVOS 
+### OBJETIVO A
 - Identificar si un dataframe tiene valores nulos.
 - Encontrar las medidas de centralidad, dispersión y distribución de un dataframe.  
 - Identificar los tipos de datos de un dataframe y filtrar a categóricos.  
@@ -27,7 +27,7 @@
 
 ## Work: Análisis Exploratorio de Datos - Análisis Multivariado
 
-### OBJETIVOS Parte 2
+### OBJETIVO B
 - Encontrar relaciones entre variables
 - Crear visualizaciones: HeatMaps, Histogramas, Densidades, ScatterPlots y Binning Hexagonal
 
