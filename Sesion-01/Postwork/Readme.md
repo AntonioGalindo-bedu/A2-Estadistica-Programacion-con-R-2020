@@ -2,9 +2,7 @@
 
 ### OBJETIVO
 
-Al final de el `Postwork` serás capaz de:
-- Leer un dataframe
-- Identificar el tipo de cada columna
+Al final del `Postwork` serás capaz de:
 - Utilizar más funcionalidades de dplyr
 
 ### REQUISITOS
