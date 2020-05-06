@@ -5,7 +5,7 @@
 
 ### OBJETIVOS 
 
-- O
+- Aprender el modelo de Regresión lineal e implementarlo en R
 
 #### ORGANIZACION DE LA CLASE 
 
