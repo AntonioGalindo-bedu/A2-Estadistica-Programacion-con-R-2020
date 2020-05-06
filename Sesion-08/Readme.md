@@ -18,5 +18,5 @@
 	- [Ejemplo 02](Ejemplo-02)
 	- [Reto 03](Reto-03)
 
-- Finalización del Proyecto final y publicación en Shiny WebApp
+- Finalización del Proyecto Final y publicación en Shiny
 	- [FinalProyecto](ProyectoFinal)
