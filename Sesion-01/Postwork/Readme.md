@@ -14,18 +14,78 @@ Al final de el `Postwork` serás capaz de:
 ### INSTRUCCIONES
 
 - Haz un llamado a la libreria dplyr
-- Lee el archivo `Metro_Interstate_Traffic_Volume.csv` y guardalo en df.traffic
-- Ve la estructura del dataframe y los tipos de dato de cada columna
-- Calcula el promedio de la columna traffic_volume y guardala en mean.traffic
-- Selecciona solo las columnas weather_main y traffic_volume
-- Cambia de nombre las columnas: weather_main a clima y traffic_volume a trafico
-- Filtra a las observaciones donde la columna trafico sea mayor o igual a mean.traffic
-- Guarda el dataframe filtrado como df.traffic.filter
-- ¿Cuántos renglones y columnas tiene df.traffic.filter?
-- Con df.traffic.filter, agrupa por clima y saca el min de trafico y max de trafico, guardalo en df.traffic.grouped
-- Agrega una columna a df.traffic.grouped que sea la diferencia entre max y min del grupo
 
+Objetivos:
+• Seleccionar columnas
+• Seleccionar registros
+• Crear nuevas variables
+• Sumarizar datos
+• Ordenar datos
+• Uniones de datos
 
+Como es habitual trabajamos con ejemplos data(iris); library(dplyr):
+
+Seleccionar columnas select():
+
+two.columns <- iris %>%
+select(Sepal.Length,Sepal.Width)
+
+columns = c(“Sepal.Length”,”Sepal.Width”)
+two.columns <- iris %>%
+select(columns)
+Seleccionar registros filter():
+
+setosa <- iris %>%
+filter(Species==”setosa”)
+
+species_to_select = c(“setosa”,”virginica”)
+species <- iris %>%
+filter(Species %in% species_to_select)
+table(species$Species)
+Crear nuevas variables mutate():
+
+iris2 <- iris %>%
+mutate(Sepal.Length.6 = ifelse(Sepal.Length >=6, “GE 6”, “LT 6”)) %>%
+mutate(Sepal.Length.rela = Sepal.Length/mean(Sepal.Length))
+Sumarizar group_by() summarize():
+
+iris %>% group_by(Species) %>%
+summarize(mean.Sepal.Length = mean(Sepal.Length),
+sd.Sepal.Length = sd(Sepal.Length),
+rows = n())
+Ordenar datos arrange():
+
+order1 <- iris %>%
+arrange(Sepal.Length)
+
+order2 <- iris %>%
+arrange(desc(Sepal.Length))
+
+iris %>% group_by(Species) %>%
+summarize(mean.Sepal.Length = mean(Sepal.Length),
+sd.Sepal.Length = sd(Sepal.Length),
+rows = n()) %>%
+arrange(mean.Sepal.Length)
+Uniones de datos:
+
+Inner_join():
+
+iris2 <- iris %>%
+mutate(id = row_number())
+
+iris3 <- iris2 %>%
+filter(Species==”setosa”) %>%
+mutate(Sepal.Length.6 = ifelse(Sepal.Length >=6, “GE 6”, “LT 6”)) %>%
+mutate(Sepal.Length.rela = Sepal.Length/mean(Sepal.Length)) %>%
+select(id,Sepal.Length.6,Sepal.Length.rela)
+
+iris4 <- iris2 %>% inner_join(iris3, by=c(“id”))
+Left_join():
+
+iris5 <- iris2 %>% left_join(iris3, by=c(“id”))
+anti_join():
+
+iris6 <- iris2 %>% anti_join(iris3)
 
 
 
