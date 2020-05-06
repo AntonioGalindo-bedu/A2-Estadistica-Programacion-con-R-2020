@@ -34,7 +34,8 @@
 	- [Reto 06](Reto-06)
 
 - R-Squared
-
+	- [Ejemplo 07](Ejemplo-07)
+	
 - Postwork
 
 
