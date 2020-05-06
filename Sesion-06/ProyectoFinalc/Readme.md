@@ -1,6 +1,6 @@
 [`Estadística con R`](../Readme.md) > `Sesión 06: Fundamentos de Estadística`
 	
-## Proyecto de la sesión
+## Avance al Proyecto Final
 
 ### OBJETIVO 
 
