@@ -20,8 +20,6 @@ Las instrucciones son:
 6. Crea un histograma de cada variable numérica continua de la muestra del punto 5, dónde grafiques además la media y mediana de la variable.  
 7. Compara los histogramas del punto 4 y del punto 6. ¿Son iguales? ¿Existen diferencias muy notables?
 
-## Titulo del Ejemplo
-
 ### OBJETIVO B
 
 - Nuestro objetivo del curso, como se ha dicho, es crear un análisis descriptivo de alto nivel utilizando R y estadística. Para este postwork, el objetivo es poder identificar, por un lado, si alguno de los eventos que tienes en tu dataframe está siendo modelado por algún experimento aleatorio y por otro, saber que v.a. podría modelar tus datos.  
