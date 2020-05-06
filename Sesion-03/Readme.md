@@ -31,6 +31,6 @@
 	- [Ejemplo 05](Ejemplo-05)
 
 - miniProyecto
-	- [Presentación de miniProyecto](Proyecto)
+	- [miniProyecto](Proyecto)
 - Postwork
 	- [Postwork](Postwork)
