@@ -9,4 +9,4 @@
 1. Usar la carpeta de trabajo `Sesion02/Reto-06`
 
 #### DESARROLLO
-Seguimos trabajando con la base de ecobici. Ahora queremos comprobar la consistencia entre nombres de Colonias y Codigos Postales. Para ello, usaremos la funcion unique, y llevaremos todos los posibles Codigos Postales de aquellas colonias que se llamen "Roma Norte".
+Seguimos trabajando con la base[Dataset_Ecobici_xls](../../Data/ecobici.xls). Ahora queremos comprobar la consistencia entre nombres de Colonias y Codigos Postales. Para ello, usaremos la funcion unique, y llevaremos todos los posibles Codigos Postales de aquellas colonias que se llamen "Roma Norte".
