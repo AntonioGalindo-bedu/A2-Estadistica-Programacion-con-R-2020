@@ -12,6 +12,6 @@
 
 #### DESARROLLO
 Importamos la tabla  [Dataset_Ecobici_xls](../Data/ecobici.xls) con la que trabajaremos (hint: read_excel). A nuestra tabla la llamaremos "ecobici".
-Observaremos la calidad de los datos importados y seleccionaremos las variables mas importantes para el analisis (hint: select). 
+Observaremos la calidad de los datos importados y seleccionaremos las variables mas importantes para el analisis (hint: select).  
 
 
