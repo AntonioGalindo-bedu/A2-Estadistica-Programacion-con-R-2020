@@ -17,7 +17,7 @@ Al final de el `Reto-01` serás capaz de:
 
 ### INSTRUCCIONES DEL RETO
 
-- Lee el archivo **Metro_Interstate_Traffic_Volume
+- Lee el archivo Metro_Interstate_Traffic_Volume.csv
 - Ve la estructura de tu dataframe
 - Cuenta el número de NaNs en tu dataframe, en caso de haber elimina los renglones que tienen NaN
 - Selecciona 3 columnas numéricas de tu preferencia
