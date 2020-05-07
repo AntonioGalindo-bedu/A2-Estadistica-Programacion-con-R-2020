@@ -9,7 +9,7 @@
 
 #### DESARROLLO  
 
-Para este postwork, queremos poder describir, tanto estadísticamente como visualmente, el dataset que contiene los datos de interés.  
+Para este postwork, queremos poder describir, tanto estadísticamente como visualmente, el dataset que contiene los datos del proyecto final.  
 
 Las instrucciones son:  
 1. Cuenta el número de observaciones que tiene el dataframe.  
