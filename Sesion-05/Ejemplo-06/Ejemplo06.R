@@ -1,9 +1,3 @@
-######################################
-########## Estadística con R #########
-##########    Sesión 02     ##########
-##########  Ejercicio 02    ##########
-######################################
-
 # Cargamos paquete de visualizacion
 library(ggplot2)
 
