@@ -18,7 +18,7 @@ Al final de el `Reto-07` serás capaz de:
 ### INSTRUCCIONES DEL RETO
 
 - Haz un llamado a la libreria dplyr
-- Lee el archivo[Metro_Interstate_Traffic_Volume.csv](../../Data/Metro_Interstate_Traffic_Volume.csv) y guardalo en df.traffic
+- Lee el archivo [Metro_Interstate_Traffic_Volume.csv](../../Data/Metro_Interstate_Traffic_Volume.csv) y guardalo en df.traffic
 - Ve la estructura del dataframe y los tipos de dato de cada columna
 - Calcula el promedio de la columna traffic_volume y guardala en mean.traffic
 - Selecciona solo las columnas weather_main y traffic_volume
