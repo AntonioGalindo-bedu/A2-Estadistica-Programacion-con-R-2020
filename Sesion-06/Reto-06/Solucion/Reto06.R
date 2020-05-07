@@ -18,5 +18,5 @@ height %>%
                  color = 'black')  +
   geom_density(aes(y=..density..)) +
   geom_vline(xintercept = mean(height$z), color = 'red', size = 1.5)+
-  ggtitle('Histograma de distribución estandarizada') +
+  ggtitle('Histograma de distribuciÃ³n estandarizada') +
   theme_minimal()
