@@ -28,7 +28,7 @@ Ya que tienes identificadas las preguntas que puedes responder o predecir a part
 *Recuerda practicar tus habilidades de investigación y el uso de StackOverflow para encontrar, ya sea, información sobre cómo importar datasets dependiendo del tipo de archivo hasta cómo funciona cada paquete.   
   
 
-Adicionalmente. realiza algunos ejercicios para reforzar los conocimientos adquiridos sobre condiciones y loops. Podrías aplicarlos a los datos del proyecto.
+Adicionalmente,realiza los siguientes ejercicios para reforzar los conocimientos adquiridos sobre condiciones y loops. Podrías aplicarlos a los datos del proyecto.
 
 **Ejercicio 1**  
 
