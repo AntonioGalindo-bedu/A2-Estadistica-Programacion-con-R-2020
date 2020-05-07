@@ -17,7 +17,7 @@ Al final de el `Reto-06` serás capaz de:
 
 ### INSTRUCCIONES DEL RETO
 
-- Lee el archivo `Metro_Interstate_Traffic_Volume.csv`
+- Lee el archivo [Metro_Interstate_Traffic_Volume.csv](../../Data/Metro_Interstate_Traffic_Volume.csv)
 - Ve la estructura del dataframe
 - ¿Cuáles son los niveles de la columna weather_main?
 - Reordena los niveles alfabéticamente
