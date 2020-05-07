@@ -4,7 +4,7 @@
 
 ### OBJETIVOS
 
-- El objetivo del proyecto es crear un modelo, ya sea descriptivo o predictivo, que demuestre que estamos aprendiendo los dos pilares fundamentales del módulo: R y estadística. En particular, el objetivo de este prework es hacer un primer análisis descriptivo de los datos que usarás para el proyecto. Además transformar, agregar o eliminar datos para generar información valiosa.  
+- El objetivo del proyecto es crear un modelo, ya sea descriptivo o predictivo, que demuestre que estamos aprendiendo los dos pilares fundamentales del módulo: R y estadística. En particular, el objetivo de este postwork es hacer un primer análisis descriptivo de los datos que usarás para el proyecto. Además transformar, agregar o eliminar datos para generar información valiosa.  
 - En este postwork realizarás las actividades de la parte inicial del proyecto, presentadas a continuación.
 
 #### REQUISITOS
