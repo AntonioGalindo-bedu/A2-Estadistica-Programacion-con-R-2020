@@ -1,10 +1,5 @@
-######################################
-########## Estadística con R #########
-##########    Sesión 01     ##########
-##########  Ejercicio 03    ##########
-######################################
 
-# Para ver la ruta de dónde estamos trabajando
+# Para ver la ruta de dÃ³nde estamos trabajando
 getwd()
 
 # Para bajar dos niveles del directorio de trabajo 
@@ -32,7 +27,7 @@ names(breast.cancer) <- c('id','diagnosis','radius_mean',
                           'concavity_worst','concave_points_worst',
                           'symmetry_worst','fractal_dimension_worst')
 
-# Paso 1. Seleccionamos solo columnas de interés
+# Paso 1. Seleccionamos solo columnas de interÃ©s
 breast.cancer.filter <- breast.cancer[,c('id','diagnosis','radius_mean')]
 
 # Paso 2. Seleccionamos columna de radius mean
