@@ -18,7 +18,7 @@ A finales del 2019 se desató una pandemia, el COVID-19. Queremos analizar la si
 
 Ya que tienes identificadas las preguntas que puedes responder o predecir a partir de la base de datos, empieza a hacer las siguientes acciones:  
 
-0. Lee sobre la función set.seed() en la documentación de la misma ?set.seed
+0. **Lee** sobre la función set.seed() en la documentación de la misma ?set.seed
 1. **Importa** el dataset a Rstudio para empezar a analizarlo en el siguiente postwork.    
 2. **Instala** los siguientes paquetes que te servirán para manejar y explorar los datos:  
 - ```library(ggplot2) # te servirá para crear visualizaciones y gráficas``` 
