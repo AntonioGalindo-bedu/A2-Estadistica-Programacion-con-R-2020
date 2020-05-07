@@ -35,12 +35,6 @@ Deberás crear un Script para poder resolver esta parte del proyecto de clase.  
 8. Haz una tabla de frecuencia respecto a la columna de **país**. 
 9. Guarda tu trabajo con el nombre de `Proyecto.R`.
 
-#### CONTEXTO
-
-A finales del 2019 se desató una pandemia, el COVID-19. Queremos analizar la situaciones de los distintos paises en algunos días de interés. En el repositorio https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports, podemos encontrar información que nos ayudará a realizar nuestros datos.
-
-#### DESARROLLO
-
 - Matriz de correlación
 - Crear visualizaciones con `ggplot2`
 

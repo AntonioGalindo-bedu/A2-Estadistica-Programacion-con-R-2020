@@ -2,7 +2,7 @@
 
 
 ### OBJETIVO
-- Resolver individualmente por alumno el reto del miniproyecto anterior presentado
+- Resolver individualmente por alumno el reto del miniproyecto anteriormente presentado
 
 #### REQUISITOS
 1. Contar con R studio.
