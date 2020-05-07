@@ -1,11 +1,5 @@
-######################################
-########## Estad韘tica con R #########
-##########    Sesi髇 01     ##########
-##########  Ejercicio 02    ##########
-######################################
 
-
-# Para ver la ruta de d髇de estamos trabajando
+# Para ver la ruta de d贸nde estamos trabajando
 getwd()
 
 # Para bajar dos niveles del directorio de trabajo 
@@ -36,7 +30,7 @@ names(breast.cancer) <- c('id','diagnosis','radius_mean',
 # Eliminamos una columna
 breast.cancer$fractal_dimension_mean <- NULL
 
-# Seleccionamos columna de inter閟
+# Seleccionamos columna de inter茅s
 interest.col <- breast.cancer.filter$radius_mean
 
 # Paso 1. Encontrar varianza
@@ -44,11 +38,11 @@ var.radius <- var(interest.col)
 round(var.radius,2)
 print(paste('Varianza:', round(var.radius,2)))
 
-# Paso 2. Encontrar desviaci髇 est醤dar
+# Paso 2. Encontrar desviaci贸n est谩ndar
 sd.radius <- sd(interest.col)
-print(paste('Desviaci髇 est醤dar:', round(sd.radius,3)))
+print(paste('Desviaci贸n est谩ndar:', round(sd.radius,3)))
 
-# Paso 3. Verificamos relaci髇 entre varianza y desviaci髇 est醤dar
+# Paso 3. Verificamos relaci贸n entre varianza y desviaci贸n est谩ndar
 sd.radius**2 == var.radius
 
 # Paso 4. Rango
