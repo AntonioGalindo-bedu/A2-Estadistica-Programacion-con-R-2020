@@ -1,10 +1,5 @@
-######################################
-########## Estadística con R #########
-##########    Sesión 01     ##########
-##########  Ejercicio 01    ##########
-######################################
 
-# Para ver la ruta de dónde estamos trabajando
+# Para ver la ruta de dÃ³nde estamos trabajando
 getwd()
 
 # Para bajar dos niveles del directorio de trabajo 
@@ -50,7 +45,7 @@ summary(breast.cancer)
 wanted.cols <- c('id','diagnosis','radius_mean','perimeter_mean','radius_worst','perimeter_worst')
 breast.cancer.filter <- breast.cancer[,wanted.cols]
 
-# Paso 5. Selecciona una variable numérica continua de breast.cancer.filter
+# Paso 5. Selecciona una variable numÃ©rica continua de breast.cancer.filter
 interest.col <- breast.cancer.filter$radius_mean
 
 # Paso 6. Encuentra la media y mediana
