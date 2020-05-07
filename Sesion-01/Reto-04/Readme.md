@@ -18,7 +18,7 @@ Al final de el `Reto-04` serás capaz de:
 
 - Imprime tu working directory
 - Si es necesario, cambia la ruta a la carpeta Data
-- Lee el archivo Retail_Store.csv
+- Lee el archivo [Retail_Store.csv](../../Data/Retail_Store.csv)
 - Guarda el nuevo dataframe como dataframe.retail
 
 
