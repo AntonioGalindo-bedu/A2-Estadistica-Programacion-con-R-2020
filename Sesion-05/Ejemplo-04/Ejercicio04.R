@@ -1,10 +1,4 @@
-######################################
-######### Estadística con R ##########
-##########    Sesión 01     ##########
-##########  Ejercicio 04    ##########
-######################################
-
-# Para ver la ruta de dónde estamos trabajando
+# Para ver la ruta de dÃ³nde estamos trabajando
 getwd()
 
 # Para bajar dos niveles del directorio de trabajo 
@@ -48,7 +42,7 @@ col.factor
 breast.cancer.factor <- breast.cancer[, c(col.factor)]
 print(breast.cancer.factor)
 
-# Paso 4. Análisis de Frecuencias
+# Paso 4. AnÃ¡lisis de Frecuencias
 table(breast.cancer.factor)
 
 # Paso 5. Table con proporciones
