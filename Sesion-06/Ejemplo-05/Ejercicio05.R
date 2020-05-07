@@ -1,5 +1,5 @@
 
-# Distribuci髇 Uniforme
+# Distribuci贸n Uniforme
 
 x <- runif(100000)
 
@@ -10,7 +10,7 @@ data.frame(valores = x) %>%
                  alpha= 0.6, 
                  color = 'black') + 
   scale_x_continuous(breaks = seq(0,1,0.1), lim = c(0,1)) +
-  ggtitle('Simulaci髇 de 100,000 valores con dist Uniforme')
+  ggtitle('Simulaci贸n de 100,000 valores con dist Uniforme')
 
 
 
@@ -33,7 +33,7 @@ height %>%
   ggtitle('Histograma de alturas de hombres de UK') +
   theme_minimal()
 
-# Simula 500 puntos con distribuci髇 Normal(mean.height, std.height)
+# Simula 500 puntos con distribuci贸n Normal(mean.height, std.height)
 new.height <- data.frame(height = rnorm(n = 500, mean = mean.height,sd = std.height))
 
 new.height %>% 
@@ -48,5 +48,5 @@ new.height %>%
   ggtitle('Histograma de Simulaciones de alturas de hombres de UK') +
   theme_minimal()
 
-# Encuentra prob acumulada en x = 1.70 de distribuci髇 Normal(mean.height, std.height)
+# Encuentra prob acumulada en x = 1.70 de distribuci贸n Normal(mean.height, std.height)
 pnorm(q = 176.8, mean= mean.height, sd = std.height)
