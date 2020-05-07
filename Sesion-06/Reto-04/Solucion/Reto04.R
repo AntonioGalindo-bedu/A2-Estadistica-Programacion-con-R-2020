@@ -18,7 +18,7 @@ df <- data.frame(total = c(zeros,ones), label = c(0,1))
 df %>% ggplot(aes(y = total, x = label)) + 
   geom_bar(stat = 'identity', fill = 'blue', width = 0.8) +
   theme_minimal() + 
-  ggtitle('Distribución Binomal con p = 0.8') + 
+  ggtitle('DistribuciÃ³n Binomal con p = 0.8') + 
   ylim(0,100)+ 
   scale_x_discrete()
 
