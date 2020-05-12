@@ -37,7 +37,7 @@ Resultado esperado:
 3 NA  9 5  4  9
 4  9  3 6 NA  6
 ```
-c. Haz una dataset nuevo donde los NA sean remplazados por algún valor referencia por ejemplo 0.
+c. Haz una transoformación al dataset nuevamente donde los NA sean remplazados por algún valor referencia por ejemplo 0.
 
 
 
