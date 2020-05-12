@@ -9,12 +9,12 @@
 
 #### ORGANIZACION DE LA CLASE 
 
-- Crear la Aplicación
+- Crear la Aplicación del Proyecto Final
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 	- [Reto 02](Reto-02)
 
-- Publicar la Aplicación
+- Publicar la Aplicación del Proyecto Final
 	- [Ejemplo 02](Ejemplo-02)
 	- [Reto 03](Reto-03)
 
