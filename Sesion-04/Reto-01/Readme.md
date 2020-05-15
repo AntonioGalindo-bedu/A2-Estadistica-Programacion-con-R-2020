@@ -20,6 +20,9 @@ a. Creando Repositorio:
 b. Crear proyecto en RStudio Desktop con nuevo repositorio:
 ![Image](../images/createprojectfrommgit.png)
 
+b1. Introducir el URL y el directorio donde se va a clonar el repositorio y donde trabajaremos con este Proyecto en R:
+![Image](../images/clonegitrepo.png)
+
 c. Confirmar que el repositorio ya se encuentre en el ambiente de nuestro Workspace en RStudio:
 ![Image](../images/gitrepoenvironment.png)
 
