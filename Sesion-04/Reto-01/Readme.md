@@ -64,12 +64,6 @@ h. Confirmar los cambios al repositorio después de push:
 
 ![Image](../images/gitpush.png)
 
-i. :
-![Image](../images/gitrepoenvironment.png)
-
-j. :
-![Image](../images/gitrepoenvironment.png)
-
 2. Conectate a la BD de prueba que proporcionamos en los Ejemplos, si no la recuerdas aquí estan los datos de conexión.
 
 ```{r}
