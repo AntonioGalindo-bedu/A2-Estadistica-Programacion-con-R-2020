@@ -37,25 +37,25 @@ b. En el terminal, introducir con el comando git los datos personales para el lo
 c. Seleccionar los archivos que queramos hacer push ó dar click en commit primero:
 ![Image](../images/gitcommit.png)
 
-d. Seleccionar los archivos que queramos hacer commit:
+d. Seleccionar los archivos que queramos hacer commit, darle click en commit con un commit message:
 ![Image](../images/gitselect.png)
 
-d. Confirmar el commit con el log:
+e. Confirmar el commit con el log:
 ![Image](../images/gitcommitlog.png)
 
-e. Introducir nuestros accessos de git hub:
+f. Introducir nuestros accessos de git hub:
 ![Image](../images/githubpush1.png)
 
-f. Introducir nuestros accessos de git hub:
+g. Introducir nuestros accessos de git hub:
 ![Image](../images/githubpass.png)
 
-g. Confirmar los cambios al repositorio después de push:
+h. Confirmar los cambios al repositorio después de push:
 ![Image](../images/gitpush.png)
 
-f. :
+i. :
 ![Image](../images/gitrepoenvironment.png)
 
-f. :
+j. :
 ![Image](../images/gitrepoenvironment.png)
 
 2. Conectate a la BD de prueba que proporcionamos en los Ejemplos, si no la recuerdas aquí estan los datos de conexión.
