@@ -40,7 +40,7 @@ c. Seleccionar los archivos que queramos hacer push ó dar click en commit prime
 d. Seleccionar los archivos que queramos hacer commit, darle click en commit con un commit message:
 ![Image](../images/gitselect.png)
 
-e. Confirmar el commit con el log:
+e. Confirmar el commit con el log: 
 ![Image](../images/gitcommitlog.png)
 
 f. Introducir nuestros accessos de git hub:
