@@ -23,6 +23,38 @@ b. Crear proyecto en RStudio Desktop con nuevo repositorio:
 c. Confirmar que el repositorio ya se encuentre en el ambiente de nuestro Workspace en RStudio:
 ![Image](../images/gitrepoenvironment.png)
 
+1.1 Crear test Script en R y Commit cambios en Git Hub:
+
+a. Crear un test Script con cualquier función o texto:
+![Image](../images/GitRScript.png)
+
+b. En el terminal, introducir con el comando git los datos personales para el log del commit:
+![Image](../images/gitemailname.png)
+
+c. Seleccionar los archivos que queramos hacer push ó dar click en commit primero:
+![Image](../images/gitcommit.png)
+
+d. Seleccionar los archivos que queramos hacer push:
+![Image](../images/gitselect.png)
+
+d. Confirmar el commit con el log:
+![Image](../images/gitcommitlog.png)
+
+e. Introducir nuestros accessos de git hub:
+![Image](../images/githubpush1.png)
+
+f. Introducir nuestros accessos de git hub:
+![Image](../images/githubpass.png)
+
+g. Confirmar los cambios al repositorio después de push:
+![Image](../images/gitpush.png)
+
+f. :
+![Image](../images/gitrepoenvironment.png)
+
+f. :
+![Image](../images/gitrepoenvironment.png)
+
 2. Conectate a la BD de prueba que proporcionamos en los Ejemplos, si no la recuerdas aquí estan los datos de conexión.
 
 ```{r}
