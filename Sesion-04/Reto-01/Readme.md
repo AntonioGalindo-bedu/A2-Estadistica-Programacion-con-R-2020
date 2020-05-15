@@ -12,7 +12,8 @@
 
 ### Para este reto tienes que lograr los siguientes milestones.
 
-1. Crea tu repostiorio de trabajo para este curso, si ya lo tienes ubica el URL.
+1. Crea tu repostiorio de trabajo para este curso, si ya lo tienes ubica el URL, sigue los siguientes pasos para hacerlo de cualquier manera:
+
 2. Configura Git Hub para este repositorio en RStudio Desktop de la forma en que lo hicimos para RStudio Cloud.
 3. Conectate a la BD de prueba que proporcionamos en los Ejemplos, si no la recuerdas aquí estan los datos de conexión.
 
