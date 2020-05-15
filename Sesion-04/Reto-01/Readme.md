@@ -20,8 +20,8 @@ a. Creando Repositorio:
 b. Crear proyecto en RStudio Desktop con nuevo repositorio:
 ![Image](../images/createprojectfrommgit.png)
 
-b. Crear proyecto en RStudio Desktop con nuevo repositorio:
-![Image](../images/createprojectfrommgit.png)
+c. Confirmar que el repositorio ya se encuentre en el ambiente de nuestro Workspace en RStudio:
+![Image](../images/gitrepoenvironment.png)
 
 2. Conectate a la BD de prueba que proporcionamos en los Ejemplos, si no la recuerdas aquí estan los datos de conexión.
 
