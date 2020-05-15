@@ -15,29 +15,37 @@
 1. Crea tu repostiorio de trabajo para este curso, si ya lo tienes ubica el URL, sigue los siguientes pasos para hacerlo de cualquier manera. Configura Git Hub para este repositorio en RStudio Desktop de la forma en que lo hicimos para RStudio Cloud, con la diferencia de que en RStudio Desktop se selecciona el repositorio al crear un proyecto.
 
 a. Creando Repositorio:
+
 ![Image](../images/creategithubrepo.png)
 
 b. Crear proyecto en RStudio Desktop con nuevo repositorio:
+
 ![Image](../images/createprojectfrommgit.png)
 
 b1. Introducir el URL y el directorio donde se va a clonar el repositorio y donde trabajaremos con este Proyecto en R:
+
 ![Image](../images/clonegitrepo.png)
 
 c. Confirmar que el repositorio ya se encuentre en el ambiente de nuestro Workspace en RStudio:
+
 ![Image](../images/gitrepoenvironment.png)
 
 1.1 Crear test Script en R y Commit cambios en Git Hub:
 
 a. Crear un test Script con cualquier función o texto:
+
 ![Image](../images/GitRScript.png)
 
 b. En el terminal, introducir con el comando git los datos personales para el log del commit:
+
 ![Image](../images/gitemailname.png)
 
 c. Seleccionar los archivos que queramos hacer push ó dar click en commit primero:
+
 ![Image](../images/gitcommit.png)
 
 d. Seleccionar los archivos que queramos hacer commit, darle click en commit con un commit message:
+
 ![Image](../images/gitselect.png)
 
 e. Confirmar el commit con el log:
@@ -45,12 +53,15 @@ e. Confirmar el commit con el log:
 ![Image](../images/gitcommitlog.png)
 
 f. Introducir nuestros accessos de git hub:
+
 ![Image](../images/githubpush1.png)
 
 g. Introducir nuestros accessos de git hub:
+
 ![Image](../images/githubpass.png)
 
 h. Confirmar los cambios al repositorio después de push:
+
 ![Image](../images/gitpush.png)
 
 i. :
