@@ -82,5 +82,5 @@ Por ejemplo con la Tabla City,
 DataDB = dbGetQuery(con, "select * from City")
 ```
 
-5. El archivo csv. guardalo en tu repositorio mediante un Push desde Git Hub Terminal o Git Hub Desktop.
+5. Convierte este dataframe a un archivo csv, guardalo en tu repositorio mediante un Push desde Git Hub en R , en Terminal o en la aplicación de Git Hub Desktop.
        
