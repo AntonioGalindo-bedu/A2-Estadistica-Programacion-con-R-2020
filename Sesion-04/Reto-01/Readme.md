@@ -20,6 +20,9 @@ a. Creando Repositorio:
 b. Crear proyecto en RStudio Desktop con nuevo repositorio:
 ![Image](../images/createprojectfrommgit.png)
 
+b. Crear proyecto en RStudio Desktop con nuevo repositorio:
+![Image](../images/createprojectfrommgit.png)
+
 2. Conectate a la BD de prueba que proporcionamos en los Ejemplos, si no la recuerdas aquí estan los datos de conexión.
 
 ```{r}
