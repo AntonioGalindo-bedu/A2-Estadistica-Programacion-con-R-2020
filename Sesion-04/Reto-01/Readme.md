@@ -37,7 +37,7 @@ b. En el terminal, introducir con el comando git los datos personales para el lo
 c. Seleccionar los archivos que queramos hacer push ó dar click en commit primero:
 ![Image](../images/gitcommit.png)
 
-d. Seleccionar los archivos que queramos hacer push:
+d. Seleccionar los archivos que queramos hacer commit:
 ![Image](../images/gitselect.png)
 
 d. Confirmar el commit con el log:
