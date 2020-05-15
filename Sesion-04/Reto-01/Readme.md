@@ -14,6 +14,8 @@
 
 1. Crea tu repostiorio de trabajo para este curso, si ya lo tienes ubica el URL, sigue los siguientes pasos para hacerlo de cualquier manera. Configura Git Hub para este repositorio en RStudio Desktop de la forma en que lo hicimos para RStudio Cloud, con la diferencia de que en RStudio Desktop se selecciona el repositorio al crear un proyecto.
 
+a. Creando Repositorio
+![RScloud](../images/creategithubrepo.png)
 
 2. Conectate a la BD de prueba que proporcionamos en los Ejemplos, si no la recuerdas aquí estan los datos de conexión.
 
