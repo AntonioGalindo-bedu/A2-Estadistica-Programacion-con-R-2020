@@ -2,7 +2,7 @@
 
 ### OBJETIVO
 - Aplicar los conocimientos adquiridos en las actividades para conectarnos a un repositorio propio y Base de Datos MySQL.
-- Conectar a tu propio repositorio en git Gub y almacenar un archivo csv con datos de una BD propia.
+- Conectar a tu propio repositorio en git Gub y almacenar un archivo csv en el repositorio creado en este Reto-01.
 
 #### REQUISITOS
 1. Contar con RStudio.
