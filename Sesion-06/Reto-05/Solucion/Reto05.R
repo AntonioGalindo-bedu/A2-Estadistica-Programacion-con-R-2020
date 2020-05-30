@@ -11,5 +11,7 @@ df.binom %>% ggplot(aes(x  = label, y=prob)) +
   theme_minimal() + 
   ggtitle('Distribución Binomial \n n = 10 y p = 0.5') 
 
+#Esta es la probabilidad de que el alumno saque <=6
 pbinom(q = 6, size = length(x), prob = 0.5)
-
+#La probabilidad de que saque exáctamente 6 sería:
+dbinom(x = 6, size = length(x), prob = 0.5)
