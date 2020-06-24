@@ -8,7 +8,7 @@
 
  ### ORGANIZACIÓN DE MÓDULO 
  
- - [Sesión 1](Sesion-01): Generalidades de R
+ - [Sesión 1](Sesion-01): Fundamentos de R
  - [Sesión 2](Sesion-02): Tipos de datos  
  - [Sesión 3](Sesion-03): Estructuras de control y ciclos  
  - [Sesión 4](Sesion-04): Uso de fuentes de datos  
