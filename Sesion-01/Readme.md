@@ -1,49 +1,50 @@
-[`Estadística Y Programación con R`](../Readme.md) > `Sesión 01: Propedéutico de R`
+[`Estadística Y Programación con R`](../Readme.md) > `Sesión 01: Generalidades de R`
 
 ## Work: Fundamentos de R
 
 ### OBJETIVO A
-- Aprender a declarar y acceder a vectores
-- Aprender a declarar y manipular dataframes
-- Leer datos desde diferentes fuentes
-- Utilizar funciones de R
+- Aprender las particularidades del lenguaje y su campo de aplicación
+- Aprender a instalar y configurar el ambiente de trabajo
+- Familiarizarse con el entorno de desarrollo RStudio
+- Familiarizarse con el concepto de bibliotecas en R
+- Operaciones aritméticas y el operador de asignación
 
 #### ORGANIZACION DE LA CLASE 
 
-- Vectores
+- Instalación de R y RStudio
 	- [Ejemplo 01](Ejemplo-01)
 	- [Reto 01](Reto-01)
 
-- DataFrames
+- Configuración del entorno de trabajo
 	- [Ejemplo 02](Ejemplo-02)
 	- [Reto 02](Reto-02)
 
-- Funciones útiles para DataFrames
+- Salvar y abrir archivos de código
 	- [Ejemplo 03](Ejemplo-03)
 	- [Reto 03](Reto-03)
 
-- Lectura de Datos
+- Intalación de bibliotecas que se usarán durante el Módulo
 	- [Ejemplo 04](Ejemplo-04)
 	- [Reto 04](Reto-04)
 
-## Work: Manipulación de Datos
+## Work: Documentación básica, operaciones aritméticas e introducción a la graficación
 
 ### OBJETIVO B
 
-- Crear funciones en R
-- Utilizar la libreria dplyr para manipular datos
+- Buenas prácticas para el desarrollo con R
+- Conceptos básicos de graficación
 
 #### ORGANIZACION DE LA CLASE 
 
-- Crear funciones en R
+- Documentación base de mi script
 	- [Ejemplo 05](Ejemplo-05)
 	- [Reto 05](Reto-05)
 
-- Estructura de dataframes
+- Operaciones aritméticas
 	- [Ejemplo 06](Ejemplo-06)
 	- [Reto 06](Reto-06)
 
-- Libreria dplyr
+- Graficación de datos generados de manera aleatoria
 	- [Ejemplo 07](Ejemplo-07)
 	- [Reto 07](Reto-07)
 
