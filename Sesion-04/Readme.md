@@ -17,11 +17,12 @@
 	- [Ejemplo 01](Ejemplo-01)
 
 - Utilizar dplyr y pool para hacer queries a MySQL
-	- [Ejemplo 03](Ejemplo-03)
+	- [Ejemplo 02](Ejemplo-02)
+	- [Reto 02](Reto-02)
 
 - Utilizar dplyr y DBI para hacer queries a MySQL
-	- [Ejemplo 04](Ejemplo-04)
-
+	- [Ejemplo 03](Ejemplo-03)
+	- [Reto 03](Reto-03)
 
 ### OBJETIVO B
  
@@ -32,6 +33,7 @@
 #### ORGANIZACION DE LA CLASE 
 - Tomar datos de URL (tablas), archivos xml y .json (fetch) desde RStudio 
 	- [Ejemplo 05](Ejemplo-05)
+	- [Reto 05](Reto-05)
 
 - Filtrado y limpieza de datos provenientes de MongoDB
 	- [Reto 06](Reto-06)
