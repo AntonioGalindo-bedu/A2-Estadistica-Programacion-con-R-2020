@@ -33,15 +33,15 @@
 #### ORGANIZACION DE LA CLASE 
 
 - Validar los valores de un array numérico 
-	- [Ejemplo 01](Ejemplo-04)
+	- [Ejemplo 04](Ejemplo-04)
 
 - Leer y encontrar valores en los renglones de un archivo
-	- [Ejemplo 02](Ejemplo-05)
-	- [Reto 02](Reto-05)
+	- [Ejemplo 05](Ejemplo-05)
+	- [Reto 05](Reto-05)
 	
 - Romper ciclo si se cumple la condición
-	- [Ejemplo 02](Ejemplo-06)
-	- [Reto 02](Reto-06)
+	- [Ejemplo 06](Ejemplo-06)
+	- [Reto 06](Reto-06)
 
 ### OBJETIVO C
 
@@ -50,7 +50,7 @@
 #### ORGANIZACION DE LA CLASE 
 
 - Funciones para filtrar valores en archivos 
-	- [Ejemplo 01](Ejemplo-04)
+	- [Ejemplo 07](Ejemplo-07)
 
 
 - miniProyecto
