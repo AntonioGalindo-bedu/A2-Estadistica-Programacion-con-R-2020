@@ -1,36 +1,60 @@
-[`Estadística y Programación con R`](../Readme.md) > [`Scripts con R`] > [`Sesion-03`]  
+[`Estadística y Programación con R`](../Readme.md) > [`Estructuras de control y ciclos`] > [`Sesion-03`]  
 
-## Work: Utilización de Scripts en R con aplicación al análisis de datos desde archivos.
+## Work: Estructuras de control y ciclos
 
-### OBJETIVOS 
+### OBJETIVO A
 
-- Entender el concepto de script en R
-- Utilizar un script para análisis de archivos
-- Tomar un data set real y hacer preguntas interesantes sobre los datos
-- Programar funciones para tareas comunes de lectura, escritura  de archivos con loops en R
-- Saber como revisar (debug) un script en R paso a paso
-- Utilizar funciones matemáticas en R 
+- if y uso de múltiples if
+- if, else
+- else if
+- ifelse
+- switch
 
 #### ORGANIZACION DE LA CLASE 
 
-- Creación de un script en R con funciones y argumentos 
+- Imprimir mensajes con condiciones simples 
 	- [Ejemplo 01](Ejemplo-01)
 
-- Creación de funciones avanzadas con scripts en R
+- Imprimir mensajes con casos alternativos
 	- [Ejemplo 02](Ejemplo-02)
 	- [Reto 02](Reto-02)
 
-- Funciones paste(), append(), completecases(), rbind()
+- Realizar la operación adecuada utilizando switch 
 	- [Ejemplo 03](Ejemplo-03)
 	- [Reto 03](Reto-03)
 
-- Funciones list.files(), vector(), tipos de acceso a valores en dataframes para correlacion con la función cor() en R
-	- [Ejemplo 04](Ejemplo-04)
+### OBJETIVO B
 
-- Revisar la ejecución y corregir errores en script medante debug
-	- [Ejemplo 05](Ejemplo-05)
+- for
+- while
+- repeat
+- break, next
+
+#### ORGANIZACION DE LA CLASE 
+
+- Validar los valores de un array numérico 
+	- [Ejemplo 01](Ejemplo-04)
+
+- Leer y encontrar valores en los renglones de un archivo
+	- [Ejemplo 02](Ejemplo-05)
+	- [Reto 02](Reto-05)
+	
+- Romper ciclo si se cumple la condición
+	- [Ejemplo 02](Ejemplo-06)
+	- [Reto 02](Reto-06)
+
+### OBJETIVO C
+
+- Funciones definidas por el usuario
+
+#### ORGANIZACION DE LA CLASE 
+
+- Funciones para filtrar valores en archivos 
+	- [Ejemplo 01](Ejemplo-04)
+
 
 - miniProyecto
 	- [miniProyecto](Proyecto)
+
 - Postwork
 	- [Postwork](Postwork)
